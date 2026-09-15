@@ -210,6 +210,36 @@ likely lower than HMRC's figure once real expenses are deducted, but
 **meaningfully higher than the "under £15k/year" figure discussed
 earlier** — worth flagging back to user directly, not just filing away.
 
+**RESOLVED — Chicken Shop invoices #4/#5 are NOT a duplicate.** User
+confirmed: together they represent one £15,000 net (+£3,000 VAT) deal,
+and Atoure only retained a 15% commission/margin on it, paying the
+majority out to a talent/creator (invoice payment details list a Natwest
+account in the name of Isaac Ajimotokin, consistent with "Manikeisaac
+LTD" appearing elsewhere in these records as a talent/client Atoure
+works with).
+
+**OPEN — need to confirm cash flow direction for the Chicken Shop deal
+before finalising P&L treatment:**
+- **Option A:** Chicken Shop paid the full £15,000+VAT to Atoure, Atoure
+  paid ~85% out to the talent, keeping 15% (~£2,250) as commission. →
+  P&L shows £15,000 income AND a corresponding ~£12,750 expense
+  (talent/pass-through payment), netting to ~£2,250 real profit
+  contribution from this deal.
+- **Option B:** Chicken Shop paid the talent directly (per the Natwest
+  details on the invoice), and only Atoure's 15% commission (~£2,250)
+  ever reached Atoure. → The £15,000 was never Atoure's money; only the
+  £2,250 commission belongs on Atoure's P&L as income, with nothing to
+  offset since Atoure never held the rest.
+- Both scenarios land on a similar real profit contribution from this
+  specific deal (~£2,250), but they present very differently on the
+  P&L/turnover figure, which matters for things like the VAT
+  registration threshold check (turnover including the full £15,000 vs.
+  only the £2,250 commission) and for how the CT600 turnover box is
+  completed. **Waiting on user to confirm which happened.**
+- **Still also need:** was this commission (~£2,250, or whichever figure
+  is confirmed) actually received/paid? Same paid/unpaid question as the
+  other invoices applies here too.
+
 **Still needed:**
 - Personal Santander bank account statements covering 11 Sept 2023 – 30
   Sept 2024 (now clearly the priority — this is where client payments
