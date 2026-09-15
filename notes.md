@@ -240,6 +240,33 @@ before finalising P&L treatment:**
   is confirmed) actually received/paid? Same paid/unpaid question as the
   other invoices applies here too.
 
+**RESOLVED — Option B confirmed by user.** Chicken Shop paid the
+talent/creator directly; only Atoure's 15% commission (£2,250, i.e. 15%
+of the £15,000 net deal value) ever reached Atoure. The £15,000+VAT
+shown on invoices #4/#5 is NOT Atoure income or expense — it documents a
+deal Atoure brokered as agent, not cash that passed through Atoure's own
+accounts. Corrected in
+`accounting/periods/2023-09-11_2024-09-10/profit-and-loss.md`: this line
+now shows £2,250.00 income (commission only), not £15,000.
+
+**Effect on total picture:** period A01 net income drops from the
+earlier (incorrect) ~£16,680 figure to approximately **£3,930 + €3,000**
+(£500 + £70 + £1,000 + £2,250 + £110, plus the two pending €1,500
+invoices). This lands much closer to the "under £15k/year" figure
+discussed earlier in the conversation, and is far below HMRC's £38,159
+estimate.
+
+**Lesson for the rest of the invoice list:** given this correction,
+worth double-checking whether ANY of the other invoices in the Canva
+book (in either period) also represent brokered/agency deals rather than
+direct income — i.e. don't assume every invoice's face value is Atoure's
+own income without checking. Flagging as a general open question rather
+than re-litigating each one individually unless the user raises it.
+
+**Still outstanding:** paid/unpaid status for every line, in one pass —
+asking user for a single per-invoice paid/unpaid answer next rather than
+piecemeal.
+
 **Still needed:**
 - Personal Santander bank account statements covering 11 Sept 2023 – 30
   Sept 2024 (now clearly the priority — this is where client payments
