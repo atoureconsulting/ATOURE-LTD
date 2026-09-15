@@ -327,6 +327,40 @@ _(to be filled in as figures are built)_
 
 ---
 
+## 6. Personal Revolut account statement (received, major finding)
+
+3-year personal Revolut statement (GBP/EUR/crypto sub-accounts, 1 Sept
+2023 – 15 Sept 2026) received and saved to
+`accounting/source-data/bank-statements/`.
+
+**Key finding: this account does NOT show any of the paid invoices**
+(#1 Connect SARL £500, #2 Manikeisaac £70, #4/#5 Chicken Shop commission,
+#6 Dapaah £110) — every one of those invoices specifies payment to a
+**Santander account** (sort code 09-01-29), not this Revolut personal
+account. This Revolut personal account is overwhelmingly personal living
+expenses (halal meat shops, Uber, TfL, groceries, restaurants) with no
+clear business activity inside period A01 (11 Sept 2023 – 10 Sept 2024).
+
+**What this account does confirm:** a recurring pattern from ~Feb/Mar
+2025 onward of "Transfer from ATOURE LTD" landing in this personal
+account (£1,200, £40, £300, £20, £520, £28, £70 etc.), alongside many
+"Payment from MR ABDUL-MALIK BABA TOURE" entries the other way. Looks
+like an informal director's loan/drawings pattern — useful for a future
+period's balance sheet, but all dated in 2025, **outside both A01 and
+A02**, so not part of this filing.
+
+**Critical gap confirmed: the Santander account (where all the paid
+invoices actually landed) is still completely missing.** This is now
+the single most important document still needed.
+
+**Still needed, in priority order:**
+1. **Santander bank statements, 11 Sept 2023 – 30 Sept 2024** — where
+   Connect SARL, Manikeisaac, Reality Entertainment, Dapaah, and the
+   Chicken Shop commission payments were all directed. Essential.
+2. Genuine business operating expenses for period A01 (still zero found)
+3. Resolution: was invoice #10 (second €1,500 Connect SARL) really
+   unpaid, or did user mean only one of the two when confirming
+
 ## 5. Change log
 
 - **[date TBC by session]** Repo structure created: `accounting/periods/`
