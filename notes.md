@@ -263,9 +263,38 @@ direct income — i.e. don't assume every invoice's face value is Atoure's
 own income without checking. Flagging as a general open question rather
 than re-litigating each one individually unless the user raises it.
 
-**Still outstanding:** paid/unpaid status for every line, in one pass —
-asking user for a single per-invoice paid/unpaid answer next rather than
-piecemeal.
+**RESOLVED — payment status for all period A01 invoices**, confirmed
+partly by user and partly by visually checking the Canva design's page
+thumbnails for "PAID" stamps (fetched via Canva `read-design` with
+`thumbnails` filter — the stamps are a visual overlay that didn't appear
+in the text extraction, so this required a visual check):
+
+- #1 Connect SARL £500 — PAID (stamp visible)
+- #2 Manikeisaac LTD £70 — PAID (stamp visible)
+- #3 Reality Entertainment £1,000 — UNPAID (user confirmed; no stamp)
+- #4/#5 Chicken Shop commission £2,250 — PAID (stamps visible on both
+  underlying invoices)
+- #6 Dapaah International £110 — PAID (stamp visible)
+- #9 Connect SARL €1,500 — UNPAID (user confirmed; no stamp)
+- #10 Connect SARL €1,500 — UNPAID (no stamp visible; user said "1.5k"
+  singular when confirming Connect SARL was unpaid — **assumed this
+  covers both €1,500 invoices since neither has a stamp, but flagging
+  in case user only meant one of the two and the other was in fact
+  paid**)
+
+Updated `profit-and-loss.md` for period A01 with: received income
+(£2,930.00 — invoices #1, #2, #4/#5 commission, #6), unpaid invoices
+treated as bad debt (accruals-basis income of £1,000 + €3,000, offset by
+an equal bad debt expense — nets to ~nil effect on profit but is the
+technically correct presentation), giving a provisional net profit of
+**≈£2,370** before genuine operating expenses are added (which are still
+completely missing — see below).
+
+**Biggest remaining gap: zero genuine operating expenses found for
+period A01.** A trading company realistically has some running costs
+(equipment, software, travel, phone, etc.) — need this from the user or
+from bank statements (still waiting on personal Santander statements,
+which is where the paid invoices' money should have landed).
 
 **Still needed:**
 - Personal Santander bank account statements covering 11 Sept 2023 – 30
