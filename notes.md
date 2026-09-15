@@ -327,6 +327,58 @@ _(to be filled in as figures are built)_
 
 ---
 
+## 6a. Santander statements received — reconciling against invoices
+
+Santander (personal current account, sort code 09 01 29) statements
+received covering Aug 2023 – Sept 2024 (and beyond), saved to
+`accounting/source-data/bank-statements/santander/`. This is where the
+invoiced payments actually landed. Reconciling against the Canva invoice
+book:
+
+- **Invoice #1 (Connect SARL, £500, dated 12 Sept 2023):** confirmed
+  received — "TRANSFER FROM CONNECT SARL BOULEVARD HANNE" £500.00,
+  dated **5 Oct 2023** (not 12 Sept — paid ~3 weeks after invoice date).
+- **Invoice #2 (Manikeisaac LTD, £70, dated 21 Sept 2023):** confirmed
+  received — "FASTER PAYMENTS RECEIPT REF.LEADS FROM AJIMOTOKIN I" £70.00,
+  dated **11 Oct 2023**.
+- **NEW, unexplained income found:** "FASTER PAYMENTS RECEIPT REF.LEADS
+  FROM AJIMOTOKIN I" **£120.00**, dated **28 Oct 2023** — no matching
+  invoice in the Canva book. Same "LEADS" reference pattern as invoice
+  #2. **Need to ask user: what was this for?** Possibly an unbilled
+  second lead-gen payment.
+- **CHICKEN SHOP DEAL — bank evidence CONTRADICTS the "Option B"
+  conclusion from earlier in this conversation.** User confirmed
+  "Option B" (client paid the talent directly, only Atoure's 15%
+  commission — ~£2,250 — ever reached Atoure). But the bank shows:
+  - **30 Nov 2023: £2,000.00 received**, "FASTER PAYMENTS RECEIPT
+    REF.Chicken Shop FROM AJIMOTOKIN IE" — money received not from
+    Chicken Shop directly, but from Ajimotokin (the talent/his company),
+    referencing "Chicken Shop".
+  - **1 Dec 2023: £500.00 paid out** to "ISAAC AJIMOTOKIN" (reference
+    "amellia").
+  - Net effect: **+£1,500** from this exchange, not the +£2,250
+    previously assumed, and the mechanics look like Atoure received a
+    payment *from* the talent's side referencing the deal, then paid
+    some back — closer to a shared pass-through than a clean 15%
+    commission received directly.
+  - **This needs re-confirming with the user** — the earlier "Option B,
+    commission only" conclusion in the Chicken Shop P&L entry
+    (`accounting/periods/2023-09-11_2024-09-10/profit-and-loss.md`) may
+    need correcting to reflect what the bank actually shows: **+£2,000
+    in / −£500 out = net £1,500**, not a flat £2,250 commission.
+    Flagging rather than silently changing the figure again — this has
+    already been revised twice and needs a settled answer from the user
+    before finalising.
+
+**Real expenses now visible for the first time:** Companies House filing
+fee (£12.00, 9 Sept 2023 — "CARD PAYMENT TO COMPANIESHOUSE WEB FIL"),
+various card payments to American Express / Capital One (look like
+personal credit card repayments, not obviously business), H3G (phone
+bill) direct debits (~£16-26/month). **Most of this account's activity
+looks like personal spending (Uber, restaurants, PayPal, TfL) with
+occasional client payments landing in it** — consistent with the
+company not having a clean separate business account for period A01.
+
 ## 6. Personal Revolut account statement (received, major finding)
 
 3-year personal Revolut statement (GBP/EUR/crypto sub-accounts, 1 Sept
