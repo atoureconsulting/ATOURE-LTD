@@ -31,5 +31,18 @@ data.
 
 | | HMRC determination | Our draft calculation |
 |---|---|---|
-| Profit | £3,180 | £0.00 (pending data) |
-| Tax | £795.00 | £0.00 (pending data) |
+| Profit | £3,180 | **£11.42** (from Revolut Business statement — see profit-and-loss.md) |
+| Rate | 25% | 19% (small profits rate — well under £50,000 threshold either way) |
+| Tax | £795.00 | **£2.17** (£11.42 × 19%) |
+
+**This is a dramatic difference** — HMRC's estimate is over 275x the real
+figure based on actual bank data. This is exactly why filing the real
+return matters: it would cut this period's tax bill from £795 to roughly
+£2, on top of shrinking the 10%-of-tax penalty proportionally (from
+£79.50 down to about £0.22, though the £200 flat-rate penalty for late
+filing itself still applies regardless of profit).
+
+**Caveat:** this is based only on the Revolut Business (GBP) account. If
+there was other business income/expenses in this window — through the
+personal account, cash, or another account — this figure would need
+updating. Confirm with user before treating as final.

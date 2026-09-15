@@ -103,9 +103,58 @@ filename/content search) — need to be obtained directly from the bank
 (online banking export) rather than hunted for further here. Continuing
 to crawl the wider Drive is not an efficient way to build the P&L.
 
-**Still needed:** bank statements (business + personal, since user
-confirmed both were used) covering 11 Sept 2023 – 30 Sept 2024, and any
-further sales invoices/receipts for that window.
+**Revolut Business statement received** (saved to
+`accounting/source-data/bank-statements/Revolut_Business_ATOURE_LTD_
+stmt-gen-2026-09-15.pdf`) — three currency sub-accounts (GBP, EUR, USD),
+only GBP has any activity. **The statement's earliest transaction is 14
+September 2024** — despite the document header claiming coverage from
+16 August 2024, nothing appears before 14 Sept, suggesting the account
+was opened/funded around then (or an earlier statement page is needed to
+be sure).
+
+This gives us real, bank-sourced figures for **period A02 (11–30 Sept
+2024)**:
+- Income: £50.00 (14 Sept 2024, from "Ermal Alija")
+- Expenses: £38.58 (two SumUp card payments to "Amilcare Rimol", 16 and
+  19 Sept 2024)
+- **Net profit: £11.42** — compare to HMRC's assumed £3,180. Real
+  corporation tax on this would be about **£2.17** (19% small-profits
+  rate) vs HMRC's £795.00 estimate.
+- Logged in `accounting/periods/2024-09-11_2024-09-30/profit-and-loss.md`
+  and `corporation-tax-workings.md`.
+
+**Period A01 (11 Sept 2023 – 10 Sept 2024) still has NO source data** —
+this statement doesn't cover that window. **Action needed: get an
+earlier Revolut Business statement (or confirm the account didn't exist
+yet, in which case all activity for period A01 would have gone through
+the personal account or elsewhere).**
+
+**Open questions raised by this statement:**
+1. Who is "Ermal Alija" and what was the £50 payment for (14 Sept 2024)?
+2. What is "Amilcare Rimol" (via SumUp card reader) — a supplier, or
+   could this be a merchant name unrelated to genuine business expense?
+3. Statement also shows (outside our two periods, Jan–Jul 2025) a
+   recurring pattern of "MOS/MOR to/from Abdul Malik Toure • Baba" —
+   this looks like director's loan account activity (money moving
+   between the company and the director personally). Not part of this
+   filing but worth setting up proper DLA tracking for future periods —
+   see `accounting/periods/balance-sheet.md`.
+4. Also outside our two periods but worth flagging: two client payments
+   received via "THE PARCHE NETWORK" and "DAZN LIMITED" in Nov 2024–Jan
+   2025, paired with payments out to "Manlikeisaac LTD" — looks like
+   Atoure Ltd was acting as an intermediary/agent for another company's
+   invoices. If this pattern also occurred inside periods A01/A02, it
+   would need careful treatment (agency income vs. pass-through, not
+   necessarily all counted as Atoure's own trading profit). Not seen
+   inside our two periods on this statement, but flagged in case a
+   personal-account or earlier-period equivalent turns up.
+
+**Still needed:**
+- Earlier bank statement/records covering 11 Sept 2023 – 13 Sept 2024
+  (period A01 in full, plus the first 3 days of A02)
+- Personal bank account statements covering the same window (user
+  confirmed personal account was also used for business at times)
+- Clarification on the open questions above
 
 ## 3. Assumptions log
 
