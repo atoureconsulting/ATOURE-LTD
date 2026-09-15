@@ -5,12 +5,32 @@ Status: **DRAFT — awaiting source data**
 
 ## Income
 
-| Date | Source/customer | Description | Amount (£) | Notes |
-|---|---|---|---|---|
-| 12 Sept 2023 | Connect (Guadeloupe, FWI) | Invoice #1 — Translation Services | 500.00 | Found in Drive (ATOURE LTD/Invoices/IV1-Connect.pdf). Payment routed to a Santander account in the name of Abdul-Malik Toure — **need to confirm: personal or business account, and whether this needs a director's loan account entry** |
+Source: Canva "Invoices" design (master invoice book, 22 invoices found;
+extracted the ones dated inside this period). **All invoices in this book
+show payment routed to a personal Santander/Revolut account in the name
+of Abdul-Malik Toure, not a company account named "Atoure Ltd" — see
+open question below.**
 
-**Total income so far: £500.00** _(likely incomplete — still need bank
-statements to catch anything not represented by a saved invoice)_
+| Date | Invoice # | Customer | Description | Net amount | VAT charged | Gross | Notes |
+|---|---|---|---|---|---|---|---|
+| 12 Sept 2023 | #1 | Connect SARL (Guadeloupe) | Translation Services | £500.00 | £0 (0%) | £500.00 | Also found separately in Drive |
+| 21 Sept 2023 | #2 | Manikeisaac LTD | Lead Generation Services | £70.00 | £0 (0%) | £70.00 | |
+| 6 Nov 2023 | #3 | Reality Entertainment Ltd | Shemara London Event Management | £1,000.00 | £0 (0%) | £1,000.00 | Invoice notes: "we charge 20% of total budget for the event, budget was £5,000" — consistent with the £1,000 charged |
+| 29 Nov 2023 | #4 | Chicken Shop | Content Creation Services | £10,000.00 | £2,000.00 (20%) | £12,000.00 | **See open question below — possible duplicate/split with #5** |
+| 29 Nov 2023 | #5 | Chicken Shop | Content Creation Services | £5,000.00 | £1,000.00 (20%) | £6,000.00 | **See open question below — possible duplicate/split with #4** |
+| 17 Feb 2024 | #6 | Dapaah International Group Ltd | Valentines Shoot Cast | £110.00 | £0 (0%) | £110.00 | |
+| 2 May 2024 | #9 | Connect SARL | Corporate Bookkeeping and Archiving | €1,500.00 | €0 (0%) | €1,500.00 | In euros — needs FX conversion to GBP at rate on/near 2 May 2024 (roughly £1,280–£1,290 estimated, not yet confirmed) |
+| 2 May 2024 | #10 | Connect SARL | Chauffering & Security Services | €1,500.00 | €0 (0%) | €1,500.00 | Same as above — FX conversion needed |
+
+**Total net income (excl. estimated FX conversion for #9/#10):
+approximately £16,680.00 + €3,000.00** — this is materially higher than
+the "under £15k/year" figure discussed earlier, and higher than the whole
+of period A01 alone. **Important: none of these invoices are yet
+confirmed as actually paid/received** — they need to be checked against
+bank statements (personal Santander, since that's where payment was
+directed) before being treated as realised income. An issued invoice
+that was never paid is not taxable income (though it may still need
+separate bad-debt treatment).
 
 ## Expenses
 

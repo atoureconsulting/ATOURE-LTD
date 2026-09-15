@@ -149,12 +149,77 @@ the personal account or elsewhere).**
    inside our two periods on this statement, but flagged in case a
    personal-account or earlier-period equivalent turns up.
 
+**Canva master invoice book found** (link user provided, design
+"Invoices", 22 invoices spanning Sept 2023 to July 2026) — this is the
+single most useful source found so far. Extracted every invoice dated
+inside period A01 into
+`accounting/periods/2023-09-11_2024-09-10/profit-and-loss.md`. This
+raises several important issues:
+
+1. **VAT charged inconsistently.** Some invoices charge 20% VAT/tax
+   (Chicken Shop invoices #4, #5), most charge 0%. **Need to confirm: is
+   Atoure Ltd VAT-registered?** If not registered, it should not be
+   charging VAT on any invoice — the "20%" charged on the Chicken Shop
+   invoices would need explaining (possibly mislabeled as "Tax" when it
+   was actually a different kind of markup, or the company was
+   VAT-registered for part of this period and this wasn't accounted for
+   elsewhere). This needs resolving before finalising the P&L, and
+   separately affects whether a VAT return is also owed to HMRC (a
+   distinct filing from Corporation Tax).
+
+2. **Possible duplicate: invoices #4 and #5.** Both dated 29/11/23, both
+   billed to "Chicken Shop", both "Content Creation Services", both
+   carrying the identical additional note ("9 Short Form Content
+   Videos... Payment split in two. 1st payment £10,000 30th November,
+   2nd Payment £5,000 7th January"). This note describes ONE deal worth
+   £15,000 paid in two installments — but it's attached to BOTH invoices
+   rather than one invoice for £10,000 and a second for the remaining
+   £5,000 with a different note. **Need to confirm with user: is this
+   one deal worth £15,000 total (net), correctly represented by two
+   invoices for the two installments? Or has the same £5,000 second
+   installment been invoiced twice by mistake?** Treating as two
+   genuine, non-overlapping invoices (£15,000 total net) unless told
+   otherwise — flagged clearly so this isn't silently double-counted.
+
+3. **Payment destination.** Every invoice in this book — including ones
+   from 2023 and ones from 2026 — directs payment to a personal
+   Santander or Revolut personal account in the name of Abdul-Malik
+   Toure, never to a Revolut Business account in Atoure Ltd's name
+   (except the one exception: invoice #8, April 2025, which does list
+   the Revolut Business account — but that invoice falls outside both
+   of our periods). **This means client income for period A01 almost
+   certainly did NOT go through the Revolut Business account, and
+   needs the personal Santander account statement to trace.** This
+   also raises a real question for the accountant: money earned by the
+   company but received into the director's personal account should
+   normally be recorded as company income with a corresponding
+   director's loan account entry (the company effectively "lent" that
+   cash to the director, or it's treated as him collecting on the
+   company's behalf) — not just left unaccounted for. Flagging for
+   accountant input on the cleanest way to treat this retroactively.
+
+4. **Not yet checked which invoices were actually paid.** An issued
+   invoice is not automatically realised income — need bank evidence
+   these were paid, or to treat unpaid ones as debtors/bad debt instead
+   of revenue.
+
+**Revised total picture so far for period A01 (pending resolution of the
+above):** roughly £16,680 net GBP + €3,000 (two euro invoices, FX
+pending) from invoiced work, against HMRC's £38,159 estimate — still
+likely lower than HMRC's figure once real expenses are deducted, but
+**meaningfully higher than the "under £15k/year" figure discussed
+earlier** — worth flagging back to user directly, not just filing away.
+
 **Still needed:**
-- Earlier bank statement/records covering 11 Sept 2023 – 13 Sept 2024
-  (period A01 in full, plus the first 3 days of A02)
-- Personal bank account statements covering the same window (user
-  confirmed personal account was also used for business at times)
-- Clarification on the open questions above
+- Personal Santander bank account statements covering 11 Sept 2023 – 30
+  Sept 2024 (now clearly the priority — this is where client payments
+  actually landed)
+- Confirmation of VAT registration status
+- Resolution of the Chicken Shop invoice #4/#5 duplication question
+- Expenses for period A01 (none found yet at all — only income side so
+  far)
+- FX rate confirmation for the two €1,500 invoices (#9, #10, dated 2 May
+  2024)
 
 ## 3. Assumptions log
 
