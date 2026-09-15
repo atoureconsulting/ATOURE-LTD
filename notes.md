@@ -22,13 +22,22 @@ periods are open:
 | ...A01 | 11 Sept 2023 – 10 Sept 2024 (12 months) | £38,159 | £9,539.75 | £953.97 | £200.00 (implied) | £921.64 | £11,615.36 |
 | ...A02 | 11 Sept 2024 – 30 Sept 2024 (19 days) | £3,180 | £795.00 | £79.50 | £200.00 (implied) | £73.20 | £1,147.70 |
 
-**Open question / to confirm with accountant or Companies House:** why does
-HMRC have two accounting periods, one 12-month and one 19-day stub
-immediately following it? This usually happens when a company's Accounting
-Reference Date (ARD) was changed after incorporation, or after the first
-CT41G registration set an initial period that didn't match the filed ARD.
-**Action:** confirm actual incorporation date and ARD history at Companies
-House before finalising which period(s) our real accounts should cover.
+**RESOLVED (confirmed from Certificate of Incorporation, Google Drive
+"ATOURE LTD/ADMIN" folder):** Atoure Ltd was incorporated on
+**11 September 2023** (company number **15129711**). Under Companies Act
+2006, a company's first Accounting Reference Date defaults to the last day
+of the month of its first anniversary of incorporation — here, **30
+September 2024**. Companies House permits first-year accounts to cover up
+to 18 months, but HMRC's system only accepts CT accounting periods of a
+maximum of 12 months, so it automatically splits a first year longer than
+12 months into two CT periods. That's exactly what happened: the 12-month
+period (11 Sept 2023–10 Sept 2024, ref ...A01) plus the 19-day remainder
+up to the ARD (11–30 Sept 2024, ref ...A02). No error on HMRC's part, and
+no separate ARD change — this is standard for a first-year company. Both
+periods still need their own P&L/CT workings as already scaffolded, but a
+single set of first-year statutory accounts (11 Sept 2023–30 Sept 2024)
+filed at Companies House is likely to cover the combined period — to
+confirm with accountant.
 
 Key dates:
 - Notice to file issued: 20 October 2024
@@ -52,7 +61,51 @@ these determinations are automatically superseded (per CT620 notice text:
 
 ## 2. Data received so far
 
-_(nothing yet — waiting on bank statements / invoices / receipts)_
+**Companies House Confirmation Statement** (Drive: "ATOURE LTD" folder,
+filed 23/09/2024, statement date 10/09/2024): confirms company is in good
+standing at Companies House as of that date. SIC code 70229 — Management
+consultancy activities other than financial management. This is a
+*separate* filing obligation from Corporation Tax (goes to Companies
+House, not HMRC) — worth checking whether a confirmation statement is also
+now overdue for the following year, alongside the accounts.
+
+**"Ashton Hall Tour" expense reconciliation spreadsheets** (Drive, ~20
+versions found, most recent/complete: "Ashton_Hall_Tour_Expense_
+Reconciliation OFFICIAL"): **NOT RELEVANT to the two overdue CT
+periods.** This tracks a client project (Ashton Hall / "Ash Fitness")
+running **27 June 2026 – 12 July 2026**, with the reconciliation itself
+dated up to 11 Sept 2026 — entirely outside the 11 Sept 2023–30 Sept 2024
+window we're filing for. Net figures for reference (not part of this
+filing): total client billing £33,000 (agency fee) + reimbursed
+expenses, paid off in full by 4 Sept 2026. **Keep this data for a future
+accounting period's return, once we get there** — logged here so it isn't
+lost, but excluded from the current two periods' P&L.
+
+**Sales invoice found (in-period):** "IV1-Connect.pdf" (Drive:
+ATOURE LTD/ATOURE MANAGEMENT & CONSULTING/Invoices), dated **12 September
+2023** — falls inside period A01. Invoice #1, billed to "Connect" (Guadeloupe,
+FWI), for "Translation Services", £500, 0% tax, total £500. Payment
+details on invoice: Santander account in the name of Abdul-Malik Toure
+(personal account, not a listed business account) — **flag for user: was
+this £500 paid into a personal or business account? Needed to trace it on
+a bank statement and to check if it should route through a director's
+loan account.**
+
+**Drive search assessment:** the "ATOURE LTD" Drive folder is real and
+useful for company registration documents (incorporation certificate,
+confirmation statement) and at least one sales invoice, but the wider
+Google Drive (outside that folder) is dominated by unrelated client/
+project files (influencer marketing campaigns — "ManlikeIsaac", "AFCON",
+"Trenderz", event guestlists, etc.) with no clear separation between
+personal and business content, and no bank statements found by search.
+**Conclusion: bank statements are not in Drive** (or not findable by
+filename/content search) — need to be obtained directly from the bank
+(online banking export) rather than hunted for further here. Continuing
+to crawl the wider Drive is not an efficient way to build the P&L.
+
+**Still needed:** bank statements (business + personal, since user
+confirmed both were used) covering 11 Sept 2023 – 30 Sept 2024, and any
+further sales invoices/receipts for that window.
 
 ## 3. Assumptions log
 
