@@ -361,6 +361,42 @@ varying it. This is flagged as a judgement-call area for the real
 accountant to sanity-check, not something requiring exhaustive evidence
 gathered now.
 
+## 6e. Berlin trip ground transport (Bolt/Uber) added
+
+User asked to search Gmail for flight emails. Gmail connector was
+enabled; searched atoureconsulting@gmail.com for flight/travel
+confirmations within Period A01/A02 plus surrounding dates. Found:
+- Emirates original booking + change confirmation (already logged, 6d)
+- Jet2 (3QXRL5), Malaga → London Stansted, 11 Jul 2024, €92.23
+- EasyJet (K7P8LK3), London Gatwick → Malaga, 29 Jun 2024, £288.99
+- Air France Paris boarding passes, 1-2 May 2024 (matches existing
+  £25.70 entry)
+- A Sept 2023 sent email "Berlin Transport + Plane Invoice" to
+  connectsarl@hotmail.fr with 11 PDF attachments (Ryanair + 3 Bolt + 8
+  Uber receipts) — the Gmail tools available only exposed attachment
+  metadata, not content, so could not read the PDFs directly from
+  Gmail. User downloaded and uploaded the zip of attachments directly.
+
+**Malaga/Paris trip (Jun-Jul 2024) — still awaiting user confirmation
+on business vs personal purpose.**
+
+**Berlin trip receipts (zip uploaded, saved to
+`accounting/source-data/receipts-and-invoices/berlin-trip-2023/`):**
+extracted via pypdf. Ryanair confirmed matches existing entry (£167.35).
+New: 3 Bolt receipts (€18.00, €8.30, €9.00 = €35.30) and 8 Uber
+receipts, of which "uber 3.pdf" and "uber 4.pdf" are exact duplicates
+(same trip, timestamp, fare €16.96) — counted once. 7 unique Uber fares:
+€40.91, €23.90, €16.96, €6.00, €20.98, €17.25, €42.93 = €168.93.
+
+Added to `profit-and-loss.md` under the same pre-trading expenditure
+treatment as the Ryanair flight (deemed incurred 11 Sept 2023, wholly
+for the Connect SARL job). FX converted at an approximate Sept 2023
+rate (~1.16 EUR/GBP): Bolt ≈£30.44, Uber ≈£145.63 — flagged as
+approximate, exact conversion pending for the accountant.
+
+Updated totals: total expenses now £3,861.38, net trading profit
+≈ £3,215.61.
+
 ## 6d. Dubai (Emirates) trip confirmed as business; Rome/Doha trips out of period
 
 User provided 5 itinerary emails. Findings:
