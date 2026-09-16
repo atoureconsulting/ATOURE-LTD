@@ -361,6 +361,30 @@ varying it. This is flagged as a judgement-call area for the real
 accountant to sanity-check, not something requiring exhaustive evidence
 gathered now.
 
+## 6g. Dubai trip ground transport added
+
+User asked to add Uber/taxi costs from business trips. Checked the
+personal Revolut statement for the Dubai/Abu Dhabi window (9 May – 3
+Jun 2024, matching the Emirates booking CSHGVS already claimed).
+
+Found 25 ground transport transactions (Careem, Cars Taxi, Dubai Taxi,
+Royal Smart Limousine, National Parking) totalling £244.56 across the
+26-day window. Flagged to user that the same window also contained
+non-transport personal-looking spend (a barbershop, a nightlife venue
+twice, groceries, hotels in two cities) — asked directly whether the
+whole trip was for the client or only part of it, given HMRC's
+"wholly and exclusively" test. **User confirmed: the entire trip was
+for the client.** Added the full £244.56 ground transport total to
+`profit-and-loss.md` on that basis.
+
+Updated totals: total expenses now £4,105.94, net trading profit
+≈ £2,971.05. Note for the accountant: the non-transport spend in the
+same window (salon, nightlife, groceries, hotels) was NOT added as an
+expense — only ground transport was in scope of what the user asked to
+add. If the trip really was wholly for the client, some of that other
+spend (e.g. the hotels) could arguably also be examined, but this
+wasn't asked for and hasn't been assessed.
+
 ## 6f. Remaining flights resolved as personal — flight review complete
 
 User connected a second Gmail account (ambtzooleh@gmail.com, the

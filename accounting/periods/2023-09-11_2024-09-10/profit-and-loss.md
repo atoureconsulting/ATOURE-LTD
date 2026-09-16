@@ -88,20 +88,22 @@ FX conversion for Invoice #10 (€1,500) still needed (roughly
 | 2–7 Sept 2023 (deemed 11 Sept 2023) | Uber | Ground transport — pre-trading expense | ~145.63 (€168.93) | 7 unique Uber rides in Berlin during the same trip (an 8th receipt, "uber 3", was a duplicate of "uber 4" — same trip/timestamp/amount, counted once). Individual fares: €40.91, €23.90, €16.96, €6.00, €20.98, €17.25, €42.93. Same pre-trading treatment as the flight. FX approximate, exact conversion pending |
 | 8 May 2024 | Emirates | Travel — client business trip (user-confirmed) | 703.46 | Original booking, London Gatwick–Dubai–London Heathrow, booking ref CSHGVS. User confirms this trip was for a client. Source: Emirates booking confirmation email |
 | 12 Jun 2024 | Emirates (via PayPal) | Travel — flight change fee | 425.00 | Change fee for the same Dubai trip (CSHGVS): £350 fare difference + £75 change fee, moving return date to 3 June 2024. Paid via PayPal, matched to 12 Jun 2024 personal Revolut transaction |
+| 9 May – 3 Jun 2024 | Careem / Cars Taxi / Dubai Taxi / Royal Smart Limousine / National Parking | Ground transport — client business trip (user-confirmed) | 244.56 | Dubai/Abu Dhabi ground transport for the same Emirates trip (booking CSHGVS). User confirmed the full trip was for the client. 25 transactions: £3.28, £14.43, £17.68, £16.07, £3.44, £6.34, £14.85, £25.77, £12.36, £2.59, £13.90, £0.84, £10.22, £7.86, £6.01, £1.85, £4.07, £12.14, £8.56, £10.99, £6.90, £8.43, £11.92, £23.77, £0.29 (personal Revolut statement) |
 | various | American Express / Capital One | Card repayments, £100–£500/instance | not counted | Looks like personal credit card repayments (the underlying purchases aren't visible), not treated as a business expense without more detail — **flag for user: any of this business-related?** |
 | | | **Other genuine operating expenses (equipment, software, travel specific to client work)** | **0.00** | **Still not found on this account.** Nearly everything else visible is personal spending (Uber, restaurants, TfL, Halal Meat shops, PayPal purchases) |
 
-**Total expenses counted so far: £3,861.38** (Companies House fee + two
+**Total expenses counted so far: £4,105.94** (Companies House fee + two
 bad debt write-offs + H3G at 50% apportionment + Berlin flight + Berlin
-ground transport (Bolt/Uber) + Dubai trip flights)
+ground transport (Bolt/Uber) + Dubai trip flights + Dubai ground
+transport)
 
 ## Net profit / (loss)
 
 | | £ (approx.) |
 |---|---|
 | Total income (bank-verified, incl. unpaid invoice recognised on accruals basis) | 7,076.99 |
-| Total expenses (bad debts + Companies House fee + H3G apportioned + Berlin flight + Berlin ground transport + Dubai trip) | 3,861.38 |
-| **Net trading profit / (loss) so far** | **≈ 3,215.61** |
+| Total expenses (bad debts + Companies House fee + H3G apportioned + Berlin flight + Berlin ground transport + Dubai flights + Dubai ground transport) | 4,105.94 |
+| **Net trading profit / (loss) so far** | **≈ 2,971.05** |
 
 This is provisional. Compare to HMRC's £38,159 estimate — **already
 about 13% of it**, and this is before adding the H3G phone bill
