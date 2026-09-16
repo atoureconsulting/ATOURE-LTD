@@ -361,6 +361,36 @@ varying it. This is flagged as a judgement-call area for the real
 accountant to sanity-check, not something requiring exhaustive evidence
 gathered now.
 
+## 6f. Remaining flights resolved as personal — flight review complete
+
+User connected a second Gmail account (ambtzooleh@gmail.com, the
+personal account used for travel bookings) to search for the last
+unconfirmed flights.
+
+Findings:
+- **28 Nov 2023 Ryanair £184.80 + 9 Jan 2024 Ryanair £117.24:**
+  Marrakesh trip. Reservation TI8YWS (London Stansted → Marrakesh, 1
+  Jan 2024; originally due back 5 Jan) and a separate reservation
+  CNFCQA (Marrakesh → London Stansted, 11 Jan 2024) — the return was
+  extended, ~10-day stay in Marrakesh.
+- **Also found while searching:** an October 2024 trip to Malaga/
+  Marbella (TUI Airways booking 25706882, 13 Oct 2024, travelling with
+  Isaac Ajimotokin and a Lovell Andrew Small; stayed at Hotel Puente
+  Romano, Marbella). This is after both filing periods end (A01: 10
+  Sept 2024, A02: 30 Sept 2024) — **out of scope for this filing**,
+  logged for a future period, source emails not yet saved to the repo
+  (only identified via search, not downloaded).
+- Paris (Air France, 1-2 May 2024), the June/July Malaga trip (EasyJet
+  29 Jun + Jet2 11 Jul 2024), and the two British Airways charges (17 &
+  24 Jul 2024) were already identified destinations from earlier
+  research.
+
+**User confirmed: all of the above (Marrakesh, Paris, June/July Malaga,
+both British Airways charges) were personal travel, not business.**
+None of these are claimed as expenses. This closes out the flight
+review for Period A01 — only the Berlin (pre-trading) and Dubai
+(client) trips are claimed as travel expenses, per sections 6c-6e.
+
 ## 6e. Berlin trip ground transport (Bolt/Uber) added
 
 User asked to search Gmail for flight emails. Gmail connector was

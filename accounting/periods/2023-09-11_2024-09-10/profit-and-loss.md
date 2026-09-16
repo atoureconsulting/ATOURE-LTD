@@ -140,13 +140,15 @@ Compare to HMRC's determination for this period: **£38,159** (see
 8. ~~Berlin trip ground transport (Bolt/Uber)~~ — **RESOLVED:** 11
    receipts obtained (3 Bolt, 8 Uber, 2 duplicates), added under the
    same pre-trading expenditure treatment as the Berlin flight.
-   Still outstanding: business purpose of the remaining flights —
-   28 Nov 2023 Ryanair £184.80, 9 Jan 2024 Ryanair £117.24, and the
-   Malaga/Paris cluster (2 May 2024 Air France £25.70, 29 Jun 2024
-   EasyJet London–Malaga £288.99, 11 Jul 2024 Jet2 Malaga–London
-   €92.23, 17 Jul 2024 British Airways £17.50, 24 Jul 2024 British
-   Airways £32.50) — **still need user confirmation on business purpose
-   for each before claiming.**
+9. ~~Remaining flights~~ — **RESOLVED, all personal, NOT claimed:**
+   - 28 Nov 2023 Ryanair £184.80 + 9 Jan 2024 Ryanair £117.24 —
+     Marrakesh trip (reservations TI8YWS/CNFCQA, 1–11 Jan 2024)
+   - 2 May 2024 Air France £25.70 — Paris
+   - 29 Jun 2024 EasyJet £288.99 + 11 Jul 2024 Jet2 €92.23 — Malaga
+   - 17 Jul 2024 + 24 Jul 2024 British Airways £17.50 + £32.50
+   User confirmed all of the above were personal travel. No further
+   flight expenses to add for Period A01 — the flight review is
+   complete (Berlin and Dubai trips are the only claimed travel).
 
 ## Notes / assumptions for this period
 
