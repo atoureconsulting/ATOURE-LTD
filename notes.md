@@ -361,6 +361,43 @@ varying it. This is flagged as a judgement-call area for the real
 accountant to sanity-check, not something requiring exhaustive evidence
 gathered now.
 
+## 6d. Dubai (Emirates) trip confirmed as business; Rome/Doha trips out of period
+
+User provided 5 itinerary emails. Findings:
+
+- **Ryanair Berlin (98a75a6e...eml):** exact duplicate of the booking
+  already logged in 6c (RENH9F). No new information.
+- **Emirates original booking (49bae582...eml, saved as
+  `Emirates_Dubai_original_booking_CSHGVS.eml`):** booking ref CSHGVS,
+  London Gatwick → Dubai, 8 May 2024, returning Dubai → London Heathrow
+  originally 6 June 2024. £703.46 (matches the 9 May 2024 bank charge
+  found earlier). Passenger: Mr Abdulmalik Toure.
+- **Emirates change confirmation (d1a6eac2...eml, saved as
+  `Emirates_Dubai_change_confirmation_CSHGVS.eml`):** same booking
+  CSHGVS, return date changed to 3 June 2024. £425.00 (£350 fare
+  difference + £75 change fee), paid via PayPal — matched to the 12 Jun
+  2024 £425 "To Paypal Uk" transaction on the personal Revolut account.
+  Dubai-dated spending also visible around 3 June 2024 (hotels, taxis,
+  Amex) consistent with an actual trip taking place.
+- **User confirmed: the Dubai trip was for a client (business).**
+  Both the £703.46 original booking and the £425.00 change fee added to
+  Period A01 expenses as confirmed business travel.
+- **easyJet (a968e19e...eml) + Wizz Air (b141f467...eml):** same round
+  trip, London Gatwick ↔ Rome Fiumicino, 17–18 Oct 2024, travelling with
+  Isaac Ajimotokin (the Chicken Shop contact). €200.96 + £361.98. Dated
+  after Period A02 ends (30 Sept 2024) — **out of scope for this
+  filing**, saved to `accounting/source-data/invoices-out-of-period/`
+  for a future period.
+- **Gotogate (05b9d478...eml):** London Heathrow ↔ Doha, 26–29 Nov 2024,
+  also with Isaac Ajimotokin, £1,195.99. Also out of scope, saved to
+  the same out-of-period folder.
+
+Updated `profit-and-loss.md`: total expenses now £3,685.31, net trading
+profit ≈ £3,391.68 (down from £4,520.14 due to the added £1,128.46 in
+Dubai trip costs). Still outstanding: business purpose confirmation for
+the remaining 8 flights on the personal Revolut account within the
+filing periods (see open question 7 in profit-and-loss.md).
+
 ## 6c. Flight expenses — Santander/Revolut Personal search, Berlin trip confirmed
 
 User asked to look up all flight expenses paid in the bank statements.

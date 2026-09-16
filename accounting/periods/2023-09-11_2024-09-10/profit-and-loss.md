@@ -84,19 +84,22 @@ FX conversion for Invoice #10 (€1,500) still needed (roughly
 | 2 May 2024 (recognised) | Connect SARL (bad debt) | Bad debt write-off | ~1,280.00 | Offsets unpaid Invoice #10 — FX conversion pending |
 | various | H3G (phone) | Direct debit, ~£16–17/month × 12 months, **50% business use (user-confirmed)** | ~97.50 | £16.25/month average × 12 = £195/year, × 50% = £97.50. See notes.md and user-facing answer below on evidencing the 50% estimate |
 | 2 Sept 2023 (deemed 11 Sept 2023) | Ryanair | Travel — pre-trading expense | 167.35 | Round-trip London Stansted–Berlin, 2–7 Sept 2023, for the Connect SARL job (Invoice #9, the £1,246.99 income recognised above). **Pre-trading expense**: incurred just before incorporation (11 Sept 2023) but wholly for the trade that generated confirmed income in this period, so treated as incurred on day 1 of trading under the pre-trading expenditure rule. Source: Ryanair itinerary email, booking ref RENH9F, passenger Mr Abdul-Malik Toure, paid via Apple Pay Mastercard ending 8931 |
+| 8 May 2024 | Emirates | Travel — client business trip (user-confirmed) | 703.46 | Original booking, London Gatwick–Dubai–London Heathrow, booking ref CSHGVS. User confirms this trip was for a client. Source: Emirates booking confirmation email |
+| 12 Jun 2024 | Emirates (via PayPal) | Travel — flight change fee | 425.00 | Change fee for the same Dubai trip (CSHGVS): £350 fare difference + £75 change fee, moving return date to 3 June 2024. Paid via PayPal, matched to 12 Jun 2024 personal Revolut transaction |
 | various | American Express / Capital One | Card repayments, £100–£500/instance | not counted | Looks like personal credit card repayments (the underlying purchases aren't visible), not treated as a business expense without more detail — **flag for user: any of this business-related?** |
 | | | **Other genuine operating expenses (equipment, software, travel specific to client work)** | **0.00** | **Still not found on this account.** Nearly everything else visible is personal spending (Uber, restaurants, TfL, Halal Meat shops, PayPal purchases) |
 
-**Total expenses counted so far: £2,556.85** (Companies House fee + two
-bad debt write-offs + H3G at 50% apportionment + Berlin flight)
+**Total expenses counted so far: £3,685.31** (Companies House fee + two
+bad debt write-offs + H3G at 50% apportionment + Berlin flight + Dubai
+trip flights)
 
 ## Net profit / (loss)
 
 | | £ (approx.) |
 |---|---|
 | Total income (bank-verified, incl. unpaid invoice recognised on accruals basis) | 7,076.99 |
-| Total expenses (bad debts + Companies House fee + H3G apportioned + Berlin flight) | 2,556.85 |
-| **Net trading profit / (loss) so far** | **≈ 4,520.14** |
+| Total expenses (bad debts + Companies House fee + H3G apportioned + Berlin flight + Dubai trip) | 3,685.31 |
+| **Net trading profit / (loss) so far** | **≈ 3,391.68** |
 
 This is provisional. Compare to HMRC's £38,159 estimate — **already
 about 13% of it**, and this is before adding the H3G phone bill
@@ -129,10 +132,16 @@ Compare to HMRC's determination for this period: **£38,159** (see
 6. ~~Berlin flight, 2–7 Sept 2023, £167.35~~ — **RESOLVED:** user
    confirms this trip was for the Connect SARL job (Invoice #9).
    Claimed as a pre-trading expense, deemed incurred on 11 Sept 2023.
-   Other flights found on the personal Revolut account (28 Nov 2023,
-   9 Jan 2024, 2 May 2024, 9 May 2024, 29 Jun 2024, 1 Jul 2024, 12 Jul
-   2024, 17 Jul 2024, 24 Jul 2024) — **still need user confirmation on
-   business purpose for each before claiming.**
+7. ~~Dubai/Emirates flights, 8 May–3 Jun 2024, £703.46 + £425.00~~ —
+   **RESOLVED:** user confirms this trip was for a client. Both the
+   original booking and the change fee added as expenses.
+   Still outstanding: business purpose of the remaining flights on the
+   personal Revolut account (28 Nov 2023 Ryanair £184.80, 9 Jan 2024
+   Ryanair £117.24, 2 May 2024 Air France £25.70, 29 Jun 2024 EasyJet
+   £288.99, 1 Jul 2024 EasyJet inflight £6.50, 12 Jul 2024 jet2.com
+   £2.70, 17 Jul 2024 British Airways £17.50, 24 Jul 2024 British
+   Airways £32.50) — **still need user confirmation on business purpose
+   for each before claiming.**
 
 ## Notes / assumptions for this period
 

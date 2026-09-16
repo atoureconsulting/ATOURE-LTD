@@ -1,0 +1,2915 @@
+Delivered-To: atoureconsulting@gmail.com
+Received: by 2002:a05:6022:92a3:b0:63:14ae:ff59 with SMTP id dc35csp1473940lab;
+        Mon, 25 Nov 2024 10:09:49 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IGdqKDvQXMPFtl2i3YoErlOT2bSUQww2vjUjftvU3a2ejhmkwnutrIQWoIpVALQNDrk82Ql
+X-Received: by 2002:a5d:59c6:0:b0:382:6f3:a20f with SMTP id ffacd0b85a97d-38260b485dfmr12590197f8f.11.1732558188602;
+        Mon, 25 Nov 2024 10:09:48 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1732558188; cv=none;
+        d=google.com; s=arc-20240605;
+        b=kfleDHx4j+gKAeNJVHrrpMHx+gtJjLAQ1WVKGgabpQwBpP0ddMP5d0gelHFu53IKpa
+         n2NjcWmecKD97Odtokc/8sHqzqI8dLw0AJ7N1qAbKbWBp3EIO//C7K262I7wPqMG4/iZ
+         z9G3aRyuvMse+166U2wdcUozO1Ez4d/UBDrn/lDrMzmouicH/E1/mdQUOpVRAhAzbyaT
+         Ltz3HAbGJah+Uf+8Ure7Lkq4K0NzBG2z4BuLm9BGEfjbmZVeeNC2WMnn02SwYvFzpnvB
+         N7BlOSH3ucu27Y2KMACipNEn9TejymvCa0tzFqvBVsL9TrmQFQYd9xXoDV9sDQST844n
+         GzDw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=mime-version:from:message-id:date:to:list-unsubscribe:feedback-id
+         :list-unsubscribe-post:origin-messageid:subject:dkim-signature;
+        bh=75+7ELnifCq9tY+nFcoHXEikqR0A9xq6knZw9aoTAvc=;
+        fh=GjnvlR/Orwsx5kTCIaZAdr5FWRUYLmQijwJYvch0IqE=;
+        b=KRCh0Vuv4MH8iTVgs9pSMQcgJX3MY2MkWKN9ZusZTSXoP3rEzUdc9EKnihtjsMLDOw
+         SBQl8H9pnPuV7/tPDKped5SNxzAMLQqP9eZR9Zrd2Rqg0NutJQWzyC3SJdRWD5lgV1B/
+         Wa6gjPTIZZx2lDC2CpiHki3aJUSd5hXVEcqQIbulXBqQFLxjxhkw1s3jE5oDtei+obNo
+         sYBbL3plz2gNtQcRzrV2iFQzm7rGpEAos2FfMImUYjwhIZI1NY6hE8ahVO99i4RE3HI5
+         iYrzHao2OrxiTIFIS8LURIwouoZO281etalRFd4IQZ3jo26G5wvN5do4xZe8oSJ65DGm
+         ++9g==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@support.uk.gotogate.com header.s=mail header.b=dFiQ+E1+;
+       spf=pass (google.com: domain of bounces-78885154-customercare=support.uk.gotogate.com@sib.etraveligroup.com designates 77.32.178.105 as permitted sender) smtp.mailfrom="bounces-78885154-customercare=support.uk.gotogate.com@sib.etraveligroup.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=gotogate.com
+Return-Path: <bounces-78885154-customercare=support.uk.gotogate.com@sib.etraveligroup.com>
+Received: from sib.etraveligroup.com (sib.etraveligroup.com. [77.32.178.105])
+        by mx.google.com with ESMTPS id 5b1f17b1804b1-434978a52dfsi3085605e9.6.2024.11.25.10.09.48
+        for <atoureconsulting@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 25 Nov 2024 10:09:48 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounces-78885154-customercare=support.uk.gotogate.com@sib.etraveligroup.com designates 77.32.178.105 as permitted sender) client-ip=77.32.178.105;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@support.uk.gotogate.com header.s=mail header.b=dFiQ+E1+;
+       spf=pass (google.com: domain of bounces-78885154-customercare=support.uk.gotogate.com@sib.etraveligroup.com designates 77.32.178.105 as permitted sender) smtp.mailfrom="bounces-78885154-customercare=support.uk.gotogate.com@sib.etraveligroup.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=gotogate.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=support.uk.gotogate.com;
+ q=dns/txt; s=mail; bh=75+7ELnifCq9tY+nFcoHXEikqR0A9xq6knZw9aoTAvc=;
+ h=from:subject:date:to:mime-version:content-type:list-unsubscribe:x-csa-complaints:list-unsubscribe-post:message-id:x-sib-id:feedback-id;
+        b=dFiQ+E1+eW4D4Xfwx2X1yQ2shqE6iMjd7mrLZcF0Qa3luY5H8TgxM1uK1NCmnsHhF6pZdEcqG06I
+        qiF81KG4/1coJOPYcGrIWaNFxOYfEF2m9s1Gdkf7lmvLxKUsKz8BAQ16Vbegw6MrSkB/tAgJqU8p
+        E/cUa+k5hrOpmRjS9uA=
+X-CSA-Complaints: csa-complaints@eco.de
+Subject: Your trip is confirmed. Order number 1036-726-025
+Origin-messageId: <202411251809.57361871101@smtp-relay.mailin.fr>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Feedback-ID: 77.32.178.105:2250316_-1:2250316:Sendinblue
+List-Unsubscribe: <https://r.sib.etraveligroup.com/tr/un/li/8nLE8ZQo2DZtNmgYF9LjMz5PBS-kHUrFHRp0fzqM2bCMU5MfdEQXgFTypeiI4T6A0ooZY6mk7hSpFEMVoi4C6qMfROkRD4ynq21pI0O5j3RNpse3pFpGHD3XZ15VpEMR6IskoMSJfnTCKpMQsARv1LwJfl6gW8hRCLhwah0zjq_r4aW9ox-DKPkdm6OzyqPiqtkZgCgfxGmFMU7APHD3T5tXlMBaHTRB7S2G55rfCNfHcy0PZAwKwGTg9Bbxsaz42jVR9NU>
+X-Mailin-EID: Nzg4ODUxNTR%2BYXRvdXJlY29uc3VsdGluZ0BnbWFpbC5jb21%2BPDIwMjQxMTI1MTgwOS41NzM2MTg3MTEwMUBzbXRwLXJlbGF5Lm1haWxpbi5mcj5%2Bc2liLmV0cmF2ZWxpZ3JvdXAuY29t
+To: "Abdul-Malik Toure" <atoureconsulting@gmail.com>
+Date: Mon, 25 Nov 2024 18:09:47 +0000
+X-sib-id: g-HDUF36dh5MEoE9rkMNjaRb0PyHfY0cn_Ge7OEzULl1snP4xN-sPi5iG4lSoUql9PI35KQhOP5h2hDMH6BtINW0oZ7YVD0ENuNMecRr79cNN42W8futUb75uiR5NeveFJXDtggNpVAetCGArD5vv6cUlJ8s5aZXrfNahQa228TfZ28-eFttNA
+Message-Id: <202411251809.57361871101@smtp-relay.mailin.fr>
+From: "Gotogate" <customercare@support.uk.gotogate.com>
+X-Mailin-Custom:{"mailType":"Receipt","environment":"PROD","orderNumber":"NJSXHF","sender":"customercare@support.uk.gotogate.com"}
+X-Ibe-Env:prod.server#ibe-async.misc_server@app-ibe-async-57khp6y1.ibeprod01.dc06.etgcloud.io
+X-Api-Version:v3
+Content-Type:multipart/mixed; boundary=37b8b71f9e6a7fe648fd52d90ca64943d6c4196affc69bf00d71b82f1145
+Mime-Version:1.0
+
+--37b8b71f9e6a7fe648fd52d90ca64943d6c4196affc69bf00d71b82f1145
+Content-Type: multipart/alternative; boundary=729c98cb37c25b739f3e0a170304a5c861f5b7a447259804772324505d41
+
+--729c98cb37c25b739f3e0a170304a5c861f5b7a447259804772324505d41
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=UTF-8
+
+<!DOCTYPE html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+  <head>
+    <title>
+    </title>
+    <!--[if !mso]><!-->
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <!--<![endif]-->
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUS-AS=
+CII">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1">
+
+    <!--[if mso]>
+    <noscript>
+      <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+      </xml>
+    </noscript>
+    <![endif]-->
+    <!--[if lte mso 11]>
+    <style type=3D"text/css">
+      .mj-outlook-group-fix { width:100% !important;}
+    </style>
+    <![endif]-->
+
+    <!--[if !mso]><!-->
+
+    <!--<![endif]-->
+
+
+
+
+  <style>body {
+margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%;
+}
+img {
+border: 0; height: auto; line-height: 100%; outline: none; text-decoration:=
+ none; -ms-interpolation-mode: bicubic;
+}
+@media only screen and (min-width:480px) {
+  .mj-column-per-33-333333333 {
+    width: 33.333333333% !important; max-width: 33.333333333%;
+  }
+  .mj-column-per-66 {
+    width: 66.666666666666% !important; max-width: 66.666666666666%;
+  }
+  .mj-column-per-50 {
+    width: 50% !important; max-width: 50%;
+  }
+  .mj-column-per-100 {
+    width: 100% !important; max-width: 100%;
+  }
+}
+@media only screen and (max-width:480px) {
+  .mobile {
+    display: block !important;
+  }
+  .desktop {
+    display: none !important;
+  }
+  .my-bookings-button {
+    width: 100%;
+  }
+  .my-bookings-button a {
+    box-sizing: border-box; width: 100%;
+  }
+  table.mj-full-width-mobile {
+    width: 100% !important;
+  }
+  td.mj-full-width-mobile {
+    width: auto !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .flextable thead {
+    border: none; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow:=
+ hidden; padding: 0; position: absolute;
+  }
+  .second-column {
+    text-align: right;
+  }
+  .flextable .headerRow {
+    display: none;
+  }
+  .flextable .passengerRow {
+    display: block; border-bottom: 1px solid #ddd; padding-bottom: 7px; pad=
+ding-top: 7px; margin-right: 10px; column-count: 2;
+  }
+  .flextable td {
+    display: block; font-size: 14px;
+  }
+  .flextable .label {
+    display: block; color: #808080; padding: 0px;
+  }
+  .flextable .data {
+    line-height: 9px; margin-bottom: 5px;
+  }
+  .flextable .lastTr {
+    display: block; padding-top: 7px; border-bottom: 0; padding-bottom: 0; =
+line-height: 25px; column-count: 2;
+  }
+}
+</style>
+</head>
+
+  <body style=3D"word-spacing: normal; -webkit-text-size-adjust: 100%; -ms-=
+text-size-adjust: 100%; margin: 0; padding: 0;" bgcolor=3D"#f3f3f3">
+  <div style=3D"background-color: #f3f3f3;">
+  <!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600" bgcolor=
+=3D"#000" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-r=
+ule:exactly;"><![endif]-->
+  <div style=3D"background: #000; background-color: #000; max-width: 600px;=
+ margin: 0px auto;">
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%" style=3D"background: #000; width: 10=
+0%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+;" bgcolor=3D"#000">
+      <tbody>
+      <tr>
+        <td style=3D"direction: ltr; font-size: 0px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;" align=3D"=
+center">
+          <!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"100%"><tr><![endif]-->
+
+  <!--[if mso | IE]>
+  <td style=3D"vertical-align:middle;width:196.6666666647px;"><![endif]-->
+  <div class=3D"mj-column-per-33-333333333 mj-outlook-group-fix" style=3D"f=
+ont-size: 0px; direction: ltr; display: inline-block; vertical-align: middl=
+e; width: 100%;" align=3D"left">
+    <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"present=
+ation" style=3D"vertical-align: middle; border-collapse: collapse; mso-tabl=
+e-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+      <tbody>
+      <tr>
+        <td align=3D"center" style=3D"font-size: 0px; word-break: break-wor=
+d; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;=
+ padding: 10px 25px 0px;" bgcolor=3D"#000000">
+          <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"p=
+resentation" style=3D"border-collapse: collapse; border-spacing: 0px; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt;">
+            <tbody>
+            <tr>
+              <td style=3D"width: 140px; border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt;">
+                <img height=3D"auto" src=3D"https://www.gotogate.co.uk/gui/=
+g2g/image/mail_template_site_logo_new.png" style=3D"display: block; outline=
+: none; text-decoration: none; height: auto; font-size: 13px; line-height: =
+100%; -ms-interpolation-mode: bicubic; border-width: 0;" width=3D"140">
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--[if mso | IE]></td><![endif]-->
+
+  <!--[if mso | IE]>
+  <td class=3D"" style=3D"width:393.33333333332945px;"><![endif]-->
+  <div class=3D"mj-column-per-66 mj-outlook-group-fix" style=3D"font-size: =
+0; line-height: 0; display: inline-block; width: 100%; direction: ltr;" ali=
+gn=3D"left">
+    <!--[if mso | IE]>
+    <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"present=
+ation">
+      <tr>
+        <td style=3D"vertical-align:middle;width:196px;"><![endif]-->
+    <div class=3D"mj-column-per-50 mj-outlook-group-fix" style=3D"font-size=
+: 0px; direction: ltr; display: inline-block; vertical-align: middle; width=
+: 50%;" align=3D"left">
+      <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"prese=
+ntation" style=3D"vertical-align: middle; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+        <tbody>
+        <tr>
+          <td align=3D"right" style=3D"font-size: 0px; word-break: break-wo=
+rd; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+; padding: 10px 25px 0px;">
+            <a style=3D"font-family: Noto Sans,sans-serif; font-size: 14px;=
+ line-height: 150%; text-align: right; color: #fff; text-decoration: underl=
+ine;" href=3D"https://www.gotogate.co.uk/order-load-ref/H4sIAAAAAAAA_7ON043=
+XjYsHk7aGJkbGlhYmpoamNUCQWJJfWpSanJ9XXJpTkpmX7pCem5iZo5ecnwsAeaSsJjUAAAA=3D=
+?source=3Dibe-email&amp;targetTab=3Dcontact-us" target=3D"_blank">Support</=
+a>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td>
+    <td style=3D"vertical-align:middle;width:196px;"><![endif]-->
+    <div class=3D"mj-column-per-50 mj-outlook-group-fix" style=3D"font-size=
+: 0px; direction: ltr; display: inline-block; vertical-align: middle; width=
+: 50%;" align=3D"left">
+      <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"prese=
+ntation" style=3D"vertical-align: middle; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+        <tbody>
+        <tr>
+          <td align=3D"center" vertical-align=3D"middle" style=3D"font-size=
+: 0px; word-break: break-word; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt; padding: 10px 25px;">
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D=
+"presentation" style=3D"border-collapse: separate; line-height: 100%; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt;">
+              <tr>
+                <td align=3D"center" bgcolor=3D"#2b75bb" role=3D"presentati=
+on" style=3D"cursor: auto; mso-padding-alt: 10px 25px; border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border: 1px solid #fff=
+;" valign=3D"middle">
+                  <a style=3D"display: inline-block; background-color: #000=
+; color: #fff; font-family: Noto Sans,sans-serif; font-size: 13px; font-wei=
+ght: bold; line-height: 120%; text-decoration: none; text-transform: none; =
+mso-padding-alt: 0px; margin: 0; padding: 10px 25px;" href=3D"https://www.g=
+otogate.co.uk/order-load-ref/H4sIAAAAAAAA_7ON043XjYsHk7aGJkbGlhYmpoamNUCQWJ=
+JfWpSanJ9XXJpTkpmX7pCem5iZo5ecnwsAeaSsJjUAAAA=3D?source=3Dibe-email" target=
+=3D"_blank">My Bookings</a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><![endif]-->
+  </div>
+  <!--[if mso | IE]></td><![endif]-->
+          <!--[if mso | IE]></tr></table><![endif]-->
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--[if mso | IE]></td></tr></table><![endif]-->
+  <!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600"  ><tr><td=
+ style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![e=
+ndif]-->
+  <div style=3D"max-width: 600px; margin: 0px auto;">
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%" style=3D"width: 100%; border-collaps=
+e: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+      <tbody>
+      <tr>
+        <td style=3D"direction: ltr; font-size: 0px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;" align=3D"=
+center">
+          <!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"100%"><tr><![endif]-->
+          <!--[if mso | IE]></tr></table><![endif]-->
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--[if mso | IE]></td></tr></table><![endif]-->
+  <!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600" bgcolor=
+=3D"white" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-=
+rule:exactly;"><![endif]-->
+  <div style=3D"background: white; background-color: white; max-width: 600p=
+x; margin: 0px auto;">
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%" style=3D"background: white; width: 1=
+00%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0p=
+t;" bgcolor=3D"white">
+      <tbody>
+      <tr>
+        <td style=3D"direction: ltr; font-size: 0px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;" align=3D"=
+center">
+          <!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"100%"><tr><![endif]-->
+      <!--[if mso | IE]>
+      <td class=3D"" style=3D"vertical-align:middle;width:196.6666666647px;=
+"><![endif]-->
+      <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-s=
+ize: 0; direction: ltr; display: inline-block; vertical-align: top; width: =
+100%;" align=3D"left">
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" style=3D"vertical-align: top; border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+          <tbody>
+          <tr>
+            <td style=3D"font-size: 0; word-break: break-word; border-colla=
+pse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px =
+25px;">
+              <div style=3D"font-family: Noto Sans,sans-serif; font-size: 2=
+8px; font-weight: bold; line-height: 115%; color: #262626; direction: unset=
+;" align=3D"left">Your booking is confirmed!</div>
+            </td>
+          </tr>
+          <tr>
+            <td style=3D"font-size: 0; word-break: break-word; border-colla=
+pse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px =
+25px;">
+              <div style=3D"font-family: Noto Sans,sans-serif; font-size: 1=
+4px; line-height: 85%; color: #262626;">Hi Abdul-Malik,
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style=3D"font-size: 0; word-break: break-word; border-colla=
+pse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px =
+25px;">
+              <div style=3D"font-family: Noto Sans,sans-serif; font-size: 1=
+4px; line-height: 21px; color: #262626;">Thank you for booking with Gotogat=
+e!
+              </div>
+            </td>
+          </tr>
+            <tr>
+              <td style=3D"font-size: 0; word-break: break-word; border-col=
+lapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10p=
+x 25px;">
+                <div style=3D"font-family: Noto Sans,sans-serif; font-size:=
+ 14px; line-height: 21px; color: #262626;">Please find your receipt, includ=
+ing any extras purchased for your booking, attached to this email.</div>
+              </td>
+            </tr>
+          <tr>
+            <td style=3D"font-size: 0; word-break: break-word; border-colla=
+pse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px =
+25px;">
+              <div style=3D"font-family: Noto Sans,sans-serif; font-size: 1=
+4px; line-height: 21px; color: #262626;"> <p style=3D"display: block; margi=
+n: 13px 0;"><a href=3D"https://www.gotogate.co.uk/order-load-ref/H4sIAAAAAA=
+AA_7ON043XjYsHk7aGJkbGlhYmpoamNUCQWJJfWpSanJ9XXJpTkpmX7pCem5iZo5ecnwsAeaSsJ=
+jUAAAA=3D?source=3Dibe-email">Visit "My Bookings"</a> for everything relate=
+d to your upcoming trip, including:</p>
+<ul>
+<li>E-ticket info, check-in details, airline reference number, full trip de=
+tails, and baggage information</li>
+<li>Upgrade or make changes to your trip and/or add extra services like sea=
+ting and more</li>
+<li>Download your receipt/s and create business receipt</li>
+</ul> </div>
+            </td>
+          </tr>
+          <tr>
+            <td style=3D"font-size: 0; word-break: break-word; border-colla=
+pse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px =
+25px;">
+              <div style=3D"font-family: Noto Sans,sans-serif; font-size: 1=
+4px; line-height: 21px; color: #262626;"> Make sure to stay updated - your =
+trip details may change at any time. </div>
+            </td>
+          </tr>
+          <tr>
+            <td style=3D"font-size: 0; word-break: break-word; border-colla=
+pse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px =
+25px;">
+              <div style=3D"font-family: Noto Sans,sans-serif; font-size: 1=
+4px; line-height: 85%; color: #262626;">Have a great trip!</div>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]></td><![endif]-->
+          <!--[if mso | IE]></tr></table><![endif]-->
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--[if mso | IE]></td></tr></table><![endif]-->
+  <!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600" bgcolor=
+=3D"white" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-=
+rule:exactly;"><![endif]-->
+  <div style=3D"background: white; background-color: white; max-width: 600p=
+x; margin: 0px auto;">
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%" style=3D"background: white; width: 1=
+00%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0p=
+t;" bgcolor=3D"white">
+      <tbody>
+      <tr>
+        <td style=3D"direction: ltr; font-size: 0px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;" align=3D"=
+center">
+          <!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"100%"><tr><![endif]-->
+      <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-s=
+ize: 0px; direction: ltr; display: inline-block; vertical-align: top; width=
+: 100%;" align=3D"left">
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" style=3D"vertical-align: top; justify-content: left; display: fl=
+ex; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+;" width=3D"100%">
+          <tbody>
+          <tr>
+            <td align=3D"left" style=3D"font-size: 0px; word-break: break-w=
+ord; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0p=
+t; padding: 10px 25px 10px 26px;">
+              <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=
+=3D"float: left; color: #262626; font-family: Noto Sans,sans-serif; font-si=
+ze: 13px; line-height: 22px; table-layout: auto; border-collapse: collapse;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt; border: 1px solid #dddddd;">
+                <tr>
+                  <td style=3D"padding-left: 16px; padding-top: 16px; font-=
+size: 14px; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt;" align=3D"left">Order Status</td>
+                  <td style=3D"padding-left: 16px; padding-top: 16px; font-=
+size: 14px; display: inline-block; padding-right: 16px; border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"left">Order=
+ number</td>
+                </tr>
+                <tr>
+                  <td style=3D"padding-left: 16px; padding-top: 8px; font-s=
+ize: 14px; color: black; font-weight: bold; padding-bottom: 16px; border-co=
+llapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"l=
+eft">
+                        <span style=3D"background-color: #F0F0F0; border-ra=
+dius: 20px; padding: 8px;">Confirmed</span>
+                  </td>
+                  <td style=3D"font-size: 14px; font-weight: bold; border-c=
+ollapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 8=
+px 16px 16px;" align=3D"left"> 1036-726-025 </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+          <!--[if mso | IE]></tr></table><![endif]-->
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--[if mso | IE]></td></tr></table><![endif]-->
+  <!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600" bgcolor=
+=3D"white" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-=
+rule:exactly;"><![endif]-->
+  <div style=3D"background: white; background-color: white; max-width: 600p=
+x; margin: 0px auto;">
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%" style=3D"background: white; width: 1=
+00%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0p=
+t;" bgcolor=3D"white">
+      <tbody>
+      <tr>
+        <td style=3D"direction: ltr; font-size: 0px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px 31px;" ali=
+gn=3D"center">
+          <!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"100%"><tr><![endif]-->
+      <!--[if mso | IE]><td style=3D"line-height:0;font-size:0px;mso-line-h=
+eight-rule:exactly;"><![endif]-->
+      <div style=3D"background: white; background-color: white; max-width: =
+538px; margin: 0px auto;">
+        <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"background: white; width: 100%; borde=
+r-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" bgcolo=
+r=3D"white">
+          <tbody>
+          <tr>
+            <td style=3D"direction: ltr; font-size: 0px; border-collapse: c=
+ollapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;" align=
+=3D"center">
+              <!--[if mso | IE]><table role=3D"presentation" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-ali=
+gn:top;width:528px;"><![endif]-->
+              <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=
+=3D"font-size: 0px; direction: ltr; display: inline-block; vertical-align: =
+top; width: 100%;" align=3D"left">
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" rol=
+e=3D"presentation" style=3D"vertical-align: top; border-collapse: collapse;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+                  <tbody>
+                  <tr>
+                    <td align=3D"left" style=3D"font-size: 0px; word-break:=
+ break-word; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; padding: 0.5px;">
+                      <div style=3D"font-family: Noto Sans,sans-serif; font=
+-size: 22px; font-weight: bold; line-height: 115%; color: #262626;" align=
+=3D"left">Your Trip Summary</div>
+                    </td>
+                  </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]></td></tr></table></td></tr><tr><td width=3D"600px"=
+><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" s=
+tyle=3D"width:538px;" width=3D"538" bgcolor=3D"white"><tr><td style=3D"line=
+-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+      <div style=3D"background: white; background-color: white; max-width: =
+538px; margin: 0 auto;">
+        <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"background: white; width: 100%; borde=
+r-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" bgcolo=
+r=3D"white">
+          <tbody>
+          <tr>
+            <td style=3D"direction: ltr; font-size: 0px; border-collapse: c=
+ollapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px; borde=
+r: 1px solid #dddddd;" align=3D"center">
+              <!--[if mso | IE]>
+              <table role=3D"presentation" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0">
+                <tr>
+                  <td class=3D"" style=3D"vertical-align:top;width:516px;">=
+<![endif]-->
+              <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=
+=3D"font-size: 0px; direction: ltr; display: inline-block; vertical-align: =
+top; width: 100%;" align=3D"left">
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" rol=
+e=3D"presentation" style=3D"vertical-align: top; border-collapse: collapse;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+                  <tbody>
+                        <tr>
+                            <td style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt;">
+                                    <img style=3D"height: auto; line-height=
+: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicub=
+ic; padding: 2px; border-width: 0;" src=3D"https://www.gotogate.co.uk/www/i=
+mages/carriers/MS.gif">
+                            </td>
+                        </tr>
+                        <tr>
+                          <td colspan=3D"3" style=3D"font-size: 0px; paddin=
+g-top: 8px; padding-left: 0.5px; word-break: break-word; border-collapse: c=
+ollapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                            <div style=3D"font-family: Noto Sans,sans-serif=
+; font-size: 15px; font-weight: lighter; line-height: 200%; color: #262626;=
+" align=3D"left">
+                                    Depart &#8226; Tuesday 26 November, 202=
+4
+                            </div>
+                          </td>
+                        </tr>
+                            <tr style=3D"font-family: Noto Sans,sans-serif;=
+ font-size: 30px; font-weight: bold; line-height: 115%; color: #262626;">
+                              <td style=3D"width: 46%; border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">22:30</td>
+                              <td style=3D"width: 8%; border-collapse: coll=
+apse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"center"><img =
+src=3D"https://www.gotogate.co.uk/files/image/airplane-icon.svg" style=3D"h=
+eight: auto; line-height: 100%; outline: none; text-decoration: none; -ms-i=
+nterpolation-mode: bicubic; border-width: 0;"></td>
+                              <td style=3D"width: 46%; border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"right">
+                                  13:00
+                                    <span style=3D"width: 6px; height: 6px;=
+ background-color: #E9F5FF; color: #184168; border-radius: 3px; font-size: =
+16px; vertical-align: top; padding: 2px;">+1</span>
+                              </td>
+                            </tr>
+                            <tr style=3D"font-family: Noto Sans,sans-serif;=
+ font-size: 12px;">
+                              <td colspan=3D"3" style=3D"border-collapse: c=
+ollapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"center">11=
+h 30min
+                                  ,1 stops
+                              </td>
+                            </tr>
+
+                              <tr>
+                                <td colspan=3D"3" style=3D"border-collapse:=
+ collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"center">
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style=3D"font-family: Noto Sans,sans-se=
+rif; font-size: 14px; padding-top: 8px; padding-left: 0.5px; word-break: br=
+eak-word; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;" align=3D"left">
+                                    London Heathrow (LHR)
+                                </td>
+                                <td style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;"></td>
+                                <td style=3D"font-family: Noto Sans,sans-se=
+rif; font-size: 14px; padding-top: 8px; padding-left: 0.5px; word-break: br=
+eak-word; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;" align=3D"right">
+                                      Doha (DOH)
+                                  </td>
+                              </tr>
+                            <tr>
+                              <td style=3D"font-family: Noto Sans,sans-seri=
+f; font-size: 14px; padding-top: 8px; padding-left: 0.5px; word-break: brea=
+k-word; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace:=
+ 0pt;" align=3D"left">
+                                  United Kingdom
+                              </td>
+                              <td style=3D"border-collapse: collapse; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt;"></td>
+                              <td style=3D"font-family: Noto Sans,sans-seri=
+f; font-size: 14px; padding-top: 8px; padding-left: 0.5px; word-break: brea=
+k-word; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace:=
+ 0pt;" align=3D"right">
+                                  Qatar
+                              </td>
+                            </tr>
+                            <tr style=3D"border-bottom-color: #f3f3f3; bord=
+er-bottom-width: 1px; border-bottom-style: solid; height: 10px;"></tr>
+                            <tr style=3D"height: 10px;"></tr>
+                        <tr>
+                            <td style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt;">
+                                    <img style=3D"height: auto; line-height=
+: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicub=
+ic; padding: 2px; border-width: 0;" src=3D"https://www.gotogate.co.uk/www/i=
+mages/carriers/MS.gif">
+                            </td>
+                        </tr>
+                        <tr>
+                          <td colspan=3D"3" style=3D"font-size: 0px; paddin=
+g-top: 8px; padding-left: 0.5px; word-break: break-word; border-collapse: c=
+ollapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                            <div style=3D"font-family: Noto Sans,sans-serif=
+; font-size: 15px; font-weight: lighter; line-height: 200%; color: #262626;=
+" align=3D"left">
+                                    Depart &#8226; Friday 29 November, 2024
+                            </div>
+                          </td>
+                        </tr>
+                            <tr style=3D"font-family: Noto Sans,sans-serif;=
+ font-size: 30px; font-weight: bold; line-height: 115%; color: #262626;">
+                              <td style=3D"width: 46%; border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">14:00</td>
+                              <td style=3D"width: 8%; border-collapse: coll=
+apse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"center"><img =
+src=3D"https://www.gotogate.co.uk/files/image/airplane-icon.svg" style=3D"h=
+eight: auto; line-height: 100%; outline: none; text-decoration: none; -ms-i=
+nterpolation-mode: bicubic; border-width: 0;"></td>
+                              <td style=3D"width: 46%; border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"right">
+                                  21:00
+                              </td>
+                            </tr>
+                            <tr style=3D"font-family: Noto Sans,sans-serif;=
+ font-size: 12px;">
+                              <td colspan=3D"3" style=3D"border-collapse: c=
+ollapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"center">10=
+h 0min
+                                  ,1 stops
+                              </td>
+                            </tr>
+
+                              <tr>
+                                <td colspan=3D"3" style=3D"border-collapse:=
+ collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"center">
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style=3D"font-family: Noto Sans,sans-se=
+rif; font-size: 14px; padding-top: 8px; padding-left: 0.5px; word-break: br=
+eak-word; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;" align=3D"left">
+                                    Doha (DOH)
+                                </td>
+                                <td style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;"></td>
+                                <td style=3D"font-family: Noto Sans,sans-se=
+rif; font-size: 14px; padding-top: 8px; padding-left: 0.5px; word-break: br=
+eak-word; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;" align=3D"right">
+                                      London Heathrow (LHR)
+                                  </td>
+                              </tr>
+                            <tr>
+                              <td style=3D"font-family: Noto Sans,sans-seri=
+f; font-size: 14px; padding-top: 8px; padding-left: 0.5px; word-break: brea=
+k-word; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace:=
+ 0pt;" align=3D"left">
+                                  Qatar
+                              </td>
+                              <td style=3D"border-collapse: collapse; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt;"></td>
+                              <td style=3D"font-family: Noto Sans,sans-seri=
+f; font-size: 14px; padding-top: 8px; padding-left: 0.5px; word-break: brea=
+k-word; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace:=
+ 0pt;" align=3D"right">
+                                  United Kingdom
+                              </td>
+                            </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]></td></tr></table></td></tr><tr><td class=3D"" widt=
+h=3D"600px"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"" style=3D"width:538px;" width=3D"538" bgcolor=3D"#E5E5E=
+5"><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exac=
+tly;"><![endif]-->
+      <div style=3D"background: white; background-color: white; max-width: =
+538px; margin: 0 auto;">
+        <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"background: white; width: 100%; borde=
+r-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" bgcolo=
+r=3D"white">
+          <tbody>
+          <tr style=3D"border-bottom-width: 1px; border-bottom-color: #dddd=
+dd; border-bottom-style: solid; border-left-width: 1px; border-left-color: =
+#dddddd; border-left-style: solid; border-right-width: 1px; border-right-co=
+lor: #dddddd; border-right-style: solid;">
+            <td style=3D"direction: ltr; border-top-width: 0; font-size: 0p=
+x; padding-left: 10px; padding-right: 10px; border-collapse: collapse; mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"center">
+              <!--[if mso | IE]>
+              <table role=3D"presentation" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0">
+                <tr>
+                  <td class=3D"" style=3D"vertical-align:top;width:516px;">=
+<![endif]-->
+                    <div class=3D"mj-column-per-100 mj-outlook-group-fix" s=
+tyle=3D"font-size: 0px; direction: ltr; display: inline-block; vertical-ali=
+gn: top; width: 100%;" align=3D"left">
+                      <table border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" role=3D"presentation" style=3D"vertical-align: top; border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+                        <tbody>
+                          <tr>
+                            <td align=3D"left" style=3D"font-size: 0px; pad=
+ding-top: 8px; padding-left: 0.5px; word-break: break-word; border-collapse=
+: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                              <div style=3D"font-family: Noto Sans,sans-ser=
+if; font-size: 14px; line-height: 115%; color: #262626;" align=3D"left">
+                                <span style=3D"font-weight: bold;">2 passen=
+ger(s):</span>
+
+                              </div>
+                            </td>
+                          </tr>
+                        <tr>
+                          <td align=3D"left" style=3D"font-size: 0px; word-=
+break: break-word; border-collapse: collapse; mso-table-lspace: 0pt; mso-ta=
+ble-rspace: 0pt; padding: 8px 0px 10px 0.5px;">
+                            <!--[if mso | IE]><table role=3D"presentation" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+                              <tr><td class=3D"" style=3D"vertical-align:to=
+p;width:516px;"><![endif]-->
+                            <div class=3D"mj-column-per-100 mj-outlook-grou=
+p-fix" style=3D"direction: ltr; display: flex; vertical-align: top; width: =
+100%; font-family: Noto Sans,sans-serif; font-size: 14px; line-height: 115%=
+; color: #262626;" align=3D"left">
+                              <table class=3D"flextable" style=3D"border-co=
+llapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%=
+;">
+                                <tr class=3D"headerRow" style=3D"font-famil=
+y: Noto Sans,sans-serif; line-height: 27px;" align=3D"left">
+                                  <!--[if mso]><th></th><![endif]-->
+                                  <th style=3D"color: #808080; font-weight:=
+ normal;" align=3D"left">First name</th>
+                                  <!--[if mso]><th></th><![endif]-->
+                                  <th style=3D"color: #808080; font-weight:=
+ normal;" align=3D"left">Surname</th>
+                                  <!--[if mso]><th></th><![endif]-->
+                                  <th style=3D"color: #808080; font-weight:=
+ normal;" align=3D"left">Age group</th>
+                                  <!--[if mso]><th></th><![endif]-->
+                                  <th style=3D"color: #808080; font-weight:=
+ normal;" align=3D"left">Gender</th>
+                                </tr>
+                                  <tr class=3D"passengerRow" style=3D"font-=
+family: Noto Sans,sans-serif; line-height: 27px;" align=3D"left">
+                                    <td class=3D"label" style=3D"border-col=
+lapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; display: non=
+e;" align=3D"left">First name</td>
+                                    <td class=3D"data" style=3D"border-coll=
+apse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"lef=
+t">Abdul-Malik</td>
+
+                                    <td class=3D"label" style=3D"border-col=
+lapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; display: non=
+e;" align=3D"left">Surname</td>
+                                    <td class=3D"data" style=3D"border-coll=
+apse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"lef=
+t">Toure</td>
+
+                                    <td class=3D"label second-column" style=
+=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+; display: none;">Age group</td>
+                                    <td class=3D"data second-column" style=
+=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+;">Adult</td>
+
+                                    <td class=3D"label second-column" style=
+=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+; display: none;">Gender</td>
+                                    <td class=3D"data second-column" style=
+=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+;">Mr</td>
+                                  </tr>
+                                  <tr class=3D"lastTr" style=3D"font-family=
+: Noto Sans,sans-serif; line-height: 27px;" align=3D"left">
+                                    <td class=3D"label" style=3D"border-col=
+lapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; display: non=
+e;" align=3D"left">First name</td>
+                                    <td class=3D"data" style=3D"border-coll=
+apse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"lef=
+t">Isaac</td>
+
+                                    <td class=3D"label" style=3D"border-col=
+lapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; display: non=
+e;" align=3D"left">Surname</td>
+                                    <td class=3D"data" style=3D"border-coll=
+apse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"lef=
+t">Ajimotokin</td>
+
+                                    <td class=3D"label second-column" style=
+=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+; display: none;">Age group</td>
+                                    <td class=3D"data second-column" style=
+=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+;">Adult</td>
+
+                                    <td class=3D"label second-column" style=
+=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+; display: none;">Gender</td>
+                                    <td class=3D"data second-column" style=
+=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+;">Mr</td>
+                                  </tr>
+                              </table>
+                            </div>
+                            <!--[if mso | IE]></td></tr></table><![endif]--=
+>
+                          </td>
+                        </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]></td></tr></table></td></tr><tr><td class=3D"" widt=
+h=3D"600px"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"" style=3D"width:538px;" width=3D"538" bgcolor=3D"#E5E5E=
+5"><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exac=
+tly;"><![endif]-->
+      <div style=3D"background: #E5E5E5; background-color: #E5E5E5; max-wid=
+th: 538px; margin: 0 auto;">
+        <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"background: #E5E5E5; width: 100%; bor=
+der-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" bgco=
+lor=3D"#E5E5E5">
+          <tbody>
+          <tr>
+            <td style=3D"direction: ltr; font-size: 0px; border-collapse: c=
+ollapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;" align=
+=3D"center">
+              <!--[if mso | IE]>
+              <table role=3D"presentation" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0">
+                <tr>
+                  <td class=3D"" style=3D"width:528px;"><![endif]-->
+              <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=
+=3D"font-size: 0px; line-height: 0; display: inline-block; width: 100%; dir=
+ection: ltr;" align=3D"left">
+                <!--[if mso | IE]>
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" rol=
+e=3D"presentation">
+                  <tr>
+                    <td style=3D"vertical-align:top;width:264px;"><![endif]=
+-->
+                <div class=3D"mj-column-per-50 mj-outlook-group-fix" style=
+=3D"font-size: 0px; direction: ltr; display: inline-block; vertical-align: =
+top; width: 50%;" align=3D"left">
+                  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" r=
+ole=3D"presentation" style=3D"vertical-align: top; border-collapse: collaps=
+e; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+                    <tbody>
+                    <tr>
+                      <td align=3D"left" style=3D"font-size: 0px; word-brea=
+k: break-word; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt; padding: 8px 8px 8px 6px;">
+                        <div style=3D"font-family: Noto Sans,sans-serif; fo=
+nt-size: 16px; font-weight: bold; line-height: 115%; color: #262626;" align=
+=3D"left">Total</div>
+                      </td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]></td>
+                <td style=3D"vertical-align:top;width:264px;"><![endif]-->
+                <div class=3D"mj-column-per-50 mj-outlook-group-fix" style=
+=3D"font-size: 0px; direction: ltr; display: inline-block; vertical-align: =
+top; width: 50%;" align=3D"left">
+                  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" r=
+ole=3D"presentation" style=3D"vertical-align: top; border-collapse: collaps=
+e; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+                    <tbody>
+                    <tr>
+                      <td align=3D"right" style=3D"font-size: 0px; word-bre=
+ak: break-word; border-collapse: collapse; mso-table-lspace: 0pt; mso-table=
+-rspace: 0pt; padding: 8px 8px 8px 25px;">
+                        <div style=3D"font-family: Noto Sans,sans-serif; fo=
+nt-size: 16px; font-weight: bold; line-height: 115%; color: #262626;" align=
+=3D"right">
+                            1,195.99 GBP
+                        </div>
+                      </td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]></td></tr></table><![endif]-->
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]></td></tr></table></td></tr><tr><td class=3D"" widt=
+h=3D"600px"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"" style=3D"width:100%;"><tr><td style=3D"line-height:0px=
+;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+      <div style=3D"max-width: 538px; margin: 0px auto;">
+        <table class=3D"my-bookings-button" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"border-collapse: separate;=
+ line-height: 100%; float: right; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt; padding: 20px 0px;">
+          <tr>
+            <td align=3D"center" role=3D"presentation" style=3D"border-radi=
+us: 3px; cursor: auto; mso-padding-alt: 10px 2px; border-collapse: collapse=
+; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-style: none;" valign=
+=3D"middle">
+              <a href=3D"https://www.gotogate.co.uk/order-load-ref/H4sIAAAA=
+AAAA_7ON043XjYsHk7aGJkbGlhYmpoamNUCQWJJfWpSanJ9XXJpTkpmX7pCem5iZo5ecnwsAeaS=
+sJjUAAAA=3D?source=3Dibe-email" target=3D"_blank" style=3D"display: inline-=
+block; background-color: #41D3FF; color: #000; font-family: Noto Sans,sans-=
+serif; font-size: 14px; font-weight: bold; line-height: 120%; text-decorati=
+on: none; text-transform: none; mso-padding-alt: 0px; float: right; margin:=
+ 0px; padding: 10px 25px;">View your booking</a>
+            </td>
+          </tr>
+        </table>
+        <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"width: 100%; border-collapse: collaps=
+e; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+          <tbody>
+          <tr>
+            <td style=3D"direction: ltr; font-size: 0px; border-collapse: c=
+ollapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;" align=
+=3D"center">
+              <!--[if mso | IE]>
+              <table role=3D"presentation" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0">
+                <tr>
+                  <td class=3D"" style=3D"vertical-align:top;width:528px;">=
+<![endif]-->
+              <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=
+=3D"font-size: 0px; direction: ltr; display: inline-block; vertical-align: =
+top; width: 100%;" align=3D"left">
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" rol=
+e=3D"presentation" style=3D"vertical-align: top; border-collapse: collapse;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+                  <tbody>
+                    <tr>
+                      <td align=3D"left" style=3D"font-size: 0px; word-brea=
+k: break-word; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt; padding: 10px 2px 10px 10px;">
+                        <div style=3D"font-family: Noto Sans,sans-serif; fo=
+nt-size: 14px; line-height: 150%; color: #262626; font-weight: bold;" align=
+=3D"left">
+                            Things to keep in mind:
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align=3D"left" style=3D"font-size: 0px; word-brea=
+k: break-word; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt; padding: 10px 2px 10px 10px;">
+                        <div style=3D"font-family: Noto Sans,sans-serif; fo=
+nt-size: 14px; line-height: 150%; color: #262626;" align=3D"left">
+                            <span style=3D"font-size: 22px; vertical-align:=
+ middle;">&#8226;</span>&#160;&#160; Check "My Bookings" for details on the=
+ baggage allowance included in your trip and to add additional baggage. If =
+additional baggage is not listed among the available services there, contac=
+t our support to confirm availability and cost for your trip, or find more =
+information <a href=3D"https://www.gotogate.co.uk/rf/carriers" target=3D"_b=
+lank" style=3D"color: #2b75bb; text-decoration: underline;">here</a>.
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]></td></tr></td></tr><![endif]-->
+          <!--[if mso | IE]></tr></table><![endif]-->
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--[if mso | IE]></td></tr></table><![endif]-->
+  <!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600"  ><tr><td=
+ style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![e=
+ndif]-->
+  <div style=3D"max-width: 600px; margin: 0px auto;">
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%" style=3D"width: 100%; border-collaps=
+e: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+      <tbody>
+      <tr>
+        <td style=3D"direction: ltr; font-size: 0px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;" align=3D"=
+center">
+          <!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"100%"><tr><![endif]-->
+          <!--[if mso | IE]></tr></table><![endif]-->
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--[if mso | IE]></td></tr></table><![endif]-->
+  <!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600" bgcolor=
+=3D"white" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-=
+rule:exactly;"><![endif]-->
+  <div style=3D"background: white; background-color: white; max-width: 600p=
+x; margin: 0px auto;">
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%" style=3D"background: white; width: 1=
+00%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0p=
+t;" bgcolor=3D"white">
+      <tbody>
+      <tr>
+        <td style=3D"direction: ltr; font-size: 0px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;" align=3D"=
+center">
+          <!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"100%"><tr><![endif]-->
+      <!--[if mso | IE]>
+      <td class=3D"" style=3D"vertical-align:middle;width:196.6666666647px;=
+"><![endif]-->
+      <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-s=
+ize: 0px; direction: ltr; display: inline-block; vertical-align: top; width=
+: 100%;" align=3D"left">
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" style=3D"vertical-align: top; border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+          <tbody>
+          <tr>
+            <td align=3D"left" style=3D"font-size: 0px; word-break: break-w=
+ord; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0p=
+t; padding: 10px 25px;">
+              <div style=3D"font-family: Noto Sans,sans-serif; font-size: 1=
+4px; line-height: 160%; color: #262626;" align=3D"left">
+                    <p style=3D"font-size: 22px; display: block; margin: 13=
+px 0;"><b>Support</b></p>
+<p style=3D"display: block; margin: 13px 0;">This is a no-reply email. Lear=
+n how to <a href=3D"https://www.gotogate.co.uk/rf/contact-us" target=3D"_bl=
+ank" style=3D"color: #2b75bb; text-decoration: underline;">Contact Us</a> h=
+ere.</p>
+<p style=3D"display: block; margin: 13px 0;">For security reasons, only con=
+tact us using the channels listed on our website.</p>
+<p style=3D"display: block; margin: 13px 0;">View our <a href=3D"https://ww=
+w.gotogate.co.uk/rf/travel-conditions" target=3D"_blank" style=3D"color: #2=
+b75bb; text-decoration: underline;">Travel Conditions</a>, <a href=3D"https=
+://www.gotogate.co.uk/order-load-ref/H4sIAAAAAAAA_7ON043XjYsHk7aGJkbGlhYmpo=
+amNUCQWJJfWpSanJ9XXJpTkpmX7pCem5iZo5ecnwsAeaSsJjUAAAA=3D?show-fare-rules=3D=
+true&amp;source=3Dibe-email&amp;targetTab=3Dtravel-information" target=3D"_=
+blank" style=3D"color: #2b75bb; text-decoration: underline;">Fare Rules</a>=
+ and <a href=3D"https://www.gotogate.co.uk/rf/privacy-policy" target=3D"_bl=
+ank" style=3D"color: #2b75bb; text-decoration: underline;">Privacy Policy</=
+a> here. This sale is not protected under the ATOL Scheme.</p>
+              </div>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      </td>
+          <!--[if mso | IE]></tr></table><![endif]-->
+
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--[if mso | IE]></td></tr></table><![endif]-->
+  <!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600"  ><tr><td=
+ style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![e=
+ndif]-->
+  <div style=3D"max-width: 600px; margin: 0px auto;">
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%" style=3D"width: 100%; border-collaps=
+e: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+      <tbody>
+      <tr>
+        <td style=3D"direction: ltr; font-size: 0px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;" align=3D"=
+center">
+          <!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"100%"><tr><![endif]-->
+      <!--[if mso | IE]><td class=3D"" style=3D"vertical-align:middle;width=
+:196.6666666647px;"><![endif]-->
+      <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-s=
+ize: 0px; direction: ltr; display: inline-block; vertical-align: top; width=
+: 100%;" align=3D"left">
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" style=3D"vertical-align: top; border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+          <tbody>
+          <tr>
+            <td align=3D"left" style=3D"font-size: 0px; word-break: break-w=
+ord; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0p=
+t; padding: 10px 25px;">
+              <div style=3D"font-family: Noto Sans,sans-serif; font-size: 1=
+3px; line-height: 150%; color: #262626;" align=3D"left">
+                To enhance your travel experience, we will send you emails =
+with relevant information for your trip and special offers. These will be s=
+ent only prior to your departure.
+              <a href=3D"https://www.gotogate.co.uk/consent-load-ref/YXRvdX=
+JlY29uc3VsdGluZ0BnbWFpbC5jb218fHx8NjE3NjY1NzQ=3D" target=3D"_blank" style=
+=3D"color: #2b75bb; text-decoration: underline;">
+                  Not Interested?
+              </a>
+              </div>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]></td><![endif]-->
+          <!--[if mso | IE]></tr></table><![endif]-->
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--[if mso | IE]></td></tr></table><![endif]-->
+  <!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600" bgcolor=
+=3D"#000000" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-heigh=
+t-rule:exactly;"><![endif]-->
+  <div style=3D"background: #000000; background-color: #000000; max-width: =
+600px; margin: 0px auto;">
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%" style=3D"background: #000000; width:=
+ 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;" bgcolor=3D"#000000">
+      <tbody>
+      <tr>
+        <td style=3D"direction: ltr; font-size: 0px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;" align=3D"=
+center">
+          <!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"100%"><tr><![endif]-->
+      <!--[if mso | IE]><td class=3D"" style=3D"vertical-align:middle;width=
+:196.6666666647px;" ><![endif]-->
+          <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"fo=
+nt-size: 0px; direction: ltr; display: inline-block; vertical-align: top; w=
+idth: 100%;" align=3D"left">
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D=
+"presentation" style=3D"vertical-align: top; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+              <tbody>
+              <tr>
+                <td align=3D"center" style=3D"font-size: 0px; word-break: b=
+reak-word; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt; padding: 10px 25px;">
+                  <div style=3D"font-family: Noto Sans,sans-serif; font-siz=
+e: 12px; line-height: 150%; color: white;" align=3D"center">
+                      <b>Gotogate</b> / Flight Network UK Ltd, Unit 112854,=
+ PO Box 6945, London, W1A 6US, United Kingdom<br><br>&#169; 2024 Gotogate. =
+All Rights Reserved.
+                  </div>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+      <!--[if mso | IE]></td><![endif]-->
+          <!--[if mso | IE]></tr></table><![endif]-->
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--[if mso | IE]></td></tr></table><![endif]-->
+  </div>
+  </body>
+  </html>
+
+
+--729c98cb37c25b739f3e0a170304a5c861f5b7a447259804772324505d41
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html><html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:=
+schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:offi=
+ce"><head>
+    <title>
+    </title>
+    <!--[if !mso]><!-->
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge"/>
+    <!--<![endif]-->
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUS-AS=
+CII"/>
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1"/>
+
+    <!--[if mso]>
+    <noscript>
+      <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+      </xml>
+    </noscript>
+    <![endif]-->
+    <!--[if lte mso 11]>
+    <style type=3D"text/css">
+      .mj-outlook-group-fix { width:100% !important;}
+    </style>
+    <![endif]-->
+
+    <!--[if !mso]><!-->
+
+    <!--<![endif]-->
+
+
+
+
+  <style>body {
+margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%;
+}
+img {
+border: 0; height: auto; line-height: 100%; outline: none; text-decoration:=
+ none; -ms-interpolation-mode: bicubic;
+}
+@media only screen and (min-width:480px) {
+  .mj-column-per-33-333333333 {
+    width: 33.333333333% !important; max-width: 33.333333333%;
+  }
+  .mj-column-per-66 {
+    width: 66.666666666666% !important; max-width: 66.666666666666%;
+  }
+  .mj-column-per-50 {
+    width: 50% !important; max-width: 50%;
+  }
+  .mj-column-per-100 {
+    width: 100% !important; max-width: 100%;
+  }
+}
+@media only screen and (max-width:480px) {
+  .mobile {
+    display: block !important;
+  }
+  .desktop {
+    display: none !important;
+  }
+  .my-bookings-button {
+    width: 100%;
+  }
+  .my-bookings-button a {
+    box-sizing: border-box; width: 100%;
+  }
+  table.mj-full-width-mobile {
+    width: 100% !important;
+  }
+  td.mj-full-width-mobile {
+    width: auto !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .flextable thead {
+    border: none; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow:=
+ hidden; padding: 0; position: absolute;
+  }
+  .second-column {
+    text-align: right;
+  }
+  .flextable .headerRow {
+    display: none;
+  }
+  .flextable .passengerRow {
+    display: block; border-bottom: 1px solid #ddd; padding-bottom: 7px; pad=
+ding-top: 7px; margin-right: 10px; column-count: 2;
+  }
+  .flextable td {
+    display: block; font-size: 14px;
+  }
+  .flextable .label {
+    display: block; color: #808080; padding: 0px;
+  }
+  .flextable .data {
+    line-height: 9px; margin-bottom: 5px;
+  }
+  .flextable .lastTr {
+    display: block; padding-top: 7px; border-bottom: 0; padding-bottom: 0; =
+line-height: 25px; column-count: 2;
+  }
+}
+</style>
+</head>
+
+  <body style=3D"word-spacing: normal; -webkit-text-size-adjust: 100%; -ms-=
+text-size-adjust: 100%; margin: 0; padding: 0;" bgcolor=3D"#f3f3f3"><img wi=
+dth=3D"1" height=3D"1" src=3D"https://r.sib.etraveligroup.com/tr/op/43woO8c=
+1dvzdnPCCfhji0HK_6YteXiVMiTai0MdRgXQpOfUkiFOtMogi6U3d2lC-G_afqYIj-6jm9--RKr=
+0ZzztCKqSI3BAXTxZWxzB371Y469ec64TXUEYKn8YQ0nRLC_7etZwlXBEy7IPk9ABkwg4QFCFiE=
+6RxesWHAgxDi51EDQreQv1lCUV_iMn_lMY4IEkGNyJwE04MEK5boB6SCHbV63X4ZA" style=3D=
+"display:none"/>
+  <div style=3D"background-color: #f3f3f3;">
+  <!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600" bgcolor=
+=3D"#000" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-r=
+ule:exactly;"><![endif]-->
+  <div style=3D"background: #000; background-color: #000; max-width: 600px;=
+ margin: 0px auto;">
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%" style=3D"background: #000; width: 10=
+0%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+;" bgcolor=3D"#000">
+      <tbody>
+      <tr>
+        <td style=3D"direction: ltr; font-size: 0px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;" align=3D"=
+center">
+          <!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"100%"><tr><![endif]-->
+
+  <!--[if mso | IE]>
+  <td style=3D"vertical-align:middle;width:196.6666666647px;"><![endif]-->
+  <div class=3D"mj-column-per-33-333333333 mj-outlook-group-fix" style=3D"f=
+ont-size: 0px; direction: ltr; display: inline-block; vertical-align: middl=
+e; width: 100%;" align=3D"left">
+    <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"present=
+ation" style=3D"vertical-align: middle; border-collapse: collapse; mso-tabl=
+e-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+      <tbody>
+      <tr>
+        <td align=3D"center" style=3D"font-size: 0px; word-break: break-wor=
+d; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;=
+ padding: 10px 25px 0px;" bgcolor=3D"#000000">
+          <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"p=
+resentation" style=3D"border-collapse: collapse; border-spacing: 0px; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt;">
+            <tbody>
+            <tr>
+              <td style=3D"width: 140px; border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt;">
+                <img height=3D"auto" src=3D"https://r.sib.etraveligroup.com=
+/im/2250316/45ac1df5c8013165085bdbf1ffc1027d895a87e08ba810ea8c7dc81f0b2a6c9=
+6.png?e=3DLPBPhNkzyhlPkcEs8M1gzIn1KdRqIIYlLBGb_8BKASIyiLOuDLL5lirReyEJNuHoZ=
+JKv3oBvM3b843GnxwEsV1MTSk1HcTo3ccD1SNq1XZL-vx_CvcoIGLsriQy_7jFLZqCV1KzFy1nO=
+RcFvb8CaEc46PHeL7pM9QuBwbvGN6oh4i9C9_zLOC0zW-Rwb_lhWcXX6vUSXw5mZygNNn6nI5II=
+UrBJBhHVgFgSYWQhN29jkSGrXTStm6f9eIYjhkJ7pvksEtQUu5N7hnY3vksYgikfd_g" style=
+=3D"display: block; outline: none; text-decoration: none; height: auto; fon=
+t-size: 13px; line-height: 100%; -ms-interpolation-mode: bicubic; border-wi=
+dth: 0;" width=3D"140"/>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--[if mso | IE]></td><![endif]-->
+
+  <!--[if mso | IE]>
+  <td class=3D"" style=3D"width:393.33333333332945px;"><![endif]-->
+  <div class=3D"mj-column-per-66 mj-outlook-group-fix" style=3D"font-size: =
+0; line-height: 0; display: inline-block; width: 100%; direction: ltr;" ali=
+gn=3D"left">
+    <!--[if mso | IE]>
+    <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"present=
+ation">
+      <tr>
+        <td style=3D"vertical-align:middle;width:196px;"><![endif]-->
+    <div class=3D"mj-column-per-50 mj-outlook-group-fix" style=3D"font-size=
+: 0px; direction: ltr; display: inline-block; vertical-align: middle; width=
+: 50%;" align=3D"left">
+      <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"prese=
+ntation" style=3D"vertical-align: middle; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+        <tbody>
+        <tr>
+          <td align=3D"right" style=3D"font-size: 0px; word-break: break-wo=
+rd; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+; padding: 10px 25px 0px;">
+            <a style=3D"font-family: Noto Sans,sans-serif; font-size: 14px;=
+ line-height: 150%; text-align: right; color: #fff; text-decoration: underl=
+ine;" href=3D"https://r.sib.etraveligroup.com/tr/cl/mp3EMMinuLzDHmc_HUHmUU5=
+4uzsQEmC-0DLiUtl_KqHjcwJNexh9grkJZ-YvyD6RpHuHlOiztRkGlbXeudekaK9JO95fhJBVfp=
+qMO-PPFamupROmwrHP1_BubNgdGpXCx53yEHsfGhzElc4jHMXUhabZFoS9FI7_J8n-0Cemv203u=
+aKhMsdtqkYN_H5lH_oUZH93ZAsPE4sr9QegtFxRUPVgDmCk4Bqc_5JA55A4aNa-gkMIqdUW0xBD=
+_me7yUpj25ZMLoTIcOm4ZGGHCf8fyJMSNi4kQCe8R78BwqrPYXvwztGGcesCF937PD94prKWzol=
+0njTfHEWksmVgm37W2GB5eopv4uxrvNAIg6FYaflKLA-3byRuasF4KGrp-NWFgBFc5RT4Ql_jXp=
+RSdmds5tqxwFipWJum8mH56wD19oaxiswEGXjvlURTd6KoLwrPRfC-qxpKSmiYbhXABqbZNPaJq=
+9yohprt1WY0Qkbj" target=3D"_blank">Support</a>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td>
+    <td style=3D"vertical-align:middle;width:196px;"><![endif]-->
+    <div class=3D"mj-column-per-50 mj-outlook-group-fix" style=3D"font-size=
+: 0px; direction: ltr; display: inline-block; vertical-align: middle; width=
+: 50%;" align=3D"left">
+      <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"prese=
+ntation" style=3D"vertical-align: middle; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+        <tbody>
+        <tr>
+          <td align=3D"center" vertical-align=3D"middle" style=3D"font-size=
+: 0px; word-break: break-word; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt; padding: 10px 25px;">
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D=
+"presentation" style=3D"border-collapse: separate; line-height: 100%; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt;">
+              <tbody><tr>
+                <td align=3D"center" bgcolor=3D"#2b75bb" role=3D"presentati=
+on" style=3D"cursor: auto; mso-padding-alt: 10px 25px; border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border: 1px solid #fff=
+;" valign=3D"middle">
+                  <a style=3D"display: inline-block; background-color: #000=
+; color: #fff; font-family: Noto Sans,sans-serif; font-size: 13px; font-wei=
+ght: bold; line-height: 120%; text-decoration: none; text-transform: none; =
+mso-padding-alt: 0px; margin: 0; padding: 10px 25px;" href=3D"https://r.sib=
+.etraveligroup.com/tr/cl/ybNKGIxtlc6OyKmn431BksTmevGi1BjZ3lo5Kn9IeRPwfRmFQr=
+QZ-V_C56o2NO8_5AwqLLum9nX17ZaFii5kRNfoBfdaBK5trL1NoqJrO4fpRe0m0qfNKPX_PErMS=
+BjgL7D-gEqwa4ilvUlPZ4ZPinX_kNbqwYIxWurUyf8Z5EJVFglLMwH8st37iEE0qMRqVQ9botz1=
+3_yWiOXO3tBeCn7i9ezzOj14w8HpyBDmegWvwBXXeZcaIL7xCBdXusOR_YEjoiR4lemN2WP8Mrt=
+CE14bYOS_ZAueX98gBcvPMCinnlsVLnANBtKSZwWQWHFDljQmL_RrP4N4UhJI-EVx-OYEPF1oEd=
+Q0ukmn3GEXl8wGOTzty1IG-2kAZhvNp6CiXkyKt_1w7ucDr-h0YAJevqj-Hc8l9Bd96oZSDKC7O=
+KNO_cbQTW4ADiepnMnYvTYBvYV_pJg" target=3D"_blank">My Bookings</a>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><![endif]-->
+  </div>
+  <!--[if mso | IE]></td><![endif]-->
+          <!--[if mso | IE]></tr></table><![endif]-->
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--[if mso | IE]></td></tr></table><![endif]-->
+  <!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600"  ><tr><td=
+ style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![e=
+ndif]-->
+  <div style=3D"max-width: 600px; margin: 0px auto;">
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%" style=3D"width: 100%; border-collaps=
+e: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+      <tbody>
+      <tr>
+        <td style=3D"direction: ltr; font-size: 0px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;" align=3D"=
+center">
+          <!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"100%"><tr><![endif]-->
+          <!--[if mso | IE]></tr></table><![endif]-->
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--[if mso | IE]></td></tr></table><![endif]-->
+  <!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600" bgcolor=
+=3D"white" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-=
+rule:exactly;"><![endif]-->
+  <div style=3D"background: white; background-color: white; max-width: 600p=
+x; margin: 0px auto;">
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%" style=3D"background: white; width: 1=
+00%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0p=
+t;" bgcolor=3D"white">
+      <tbody>
+      <tr>
+        <td style=3D"direction: ltr; font-size: 0px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;" align=3D"=
+center">
+          <!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"100%"><tr><![endif]-->
+      <!--[if mso | IE]>
+      <td class=3D"" style=3D"vertical-align:middle;width:196.6666666647px;=
+"><![endif]-->
+      <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-s=
+ize: 0; direction: ltr; display: inline-block; vertical-align: top; width: =
+100%;" align=3D"left">
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" style=3D"vertical-align: top; border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+          <tbody>
+          <tr>
+            <td style=3D"font-size: 0; word-break: break-word; border-colla=
+pse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px =
+25px;">
+              <div style=3D"font-family: Noto Sans,sans-serif; font-size: 2=
+8px; font-weight: bold; line-height: 115%; color: #262626; direction: unset=
+;" align=3D"left">Your booking is confirmed!</div>
+            </td>
+          </tr>
+          <tr>
+            <td style=3D"font-size: 0; word-break: break-word; border-colla=
+pse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px =
+25px;">
+              <div style=3D"font-family: Noto Sans,sans-serif; font-size: 1=
+4px; line-height: 85%; color: #262626;">Hi Abdul-Malik,
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style=3D"font-size: 0; word-break: break-word; border-colla=
+pse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px =
+25px;">
+              <div style=3D"font-family: Noto Sans,sans-serif; font-size: 1=
+4px; line-height: 21px; color: #262626;">Thank you for booking with Gotogat=
+e!
+              </div>
+            </td>
+          </tr>
+            <tr>
+              <td style=3D"font-size: 0; word-break: break-word; border-col=
+lapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10p=
+x 25px;">
+                <div style=3D"font-family: Noto Sans,sans-serif; font-size:=
+ 14px; line-height: 21px; color: #262626;">Please find your receipt, includ=
+ing any extras purchased for your booking, attached to this email.</div>
+              </td>
+            </tr>
+          <tr>
+            <td style=3D"font-size: 0; word-break: break-word; border-colla=
+pse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px =
+25px;">
+              <div style=3D"font-family: Noto Sans,sans-serif; font-size: 1=
+4px; line-height: 21px; color: #262626;"> <p style=3D"display: block; margi=
+n: 13px 0;"><a href=3D"https://r.sib.etraveligroup.com/tr/cl/e5FoaKR6A8nFDJ=
+AmvqEnPzgX_wjIcmsflkddE4mDUf7TOs37ZK0xFvPe-XaJ8SDzBRKSv6hXWJ0aCZfQFnl6f2W-B=
+z_JaqxIVMfU39hLipUIW1RzRV5OGtV9jIQoywXxmQM3ylRhnTul0-jA0GiMpjXFUZBKJC69xnyU=
+60F5vVnd0ZZ4J-pd8CRbmeP4SYazU1ZZiYaOTjNZx-NNNJfjFmi4TgRrWV11G9C9jxwZ1GPipDZ=
+Dxb2DFRAj3Kg5T0hWVR0FyL3e0rr_IbCByJRMcdavhj45HIFd9JEYhv-ZELua2gGnT2awAVkJwm=
+sOBfxrI_Y5XBhxezskXMolJfGynT0sfgaL2zQi7AEBb4xWhHY3LIkLvD_IQoKCZR2LmFVr-wiI7=
+ooNXJq1Kt8Ha8vV7kXD2GUSP6VUWI88dOSauZEFJ8zD84cphV78snub5lk1AjmxIG8">Visit &=
+#34;My Bookings&#34;</a> for everything related to your upcoming trip, incl=
+uding:</p>
+<ul>
+<li>E-ticket info, check-in details, airline reference number, full trip de=
+tails, and baggage information</li>
+<li>Upgrade or make changes to your trip and/or add extra services like sea=
+ting and more</li>
+<li>Download your receipt/s and create business receipt</li>
+</ul> </div>
+            </td>
+          </tr>
+          <tr>
+            <td style=3D"font-size: 0; word-break: break-word; border-colla=
+pse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px =
+25px;">
+              <div style=3D"font-family: Noto Sans,sans-serif; font-size: 1=
+4px; line-height: 21px; color: #262626;"> Make sure to stay updated - your =
+trip details may change at any time. </div>
+            </td>
+          </tr>
+          <tr>
+            <td style=3D"font-size: 0; word-break: break-word; border-colla=
+pse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px =
+25px;">
+              <div style=3D"font-family: Noto Sans,sans-serif; font-size: 1=
+4px; line-height: 85%; color: #262626;">Have a great trip!</div>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]></td><![endif]-->
+          <!--[if mso | IE]></tr></table><![endif]-->
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--[if mso | IE]></td></tr></table><![endif]-->
+  <!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600" bgcolor=
+=3D"white" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-=
+rule:exactly;"><![endif]-->
+  <div style=3D"background: white; background-color: white; max-width: 600p=
+x; margin: 0px auto;">
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%" style=3D"background: white; width: 1=
+00%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0p=
+t;" bgcolor=3D"white">
+      <tbody>
+      <tr>
+        <td style=3D"direction: ltr; font-size: 0px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;" align=3D"=
+center">
+          <!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"100%"><tr><![endif]-->
+      <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-s=
+ize: 0px; direction: ltr; display: inline-block; vertical-align: top; width=
+: 100%;" align=3D"left">
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" style=3D"vertical-align: top; justify-content: left; display: fl=
+ex; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+;" width=3D"100%">
+          <tbody>
+          <tr>
+            <td align=3D"left" style=3D"font-size: 0px; word-break: break-w=
+ord; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0p=
+t; padding: 10px 25px 10px 26px;">
+              <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=
+=3D"float: left; color: #262626; font-family: Noto Sans,sans-serif; font-si=
+ze: 13px; line-height: 22px; table-layout: auto; border-collapse: collapse;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt; border: 1px solid #dddddd;">
+                <tbody><tr>
+                  <td style=3D"padding-left: 16px; padding-top: 16px; font-=
+size: 14px; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt;" align=3D"left">Order Status</td>
+                  <td style=3D"padding-left: 16px; padding-top: 16px; font-=
+size: 14px; display: inline-block; padding-right: 16px; border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"left">Order=
+ number</td>
+                </tr>
+                <tr>
+                  <td style=3D"padding-left: 16px; padding-top: 8px; font-s=
+ize: 14px; color: black; font-weight: bold; padding-bottom: 16px; border-co=
+llapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"l=
+eft">
+                        <span style=3D"background-color: #F0F0F0; border-ra=
+dius: 20px; padding: 8px;">Confirmed</span>
+                  </td>
+                  <td style=3D"font-size: 14px; font-weight: bold; border-c=
+ollapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 8=
+px 16px 16px;" align=3D"left"> 1036-726-025 </td>
+                </tr>
+              </tbody></table>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+          <!--[if mso | IE]></tr></table><![endif]-->
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--[if mso | IE]></td></tr></table><![endif]-->
+  <!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600" bgcolor=
+=3D"white" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-=
+rule:exactly;"><![endif]-->
+  <div style=3D"background: white; background-color: white; max-width: 600p=
+x; margin: 0px auto;">
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%" style=3D"background: white; width: 1=
+00%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0p=
+t;" bgcolor=3D"white">
+      <tbody>
+      <tr>
+        <td style=3D"direction: ltr; font-size: 0px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px 31px;" ali=
+gn=3D"center">
+          <!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"100%"><tr><![endif]-->
+      <!--[if mso | IE]><td style=3D"line-height:0;font-size:0px;mso-line-h=
+eight-rule:exactly;"><![endif]-->
+      <div style=3D"background: white; background-color: white; max-width: =
+538px; margin: 0px auto;">
+        <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"background: white; width: 100%; borde=
+r-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" bgcolo=
+r=3D"white">
+          <tbody>
+          <tr>
+            <td style=3D"direction: ltr; font-size: 0px; border-collapse: c=
+ollapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;" align=
+=3D"center">
+              <!--[if mso | IE]><table role=3D"presentation" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-ali=
+gn:top;width:528px;"><![endif]-->
+              <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=
+=3D"font-size: 0px; direction: ltr; display: inline-block; vertical-align: =
+top; width: 100%;" align=3D"left">
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" rol=
+e=3D"presentation" style=3D"vertical-align: top; border-collapse: collapse;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+                  <tbody>
+                  <tr>
+                    <td align=3D"left" style=3D"font-size: 0px; word-break:=
+ break-word; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; padding: 0.5px;">
+                      <div style=3D"font-family: Noto Sans,sans-serif; font=
+-size: 22px; font-weight: bold; line-height: 115%; color: #262626;" align=
+=3D"left">Your Trip Summary</div>
+                    </td>
+                  </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]></td></tr></table></td></tr><tr><td width=3D"600px"=
+><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" s=
+tyle=3D"width:538px;" width=3D"538" bgcolor=3D"white"><tr><td style=3D"line=
+-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+      <div style=3D"background: white; background-color: white; max-width: =
+538px; margin: 0 auto;">
+        <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"background: white; width: 100%; borde=
+r-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" bgcolo=
+r=3D"white">
+          <tbody>
+          <tr>
+            <td style=3D"direction: ltr; font-size: 0px; border-collapse: c=
+ollapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px; borde=
+r: 1px solid #dddddd;" align=3D"center">
+              <!--[if mso | IE]>
+              <table role=3D"presentation" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0">
+                <tr>
+                  <td class=3D"" style=3D"vertical-align:top;width:516px;">=
+<![endif]-->
+              <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=
+=3D"font-size: 0px; direction: ltr; display: inline-block; vertical-align: =
+top; width: 100%;" align=3D"left">
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" rol=
+e=3D"presentation" style=3D"vertical-align: top; border-collapse: collapse;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+                  <tbody>
+                        <tr>
+                            <td style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt;">
+                                    <img style=3D"height: auto; line-height=
+: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicub=
+ic; padding: 2px; border-width: 0;" src=3D"https://r.sib.etraveligroup.com/=
+im/2250316/d853670e5ebb37970ac1e192aa14c47c7585261ae74da59a55a80d882234aa9e=
+.gif?e=3DmIJ1I75_i4pVW1_zXZ_kHHjnVyIutGhsPbf8zP08Y9mnyFDAs_uTUR6Zn7mZAUq3rf=
+jNr3GPPbFmZb0qnSRsFgQVfZ8MiEleQdAEOFzRy8i5CVazF61fogS8gYCkEjRYsZyO-6vaYT_YN=
+Tlj0fbTJaTw9J37NMRee53aEBtAyf1S6RdfMuskz7O7NVW6Va1xxkGPawHyr18NA1Bw7DWOrFXI=
+SPCdxzB1E5bdfi2mbQMpTbuFEkSEbn8RpqYvSJOq"/>
+                            </td>
+                        </tr>
+                        <tr>
+                          <td colspan=3D"3" style=3D"font-size: 0px; paddin=
+g-top: 8px; padding-left: 0.5px; word-break: break-word; border-collapse: c=
+ollapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                            <div style=3D"font-family: Noto Sans,sans-serif=
+; font-size: 15px; font-weight: lighter; line-height: 200%; color: #262626;=
+" align=3D"left">
+                                    Depart =E2=80=A2 Tuesday 26 November, 2=
+024
+                            </div>
+                          </td>
+                        </tr>
+                            <tr style=3D"font-family: Noto Sans,sans-serif;=
+ font-size: 30px; font-weight: bold; line-height: 115%; color: #262626;">
+                              <td style=3D"width: 46%; border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">22:30</td>
+                              <td style=3D"width: 8%; border-collapse: coll=
+apse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"center"><img =
+src=3D"https://r.sib.etraveligroup.com/im/2250316/32f44dd2b4ebd1b6f364feef5=
+dc8168cbbc82e5c4ad19ba83a43f4229f303cb7.svg?e=3D3Pr7Y-ppBQNWAfq-deWtpf4bWSR=
+Ckl_SxJHNa24_vJd3CqISGx1FnhRV6o5h83M8GXH2zMycffSsYsAmlcg2ZiQHfVnO9UMDVowLzS=
+DVO_KPZzwyGR5sd2GNpbRhzSuRvCihIkXOqgoVwOscspjPeUockr-wriN9BrctAWMw7eAQ9r3Lf=
+_6oPTKQaFdv25xeIPTvAG8PedRL30OmN00YEEHI_vcaeusRDEaJelttW5zIQR4Z95XqDy6l3nQs=
+mMiFXw" style=3D"height: auto; line-height: 100%; outline: none; text-decor=
+ation: none; -ms-interpolation-mode: bicubic; border-width: 0;"/></td>
+                              <td style=3D"width: 46%; border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"right">
+                                  13:00
+                                    <span style=3D"width: 6px; height: 6px;=
+ background-color: #E9F5FF; color: #184168; border-radius: 3px; font-size: =
+16px; vertical-align: top; padding: 2px;">+1</span>
+                              </td>
+                            </tr>
+                            <tr style=3D"font-family: Noto Sans,sans-serif;=
+ font-size: 12px;">
+                              <td colspan=3D"3" style=3D"border-collapse: c=
+ollapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"center">11=
+h 30min
+                                  ,1 stops
+                              </td>
+                            </tr>
+
+                              <tr>
+                                <td colspan=3D"3" style=3D"border-collapse:=
+ collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"center">
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style=3D"font-family: Noto Sans,sans-se=
+rif; font-size: 14px; padding-top: 8px; padding-left: 0.5px; word-break: br=
+eak-word; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;" align=3D"left">
+                                    London Heathrow (LHR)
+                                </td>
+                                <td style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;"></td>
+                                <td style=3D"font-family: Noto Sans,sans-se=
+rif; font-size: 14px; padding-top: 8px; padding-left: 0.5px; word-break: br=
+eak-word; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;" align=3D"right">
+                                      Doha (DOH)
+                                  </td>
+                              </tr>
+                            <tr>
+                              <td style=3D"font-family: Noto Sans,sans-seri=
+f; font-size: 14px; padding-top: 8px; padding-left: 0.5px; word-break: brea=
+k-word; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace:=
+ 0pt;" align=3D"left">
+                                  United Kingdom
+                              </td>
+                              <td style=3D"border-collapse: collapse; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt;"></td>
+                              <td style=3D"font-family: Noto Sans,sans-seri=
+f; font-size: 14px; padding-top: 8px; padding-left: 0.5px; word-break: brea=
+k-word; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace:=
+ 0pt;" align=3D"right">
+                                  Qatar
+                              </td>
+                            </tr>
+                            <tr style=3D"border-bottom-color: #f3f3f3; bord=
+er-bottom-width: 1px; border-bottom-style: solid; height: 10px;"></tr>
+                            <tr style=3D"height: 10px;"></tr>
+                        <tr>
+                            <td style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt;">
+                                    <img style=3D"height: auto; line-height=
+: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicub=
+ic; padding: 2px; border-width: 0;" src=3D"https://r.sib.etraveligroup.com/=
+im/2250316/d853670e5ebb37970ac1e192aa14c47c7585261ae74da59a55a80d882234aa9e=
+.gif?e=3DdYjzFvNYlpNjJ0-5rl-JjgexYgMXv7-nt6FzRjcQAY6WdSTdS00883R4WPtBiRjjFk=
+H48OZ7uDJhWT1lWSQyO7iWeLM4gip-bmRv5RqkD1UtTTjX1NWEJqkr98Hz5pAZaCNcR5ZEq37mk=
+2GebDZYgpBtXrAKE1yACuvr6PO0BDYxlMIF1e7lSytgHkxMWFs1XIBhtTo8M46NaegNHJZuBto4=
+5EZLnTPNMFXOQUbsiuXe_MDuVog2Ey8GNWC8x1X8"/>
+                            </td>
+                        </tr>
+                        <tr>
+                          <td colspan=3D"3" style=3D"font-size: 0px; paddin=
+g-top: 8px; padding-left: 0.5px; word-break: break-word; border-collapse: c=
+ollapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                            <div style=3D"font-family: Noto Sans,sans-serif=
+; font-size: 15px; font-weight: lighter; line-height: 200%; color: #262626;=
+" align=3D"left">
+                                    Depart =E2=80=A2 Friday 29 November, 20=
+24
+                            </div>
+                          </td>
+                        </tr>
+                            <tr style=3D"font-family: Noto Sans,sans-serif;=
+ font-size: 30px; font-weight: bold; line-height: 115%; color: #262626;">
+                              <td style=3D"width: 46%; border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">14:00</td>
+                              <td style=3D"width: 8%; border-collapse: coll=
+apse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"center"><img =
+src=3D"https://r.sib.etraveligroup.com/im/2250316/32f44dd2b4ebd1b6f364feef5=
+dc8168cbbc82e5c4ad19ba83a43f4229f303cb7.svg?e=3DZ7Tpq8P5d7d1VQV7HXzoRKxtTC4=
+CtUFiG-po1KlgNX0EXiuX6YzpT6NoTG2kqA-t83yHPwYO1zBXD2U2zSPuwzBx07ya8JfxRuA2Hj=
+CSE4VCRF11y4fWSxVW--22iqrA0lgWciQ2z3Li9ly7zaDPn7W-LVprCx7jGmAKCYV6CN79DV7kP=
+4z1MMdcn-NOZL43BUMFT-2KDkulAkO6eddnfY7YiwoykV-2E4g1EYmtaAm-EDRLEBXSO4fQYPAA=
+y3VeIA" style=3D"height: auto; line-height: 100%; outline: none; text-decor=
+ation: none; -ms-interpolation-mode: bicubic; border-width: 0;"/></td>
+                              <td style=3D"width: 46%; border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"right">
+                                  21:00
+                              </td>
+                            </tr>
+                            <tr style=3D"font-family: Noto Sans,sans-serif;=
+ font-size: 12px;">
+                              <td colspan=3D"3" style=3D"border-collapse: c=
+ollapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"center">10=
+h 0min
+                                  ,1 stops
+                              </td>
+                            </tr>
+
+                              <tr>
+                                <td colspan=3D"3" style=3D"border-collapse:=
+ collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"center">
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style=3D"font-family: Noto Sans,sans-se=
+rif; font-size: 14px; padding-top: 8px; padding-left: 0.5px; word-break: br=
+eak-word; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;" align=3D"left">
+                                    Doha (DOH)
+                                </td>
+                                <td style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;"></td>
+                                <td style=3D"font-family: Noto Sans,sans-se=
+rif; font-size: 14px; padding-top: 8px; padding-left: 0.5px; word-break: br=
+eak-word; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;" align=3D"right">
+                                      London Heathrow (LHR)
+                                  </td>
+                              </tr>
+                            <tr>
+                              <td style=3D"font-family: Noto Sans,sans-seri=
+f; font-size: 14px; padding-top: 8px; padding-left: 0.5px; word-break: brea=
+k-word; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace:=
+ 0pt;" align=3D"left">
+                                  Qatar
+                              </td>
+                              <td style=3D"border-collapse: collapse; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt;"></td>
+                              <td style=3D"font-family: Noto Sans,sans-seri=
+f; font-size: 14px; padding-top: 8px; padding-left: 0.5px; word-break: brea=
+k-word; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace:=
+ 0pt;" align=3D"right">
+                                  United Kingdom
+                              </td>
+                            </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]></td></tr></table></td></tr><tr><td class=3D"" widt=
+h=3D"600px"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"" style=3D"width:538px;" width=3D"538" bgcolor=3D"#E5E5E=
+5"><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exac=
+tly;"><![endif]-->
+      <div style=3D"background: white; background-color: white; max-width: =
+538px; margin: 0 auto;">
+        <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"background: white; width: 100%; borde=
+r-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" bgcolo=
+r=3D"white">
+          <tbody>
+          <tr style=3D"border-bottom-width: 1px; border-bottom-color: #dddd=
+dd; border-bottom-style: solid; border-left-width: 1px; border-left-color: =
+#dddddd; border-left-style: solid; border-right-width: 1px; border-right-co=
+lor: #dddddd; border-right-style: solid;">
+            <td style=3D"direction: ltr; border-top-width: 0; font-size: 0p=
+x; padding-left: 10px; padding-right: 10px; border-collapse: collapse; mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"center">
+              <!--[if mso | IE]>
+              <table role=3D"presentation" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0">
+                <tr>
+                  <td class=3D"" style=3D"vertical-align:top;width:516px;">=
+<![endif]-->
+                    <div class=3D"mj-column-per-100 mj-outlook-group-fix" s=
+tyle=3D"font-size: 0px; direction: ltr; display: inline-block; vertical-ali=
+gn: top; width: 100%;" align=3D"left">
+                      <table border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" role=3D"presentation" style=3D"vertical-align: top; border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+                        <tbody>
+                          <tr>
+                            <td align=3D"left" style=3D"font-size: 0px; pad=
+ding-top: 8px; padding-left: 0.5px; word-break: break-word; border-collapse=
+: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                              <div style=3D"font-family: Noto Sans,sans-ser=
+if; font-size: 14px; line-height: 115%; color: #262626;" align=3D"left">
+                                <span style=3D"font-weight: bold;">2 passen=
+ger(s):</span>
+
+                              </div>
+                            </td>
+                          </tr>
+                        <tr>
+                          <td align=3D"left" style=3D"font-size: 0px; word-=
+break: break-word; border-collapse: collapse; mso-table-lspace: 0pt; mso-ta=
+ble-rspace: 0pt; padding: 8px 0px 10px 0.5px;">
+                            <!--[if mso | IE]><table role=3D"presentation" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+                              <tr><td class=3D"" style=3D"vertical-align:to=
+p;width:516px;"><![endif]-->
+                            <div class=3D"mj-column-per-100 mj-outlook-grou=
+p-fix" style=3D"direction: ltr; display: flex; vertical-align: top; width: =
+100%; font-family: Noto Sans,sans-serif; font-size: 14px; line-height: 115%=
+; color: #262626;" align=3D"left">
+                              <table class=3D"flextable" style=3D"border-co=
+llapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%=
+;">
+                                <tbody><tr class=3D"headerRow" style=3D"fon=
+t-family: Noto Sans,sans-serif; line-height: 27px;" align=3D"left">
+                                  <!--[if mso]><th></th><![endif]-->
+                                  <th style=3D"color: #808080; font-weight:=
+ normal;" align=3D"left">First name</th>
+                                  <!--[if mso]><th></th><![endif]-->
+                                  <th style=3D"color: #808080; font-weight:=
+ normal;" align=3D"left">Surname</th>
+                                  <!--[if mso]><th></th><![endif]-->
+                                  <th style=3D"color: #808080; font-weight:=
+ normal;" align=3D"left">Age group</th>
+                                  <!--[if mso]><th></th><![endif]-->
+                                  <th style=3D"color: #808080; font-weight:=
+ normal;" align=3D"left">Gender</th>
+                                </tr>
+                                  <tr class=3D"passengerRow" style=3D"font-=
+family: Noto Sans,sans-serif; line-height: 27px;" align=3D"left">
+                                    <td class=3D"label" style=3D"border-col=
+lapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; display: non=
+e;" align=3D"left">First name</td>
+                                    <td class=3D"data" style=3D"border-coll=
+apse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"lef=
+t">Abdul-Malik</td>
+
+                                    <td class=3D"label" style=3D"border-col=
+lapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; display: non=
+e;" align=3D"left">Surname</td>
+                                    <td class=3D"data" style=3D"border-coll=
+apse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"lef=
+t">Toure</td>
+
+                                    <td class=3D"label second-column" style=
+=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+; display: none;">Age group</td>
+                                    <td class=3D"data second-column" style=
+=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+;">Adult</td>
+
+                                    <td class=3D"label second-column" style=
+=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+; display: none;">Gender</td>
+                                    <td class=3D"data second-column" style=
+=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+;">Mr</td>
+                                  </tr>
+                                  <tr class=3D"lastTr" style=3D"font-family=
+: Noto Sans,sans-serif; line-height: 27px;" align=3D"left">
+                                    <td class=3D"label" style=3D"border-col=
+lapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; display: non=
+e;" align=3D"left">First name</td>
+                                    <td class=3D"data" style=3D"border-coll=
+apse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"lef=
+t">Isaac</td>
+
+                                    <td class=3D"label" style=3D"border-col=
+lapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; display: non=
+e;" align=3D"left">Surname</td>
+                                    <td class=3D"data" style=3D"border-coll=
+apse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" align=3D"lef=
+t">Ajimotokin</td>
+
+                                    <td class=3D"label second-column" style=
+=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+; display: none;">Age group</td>
+                                    <td class=3D"data second-column" style=
+=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+;">Adult</td>
+
+                                    <td class=3D"label second-column" style=
+=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+; display: none;">Gender</td>
+                                    <td class=3D"data second-column" style=
+=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+;">Mr</td>
+                                  </tr>
+                              </tbody></table>
+                            </div>
+                            <!--[if mso | IE]></td></tr></table><![endif]--=
+>
+                          </td>
+                        </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]></td></tr></table></td></tr><tr><td class=3D"" widt=
+h=3D"600px"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"" style=3D"width:538px;" width=3D"538" bgcolor=3D"#E5E5E=
+5"><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exac=
+tly;"><![endif]-->
+      <div style=3D"background: #E5E5E5; background-color: #E5E5E5; max-wid=
+th: 538px; margin: 0 auto;">
+        <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"background: #E5E5E5; width: 100%; bor=
+der-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" bgco=
+lor=3D"#E5E5E5">
+          <tbody>
+          <tr>
+            <td style=3D"direction: ltr; font-size: 0px; border-collapse: c=
+ollapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;" align=
+=3D"center">
+              <!--[if mso | IE]>
+              <table role=3D"presentation" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0">
+                <tr>
+                  <td class=3D"" style=3D"width:528px;"><![endif]-->
+              <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=
+=3D"font-size: 0px; line-height: 0; display: inline-block; width: 100%; dir=
+ection: ltr;" align=3D"left">
+                <!--[if mso | IE]>
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" rol=
+e=3D"presentation">
+                  <tr>
+                    <td style=3D"vertical-align:top;width:264px;"><![endif]=
+-->
+                <div class=3D"mj-column-per-50 mj-outlook-group-fix" style=
+=3D"font-size: 0px; direction: ltr; display: inline-block; vertical-align: =
+top; width: 50%;" align=3D"left">
+                  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" r=
+ole=3D"presentation" style=3D"vertical-align: top; border-collapse: collaps=
+e; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+                    <tbody>
+                    <tr>
+                      <td align=3D"left" style=3D"font-size: 0px; word-brea=
+k: break-word; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt; padding: 8px 8px 8px 6px;">
+                        <div style=3D"font-family: Noto Sans,sans-serif; fo=
+nt-size: 16px; font-weight: bold; line-height: 115%; color: #262626;" align=
+=3D"left">Total</div>
+                      </td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]></td>
+                <td style=3D"vertical-align:top;width:264px;"><![endif]-->
+                <div class=3D"mj-column-per-50 mj-outlook-group-fix" style=
+=3D"font-size: 0px; direction: ltr; display: inline-block; vertical-align: =
+top; width: 50%;" align=3D"left">
+                  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" r=
+ole=3D"presentation" style=3D"vertical-align: top; border-collapse: collaps=
+e; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+                    <tbody>
+                    <tr>
+                      <td align=3D"right" style=3D"font-size: 0px; word-bre=
+ak: break-word; border-collapse: collapse; mso-table-lspace: 0pt; mso-table=
+-rspace: 0pt; padding: 8px 8px 8px 25px;">
+                        <div style=3D"font-family: Noto Sans,sans-serif; fo=
+nt-size: 16px; font-weight: bold; line-height: 115%; color: #262626;" align=
+=3D"right">
+                            1,195.99 GBP
+                        </div>
+                      </td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]></td></tr></table><![endif]-->
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]></td></tr></table></td></tr><tr><td class=3D"" widt=
+h=3D"600px"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"" style=3D"width:100%;"><tr><td style=3D"line-height:0px=
+;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+      <div style=3D"max-width: 538px; margin: 0px auto;">
+        <table class=3D"my-bookings-button" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"border-collapse: separate;=
+ line-height: 100%; float: right; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt; padding: 20px 0px;">
+          <tbody><tr>
+            <td align=3D"center" role=3D"presentation" style=3D"border-radi=
+us: 3px; cursor: auto; mso-padding-alt: 10px 2px; border-collapse: collapse=
+; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-style: none;" valign=
+=3D"middle">
+              <a href=3D"https://r.sib.etraveligroup.com/tr/cl/mBuGhDlofrNz=
+uZn1xa43votB7ec5C3HmVOrtk-GPDLa991DbqeJ3e2S6Syy5I_O2jAZVze5fDg56v_Q2Nzjz3my=
+d73HyJOeoYMl6hW0JX3UrskEmmnTb9dHN_9z_i8n03VqtjKF7ljinYCWh7oCvNX3xvFvT8xgHfb=
+yqAalDNnasv5rMCrzs4iCPYLZ5Rg2DZKxmrqJKyXV7T_hCPZSXCmF5eFk6IkvyMT-q64FnBQcUO=
+_sfMTqDI9_Pd6nt7L-3LDlr2zuCqmzxbEPQ7qtBkmqk3TEIZEnRbyoncsgw6ycCN0WQ7DMKx_RY=
+SpphDf3Dj7_uqrdwNB2uQ9LMv6RdmGQZab3OoiOEOciz3vxHsEVykQVnsZPP40XB_U_DDmBhAsC=
+wuy33jUH1pD6ulKGM5x5S6F6EorclzXrV3Wk9C1vTklN6oCkGOtJAwzks7bjYsB0Ql2k" targe=
+t=3D"_blank" style=3D"display: inline-block; background-color: #41D3FF; col=
+or: #000; font-family: Noto Sans,sans-serif; font-size: 14px; font-weight: =
+bold; line-height: 120%; text-decoration: none; text-transform: none; mso-p=
+adding-alt: 0px; float: right; margin: 0px; padding: 10px 25px;">View your =
+booking</a>
+            </td>
+          </tr>
+        </tbody></table>
+        <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"width: 100%; border-collapse: collaps=
+e; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+          <tbody>
+          <tr>
+            <td style=3D"direction: ltr; font-size: 0px; border-collapse: c=
+ollapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;" align=
+=3D"center">
+              <!--[if mso | IE]>
+              <table role=3D"presentation" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0">
+                <tr>
+                  <td class=3D"" style=3D"vertical-align:top;width:528px;">=
+<![endif]-->
+              <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=
+=3D"font-size: 0px; direction: ltr; display: inline-block; vertical-align: =
+top; width: 100%;" align=3D"left">
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" rol=
+e=3D"presentation" style=3D"vertical-align: top; border-collapse: collapse;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+                  <tbody>
+                    <tr>
+                      <td align=3D"left" style=3D"font-size: 0px; word-brea=
+k: break-word; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt; padding: 10px 2px 10px 10px;">
+                        <div style=3D"font-family: Noto Sans,sans-serif; fo=
+nt-size: 14px; line-height: 150%; color: #262626; font-weight: bold;" align=
+=3D"left">
+                            Things to keep in mind:
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align=3D"left" style=3D"font-size: 0px; word-brea=
+k: break-word; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt; padding: 10px 2px 10px 10px;">
+                        <div style=3D"font-family: Noto Sans,sans-serif; fo=
+nt-size: 14px; line-height: 150%; color: #262626;" align=3D"left">
+                            <span style=3D"font-size: 22px; vertical-align:=
+ middle;">=E2=80=A2</span>=C2=A0=C2=A0 Check &#34;My Bookings&#34; for deta=
+ils on the baggage allowance included in your trip and to add additional ba=
+ggage. If additional baggage is not listed among the available services the=
+re, contact our support to confirm availability and cost for your trip, or =
+find more information <a href=3D"https://r.sib.etraveligroup.com/tr/cl/D_g_=
+loObh0LlSbaMA6JmgF_GAtoARFCb0cfUdyJGdMKWpRCkXVSsxXtowePnU73Gc78FwiJvWMbAYni=
+7n2MFkB36Lzel-3CjG3vm1R15lhp5hXWO8j15Xbbm6xCT8mrxYpy3f1mD1aRFoVad2E53WqACNv=
+oaaiqgcGKGSTw0_iK1kRWIpnRlZilZRF1ZB_zG8PAQdZV27Y-Sr3yn_BYlqpxE1M779Yk5YiQHc=
+KrOUWtQXLcyIYP3MzLJhqlV6NFbbIQQ0Tf0J1I4Lh0euilVz7o-7JWcS-DRcvG_zrWQ" target=
+=3D"_blank" style=3D"color: #2b75bb; text-decoration: underline;">here</a>.
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]></td></tr></td></tr><![endif]-->
+          <!--[if mso | IE]></tr></table><![endif]-->
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--[if mso | IE]></td></tr></table><![endif]-->
+  <!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600"  ><tr><td=
+ style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![e=
+ndif]-->
+  <div style=3D"max-width: 600px; margin: 0px auto;">
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%" style=3D"width: 100%; border-collaps=
+e: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+      <tbody>
+      <tr>
+        <td style=3D"direction: ltr; font-size: 0px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;" align=3D"=
+center">
+          <!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"100%"><tr><![endif]-->
+          <!--[if mso | IE]></tr></table><![endif]-->
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--[if mso | IE]></td></tr></table><![endif]-->
+  <!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600" bgcolor=
+=3D"white" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-=
+rule:exactly;"><![endif]-->
+  <div style=3D"background: white; background-color: white; max-width: 600p=
+x; margin: 0px auto;">
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%" style=3D"background: white; width: 1=
+00%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0p=
+t;" bgcolor=3D"white">
+      <tbody>
+      <tr>
+        <td style=3D"direction: ltr; font-size: 0px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;" align=3D"=
+center">
+          <!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"100%"><tr><![endif]-->
+      <!--[if mso | IE]>
+      <td class=3D"" style=3D"vertical-align:middle;width:196.6666666647px;=
+"><![endif]-->
+      <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-s=
+ize: 0px; direction: ltr; display: inline-block; vertical-align: top; width=
+: 100%;" align=3D"left">
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" style=3D"vertical-align: top; border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+          <tbody>
+          <tr>
+            <td align=3D"left" style=3D"font-size: 0px; word-break: break-w=
+ord; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0p=
+t; padding: 10px 25px;">
+              <div style=3D"font-family: Noto Sans,sans-serif; font-size: 1=
+4px; line-height: 160%; color: #262626;" align=3D"left">
+                    <p style=3D"font-size: 22px; display: block; margin: 13=
+px 0;"><b>Support</b></p>
+<p style=3D"display: block; margin: 13px 0;">This is a no-reply email. Lear=
+n how to <a href=3D"https://r.sib.etraveligroup.com/tr/cl/jcx1NbK5DYYwT85xk=
+aJXplqfjfGizOtwqwToVVP3-T_LCVY8ORuPXndMGzihlC2Yo5jMqweTpm9Fghi6P2OR_RrxlWjd=
+o1n719gAYV7ibAaLL4tOJMufNOvrM7Re4sYQ1341BVCjEFoqlovVId2K3BRWfyIdaOIUGhFjtGs=
+Zxakg3nHyvTZ3hi44Bj1D_8QpbboMQF5_J2Es3OPWuNcF5mStXeG-uysu_ulnD-ZJR0i9POTxIz=
+fZ67i_g5yA2_KUwv0KJe9TPs8K2Jm-r2Eh68LWclBTzWtAOLsGYpDk76Q" target=3D"_blank=
+" style=3D"color: #2b75bb; text-decoration: underline;">Contact Us</a> here=
+.</p>
+<p style=3D"display: block; margin: 13px 0;">For security reasons, only con=
+tact us using the channels listed on our website.</p>
+<p style=3D"display: block; margin: 13px 0;">View our <a href=3D"https://r.=
+sib.etraveligroup.com/tr/cl/y2CXeILH0s-hNfqUIYYicrKRKDemoA0hGOaVhv4kCEPRorZ=
+tGjdd5V0fRkcZFeJN3kf3ugB2s19K8UUCE6hZBgFNdBzQKkoyXsBwaafA8Tr_7pt3BKbvKHojKk=
+eA3fbzE4sjVI43x5GY3B5gPnRV1P_DbnDw3v1jIIWdg9FAWtgCgn_LJICVJ_AbPeMQG9aeIpVaM=
+zZPgfLZAdXMPEHV5fqQ3SkwuwAvVLWAZmjuKzf5HougpHpTataPXPVnPrs7s6y96xBx19WFJ1kq=
+QspNfZtSb7bsTCcTvGnXSkZB9rrxhnqfefaw" target=3D"_blank" style=3D"color: #2b=
+75bb; text-decoration: underline;">Travel Conditions</a>, <a href=3D"https:=
+//r.sib.etraveligroup.com/tr/cl/RSCfD_kVfJeGv-QO5YiWDqlBbWU1gspQ821qY8uI5rO=
+nMSyX2YQubayK_7X6Uct_AtT9WLtCmIObzY0O55Qc1kzlkipdk9jpDfQ4PbqJ-nPcGQNo04NHrN=
+Iq-SUBRIADNoEx9lAN6mIjmvJcr49o3sGxH_32UuEU9bBZEEwrnigftheD3941NmF_DJpvrTWPW=
+i7neQamAcxb8gMKOU2XOkxhXJwqFjc5ZHMGp05kRn4-VpIWWA2leU6srueP9x3pQw2rLteu8OIV=
+mUkWBuK6YJrYWGJi6unDdz_8Y-_SAkLA9UWAj7twrRNeKzWsKtTapQu9rf71ljD7Hpwz0MGKz-u=
+U7onFGJ8eUVtq9laGR3iuZzhBf3t0oTndA46YN6cbYMLUM6cnlF9RW7KBBWMsoTED8N3llmICSP=
+mJ6w19etLgI5CHKIb29b0-JJkJxPBWebW95ni0YP08xy-Pgiit1DdrROsp0Q_Bl3VSCah1wr9i-=
+ge4fWghbZThsu_xIfLp2eJVbYNGWicooEookquZ" target=3D"_blank" style=3D"color: =
+#2b75bb; text-decoration: underline;">Fare Rules</a> and <a href=3D"https:/=
+/r.sib.etraveligroup.com/tr/cl/nYg19VdLH8BVeYKr_XbsP6dvMt6h1Fls7Y6Bub92-Fcw=
+gYrt2TAEKlMGy6szjjV33tLX8C9zI_YuIF2De9BAxbxs-upy2OUntDF56UDPHvtr6OUfxAC0kBb=
+zUoIkbT76zUv1e08P7Yn9gih7CBGgfErDp4mvk2imYX1y1uvC0THihI3AC2CiUAuBYF7RX3G58Y=
+qpZByf8i9Y8zvpb4lGuLZb3RDLqYJxTVGPsZXJEo2kGXqTwTRpHtSlkXnzWjF4YdPjO3isU6ISo=
+FpQFsGSWJYXvXVPYe6h4wk1y7Sv9j-qKTUj" target=3D"_blank" style=3D"color: #2b7=
+5bb; text-decoration: underline;">Privacy Policy</a> here. This sale is not=
+ protected under the ATOL Scheme.</p>
+              </div>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      </td>
+          <!--[if mso | IE]></tr></table><![endif]-->
+
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--[if mso | IE]></td></tr></table><![endif]-->
+  <!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600"  ><tr><td=
+ style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![e=
+ndif]-->
+  <div style=3D"max-width: 600px; margin: 0px auto;">
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%" style=3D"width: 100%; border-collaps=
+e: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+      <tbody>
+      <tr>
+        <td style=3D"direction: ltr; font-size: 0px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;" align=3D"=
+center">
+          <!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"100%"><tr><![endif]-->
+      <!--[if mso | IE]><td class=3D"" style=3D"vertical-align:middle;width=
+:196.6666666647px;"><![endif]-->
+      <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-s=
+ize: 0px; direction: ltr; display: inline-block; vertical-align: top; width=
+: 100%;" align=3D"left">
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" style=3D"vertical-align: top; border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+          <tbody>
+          <tr>
+            <td align=3D"left" style=3D"font-size: 0px; word-break: break-w=
+ord; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0p=
+t; padding: 10px 25px;">
+              <div style=3D"font-family: Noto Sans,sans-serif; font-size: 1=
+3px; line-height: 150%; color: #262626;" align=3D"left">
+                To enhance your travel experience, we will send you emails =
+with relevant information for your trip and special offers. These will be s=
+ent only prior to your departure.
+              <a href=3D"https://r.sib.etraveligroup.com/tr/cl/8cSoQuEL3VvU=
+zswZZJSwze899MXFIXkP0Vg3hTpOKqemRY7M_o41Ei0iMffFIto3FSMEyQ_gRCSoZtIYrShN5YD=
+GbTvAt5eKJD10ypDW39FTa5a-Cj7n_rEz8-ci9dDCuw1YZVFbSv5tSL6Oc6fP-LpL5vWFAjy8Nt=
+arQyTV3AI3qbiDxhBZ8QIC6xOsIz81wFucOejG7uunCdQDoVnFqloqCj03gOtZePihOQ5FK8mwj=
+6ee6E3zzJJY9IZnzNxZU_0n9fxZ0A8vtcjILyraSa78EFaC0oldZLoK64xy1v6PLWcsHSZWIPMW=
+A2DLRh1DxlbCxuT2wyglvt3Oa4TaCURyyI4rHOo7vHOZeMQbCfM97r6rgoU0Of6V" target=3D=
+"_blank" style=3D"color: #2b75bb; text-decoration: underline;">
+                  Not Interested?
+              </a>
+              </div>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]></td><![endif]-->
+          <!--[if mso | IE]></tr></table><![endif]-->
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--[if mso | IE]></td></tr></table><![endif]-->
+  <!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"" style=3D"width:600px;" width=3D"600" bgcolor=
+=3D"#000000" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-heigh=
+t-rule:exactly;"><![endif]-->
+  <div style=3D"background: #000000; background-color: #000000; max-width: =
+600px; margin: 0px auto;">
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%" style=3D"background: #000000; width:=
+ 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;" bgcolor=3D"#000000">
+      <tbody>
+      <tr>
+        <td style=3D"direction: ltr; font-size: 0px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;" align=3D"=
+center">
+          <!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"100%"><tr><![endif]-->
+      <!--[if mso | IE]><td class=3D"" style=3D"vertical-align:middle;width=
+:196.6666666647px;" ><![endif]-->
+          <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"fo=
+nt-size: 0px; direction: ltr; display: inline-block; vertical-align: top; w=
+idth: 100%;" align=3D"left">
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D=
+"presentation" style=3D"vertical-align: top; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">
+              <tbody>
+              <tr>
+                <td align=3D"center" style=3D"font-size: 0px; word-break: b=
+reak-word; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt; padding: 10px 25px;">
+                  <div style=3D"font-family: Noto Sans,sans-serif; font-siz=
+e: 12px; line-height: 150%; color: white;" align=3D"center">
+                      <b>Gotogate</b> / Flight Network UK Ltd, Unit 112854,=
+ PO Box 6945, London, W1A 6US, United Kingdom<br/><br/>=C2=A9 2024 Gotogate=
+. All Rights Reserved.
+                  </div>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+      <!--[if mso | IE]></td><![endif]-->
+          <!--[if mso | IE]></tr></table><![endif]-->
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--[if mso | IE]></td></tr></table><![endif]-->
+  </div>
+ =20
+ =20
+</body></html>
+
+--729c98cb37c25b739f3e0a170304a5c861f5b7a447259804772324505d41--
+
+
+--37b8b71f9e6a7fe648fd52d90ca64943d6c4196affc69bf00d71b82f1145
+Content-Disposition: attachment; filename="Receipt_1036-726-025.pdf"
+Content-Transfer-Encoding: base64
+Content-Type: application/pdf; name="Receipt_1036-726-025.pdf"
+
+JVBERi0xLjQKJfbk/N8KMSAwIG9iago8PAovVHlwZSAvQ2F0YWxvZwovVmVyc2lvbiAvMS43Ci9Q
+YWdlcyAyIDAgUgo+PgplbmRvYmoKMyAwIG9iago8PAovQ3JlYXRpb25EYXRlIChEOjIwMjQxMTI1
+MTkwOTQ3KzAxJzAwJykKL1Byb2R1Y2VyIChvcGVuaHRtbHRvcGRmLmNvbSkKL1RpdGxlIChSZWNl
+aXB0KQo+PgplbmRvYmoKMiAwIG9iago8PAovVHlwZSAvUGFnZXMKL0tpZHMgWzQgMCBSXQovQ291
+bnQgMQo+PgplbmRvYmoKNCAwIG9iago8PAovVHlwZSAvUGFnZQovTWVkaWFCb3ggWzAuMCAwLjAg
+NTk1LjI3NSA4NDEuODc1XQovUGFyZW50IDIgMCBSCi9Db250ZW50cyA1IDAgUgovUmVzb3VyY2Vz
+IDYgMCBSCj4+CmVuZG9iago1IDAgb2JqCjw8Ci9MZW5ndGggMjQ1MAovRmlsdGVyIC9GbGF0ZURl
+Y29kZQo+PgpzdHJlYW0NCniczVrbbhzHEW2AT9mXyCIlkpIMLBA5kZNg1Nfp7iQIYJuiNhIdkQwl
+yhLzYgWMYXBtyC/5/ZyquXTPjdylbItYLJdzZrqquupUdc30yEIa7+b/m+n5s5mcfz9Tcv717O2/
+53L+n9n7GU5JfJQsyoD/dSzUPEhXKO3m75azx/9Yqvnej7OjmeTrfvrv7MuT2eN9NVd6fnI+U9Xo
+uYmhCDSmGXuynD0SWrwUT8UCfzfEkXgtDsUTPvpUbHw+P/l+9uQEVp38NJOFDbCwUnH8dFyFDWUR
+pZS6q2NLbIq7YlfcEvfEHf7dxO9OI1+SfEXCi2iVCvP+L2akQ2Hc3OhCBw9DljNX2kIpbWMCLwCa
+wpQMqsKZCmR/Zcffzc7z0bLwtchaRwMMR46KJ3G9kcu+uUNRVxg1Os9k2Kghk9b1aREKCkyKmg6x
+0Iga4icLwyqqsDUBmhoXTRG1Q7S74zbE7USeibFGKnjoap2+iMT5jrXkWlUWEl6pR519Ll6IA/FM
+PBenUK/A4FPxRhyDx//EcRAF/j4G9lT8lo+PcDVduYXPHXFf7IhtPmOQDxviM4x8i99d8QD4Dp95
+DOwI4+kvHf8FIx/yNUGUHakLXLUBjQc4fsYjDptJvUcsfEBmeBsjBTe6QnvyYEIvMtTCbQgoBVJ2
+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
+rcoDo8lTVhdlokBJ7yFen1kSd1IlleWe2C3cDZEHd66oaKvenlUrpZWhfvTfrf3Ilz3Olde0Pl9b
+CfFPVS+DdRWtOpsrFnpDLyxYim3bVRxwn/WGe67n+C+iCJT8shu1AU8IvzJ9LL+fRmb3FGzD6F1+
+3+6B+Ovwkxq6/wNVVxZgDQplbmRzdHJlYW0KZW5kb2JqCjYgMCBvYmoKPDwKL1hPYmplY3QgPDwK
+L0ltMSA3IDAgUgo+PgovRm9udCA4IDAgUgo+PgplbmRvYmoKNyAwIG9iago8PAovTGVuZ3RoIDM0
+MTAKL1R5cGUgL1hPYmplY3QKL1N1YnR5cGUgL0ltYWdlCi9GaWx0ZXIgL0ZsYXRlRGVjb2RlCi9C
+aXRzUGVyQ29tcG9uZW50IDgKL1dpZHRoIDgwMAovSGVpZ2h0IDExNAovQ29sb3JTcGFjZSBbL0lu
+ZGV4ZWQgL0RldmljZVJHQiA4MSA5IDAgUl0KL0RlY29kZVBhcm1zIDEwIDAgUgovU01hc2sgMTEg
+MCBSCi9JbnRlcnBvbGF0ZSB0cnVlCj4+CnN0cmVhbQ0KeAHtnXeD2kgSxasF6hZuM4wm7ASaWeNZ
+dmDMpkmePed8OXz/D3M5qoQlvSqQDvfvvwuI4ql+knhes1SOSXr91LrPY9OsN3hAAvzD3nAndRWk
+WX+06wkidWshJw4Y4C4pw+eok7DCHHuujH1ayYFbC4cNorHOpp/jKypht2ddfY6GD0E7jjPXgOzE
+dFUQHmCTt7XDE5IDzMET9iTgtO/KGPv2BcGjCSVra11Tjo5N85OXucYMd7svCPnBpHmAQ0Pa+AGQ
+sGSOs/LFCXn7guDRBFAPBlNERQ9GZrouCBqgtiJfb26OinV/1LYgeDRMkF18n45OqDYmczBD001B
+5AFOSY/dHYcSjgnicc+VM25XEDwaJog/dzgNVvcb6wQczboriCzAfUM6fCub4xCa42ziygkP2hQE
+j4YJYqTLdFQv2HMn5Lijgpgd6Zm9IA3mmZMxniLv6lYQpi0KwqOBBVlYJ8V+Q5X4zIk576QgyAWG
+75KcucIcx3jJy9lvXxA4msCee2RUGuJ3nALDzggCXGDgzcT9wOcASl5G8O0LgkYTgNMLG4L7wRh2
+ThCjE2CY6vuBGwKVvIxw2b4gaDRBeHoZ9oI+R98pcd4xQYzWG4Vc1Q99U4Flf9SOIDwaWBCPvBb4
+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
+ju9Jj/k65vjdEih5gaIXEASIBhKE/C2WrL311IRZ6iCuc6IuC4JfY/6oLD46x50HKyh50SsXRD+a
+QEXMn1JIj6bMrjE9OicII9EKsI05DDHAkhe3DBdEP5pAJeTLJtHan3KCMIPrRnYMPFGHBcEDvJp5
+0geYI2FzACUvUPTCguAsakYTVr0+6V1PbFWin65+GixIgJ+NriafXAWfJj8Nck+MzgiCB/i3T0br
+xMzQOfCSFy965YLIown/w2/+AtS3M2ANCmVuZHN0cmVhbQplbmRvYmoKOCAwIG9iago8PAovRjEg
+MTIgMCBSCj4+CmVuZG9iago5IDAgb2JqCjw8Ci9MZW5ndGggMTM4Ci9GaWx0ZXIgL0ZsYXRlRGVj
+b2RlCj4+CnN0cmVhbQ0KeJxFjlEKAzEIRPOz0GgKvfxu1C30iMacoGNCKQwh6MxzSimP7gyJkw6I
+t2xUicP89cHc2QIT6g5z234bGfxF6A7W+Y8vVaTEqyacNfg9n7o+lhw+nWSCs2mLEEmQIME72r5l
+0TLu9Uo/+mBFaCtr0lO4lWRL28KOFMgooIvfHWWO0xN1+ReDzX98DQplbmRzdHJlYW0KZW5kb2Jq
+CjEwIDAgb2JqCjw8Ci9CaXRzUGVyQ29tcG9uZW50IDgKL1ByZWRpY3RvciAxNQovQ29sdW1ucyA4
+MDAKL0NvbG9ycyAxCj4+CmVuZG9iagoxMSAwIG9iago8PAovTGVuZ3RoIDQ1NjIKL1R5cGUgL1hP
+YmplY3QKL1N1YnR5cGUgL0ltYWdlCi9GaWx0ZXIgL0ZsYXRlRGVjb2RlCi9CaXRzUGVyQ29tcG9u
+ZW50IDgKL1dpZHRoIDgwMAovSGVpZ2h0IDExNAovQ29sb3JTcGFjZSAvRGV2aWNlR3JheQo+Pgpz
+dHJlYW0NCnic7V3rees2EpU6oDugO3A64K1gtRWYqUBJBUYFe1VB5ApWqeCyg7gDswOrgkgrUpZN
+zAzAeUn+7gbnp03MHAxx8BgC0GJBoW43u35/zGPfd5v1A1meiWq12b70M26OfbcLTaXzMGtch2bO
+Lz+As6ZMGHnMBuEUYQcev5K2f6QLfFNEnoFXQWj2p5eQA2Wr2cy92Cn67UoVzUX11Elq3T3WCie9
+KLJsNFmnzUbidr991ISPARmPU4SVndAZyx1p9S1t9Av1wQ3NARasniTiOKN/qsXRbDqxm+O2Ebvp
+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
+5aHO7g5QTM6c9KE+8jjs88H5WROS7dZZhz6rD5etk9broGIoh49kL+nIw5DdHSDP8HrpQxuacR8c
++gRsQrLd+urQafXhog8ihWVAUFcFfSj25mHI7g6QZ3i99IF3zvBw3ieaWBqokNkA7NmMxB/hkvDY
+em+9b3MKzb6QC3Ci35eHIbs7QJ7hddOHMjRnfTj27NlVgeMMS3dOhUNKNTD5zbCkH/UiOM6wqE/M
+puzuAHGG108futC8nzNwWzvPdOtuA1XQhgnDRR9171Sxg+ijKQLaQeXKw5TdHelBL/VMAT99LO40
+obmcw/Ga+szQr5z62Wd1lDB8jjY+OPUwwVgbL4GQPEzZ3QHiDK+jPlSh+TinJrn8LY1Z9j4CedYH
+CcPp6K+PQIK5Oj4CoXmYsrsDxBM0T31oQvN5jtPh/e4Z5KntWlI8G2KE4aQPjymW6kwThINAEjxM
+B7nPkGZ4XfWhCM3knLP5/fa80dac6wmWEGF46cMewLfGpUL31jE6xQNd/qM4pSLM8Prqg9xklsX0
+HoDatnrecXN9bT9rK4O+MUUIw00fVun/qK9VJScexuzuAGmG11kf4tDE92QYWu5e8DnbIsSNx5Hz
+CI76WHzTB/DNL2NtmmOleaBTwJpTKsIMr7s+hKEB98hUQVT6A/sga7YrnZtj11jDg+GpD30X891Z
+91oef6R5KK8IjSHM8PrrQxYadM9S/Zug9Duk6hiw6sRurqIOb32oWqYmgNfhUWcMmrO7A4Qiu4Y+
+JKGh7iFrniWR3TO30SPU607g5titr9CGBnjrQxzA3epKNZPyaPM8zNndAcIM73X0sVg8MEOTuKfv
+od10L3MJ332/2641fcgHqlXYvcwS7V+26+ZKTWhxDX0s2AEcaubhLol65cbDIbs7QJbhvZY+FsnQ
+HCL8/T+4nWhODQplbmRzdHJlYW0KZW5kb2JqCjEyIDAgb2JqCjw8Ci9UeXBlIC9Gb250Ci9CYXNl
+Rm9udCAvQUFBRFlIK05vdG9TYW5zLVJlZ3VsYXIKL1N1YnR5cGUgL1R5cGUwCi9FbmNvZGluZyAv
+SWRlbnRpdHktSAovRGVzY2VuZGFudEZvbnRzIFsxMyAwIFJdCi9Ub1VuaWNvZGUgMTQgMCBSCj4+
+CmVuZG9iagoxMyAwIG9iago8PAovVHlwZSAvRm9udAovU3VidHlwZSAvQ0lERm9udFR5cGUyCi9C
+YXNlRm9udCAvQUFBRFlIK05vdG9TYW5zLVJlZ3VsYXIKL0NJRFN5c3RlbUluZm8gMTUgMCBSCi9G
+b250RGVzY3JpcHRvciAxNiAwIFIKL1cgWzAgWzYwMF0KIDMgWzI2MF0KIDkgWzczMl0KIDE1IFsy
+NjggMzIyIDI2OCAzNzIgNTcyIDU3MiA1NzIgNTcyIDU3MiA1NzIKNTcyIDU3MiA1NzIgNTcyIDI2
+OF0KIDM1IFs4OTkgNjM5IDY1MCA2MzIgNzMwIDU1NiA1MTkgNzI4IDc0MSAzMzldCjQ2IFs2MTkg
+NTI0IDkwNyA3NjAgNzgxIDYwNV0KIDUzIFs2MjIgNTQ5IDU1NiA3MzEgNjAwIDkzMCA1ODZdCiA2
+OCBbNTYxIDYxNSA0ODAgNjE1IDU2NF0KIDc0IFs2MTUgNjE4IDI1OCAyNTggNTM0IDI1OCA5MzUg
+NjE4IDYwNSA2MTVdCiA4NSBbNDEzIDQ3OSAzNjEgNjE4IDUwOCA3ODYgNTI5IDUxMF0KOTggWzI2
+MF0KIDUyNSBbMzc2XQpdCi9DSURUb0dJRE1hcCAxNyAwIFIKPj4KZW5kb2JqCjE0IDAgb2JqCjw8
+Ci9MZW5ndGggMzA3Ci9GaWx0ZXIgL0ZsYXRlRGVjb2RlCj4+CnN0cmVhbQ0KeJxdkstugzAQRff+
+Ci/TRQSYR1oJISWkkVj0oZJ+ALEHZKkYyzgL/r5mJkmlWkJXc2cONtdEdXNsjPY8+nSTbMHzXhvl
+YJ6uTgK/wKANSwRXWvpbxVDk2FkWBbpdZg9jY/qJlSWPvkJz9m7hm72aLvDEog+nwGkz8M133Ya6
+vVr7AyMYz2NWVVxBz8Kb3jr73o3AI+S2jQoD2i/bAOEITpwXC1wQktB55KRgtp0E15kBWBmHVfHy
+FFbFwKh/fZbcuEv/B6QBeIiIKzRfyCQRBZknrJIjmTWaIr1Xq2SEi1esUuplBzTTnMwDSi7QzDIa
+eUYpEjL3NEJ4sUMzJzynjXaEF4JGSPa4u4jxgCQiFgKTuH8xprJe3yNzeXUuxI2XjDmvCWsDj//A
+Tnal8PkFjfebAw0KZW5kc3RyZWFtCmVuZG9iagoxNSAwIG9iago8PAovUmVnaXN0cnkgKEFkb2Jl
+KQovT3JkZXJpbmcgKElkZW50aXR5KQovU3VwcGxlbWVudCAwCj4+CmVuZG9iagoxNiAwIG9iago8
+PAovVHlwZSAvRm9udERlc2NyaXB0b3IKL0ZvbnROYW1lIC9BQUFEWUgrTm90b1NhbnMtUmVndWxh
+cgovRmxhZ3MgNAovRm9udFdlaWdodCA0MDAuMAovSXRhbGljQW5nbGUgMC4wCi9Gb250QkJveCBb
+LTYyMS4wIC0zOTQuMCAyODAwLjAgMTM0Ny4wXQovQXNjZW50IDEwNjkuMAovRGVzY2VudCAtMjkz
+LjAKL0NhcEhlaWdodCA3MTQuMAovWEhlaWdodCA1MzYuMAovU3RlbVYgNDQ0LjcyOTk4Ci9Gb250
+RmlsZTIgMTggMCBSCi9DSURTZXQgMTkgMCBSCj4+CmVuZG9iagoxNyAwIG9iago8PAovTGVuZ3Ro
+IDEzMwovRmlsdGVyIC9GbGF0ZURlY29kZQo+PgpzdHJlYW0NCnic7cxHUgIBEAXQBxIkSBYRJSpZ
+UEFARQz3v5RTbJySJdt5q9+/upuDmD/xUD6TkJSSdi4jKyfvQkFRSTm0V1FVc6nuSsO1ppugvdXS
+1tHVC6a+O/cGhkbG/puYmnkwD/LCoyfPllZerG1sg/bVm3c7H/Y+fYVuv4++RSKR0/z8AiHGCGIN
+CmVuZHN0cmVhbQplbmRvYmoKMTggMCBvYmoKPDwKL0xlbmd0aCA0MzM5Ci9GaWx0ZXIgL0ZsYXRl
+RGVjb2RlCi9MZW5ndGgxIDYwMTYKPj4Kc3RyZWFtDQp4nG1YC1Rb533/vu9eSRgQ6C0BRiBdkIQQ
+4nH14GWeAiRekgCBEA+BeRsbsMGOsRvbiYOT2M4LkubhOku9uFm3esmaZVnTk9U5Tc4anDQ5nZuT
+tkmcePPmrmtPlm5p1obL/vdKAjsNnP99ft//8fs/rxBGCCWhE4hCaGp0cQHuZEBn+adTe5cno2df
+l8P1owipeqYnRseZX/dcg+ub8Mw1DQ9SXxS9gpA6F+7zpvctHX74TNoU3HsQwkl758dGEfnuYYQ0
+7XCfum/08AKawMcR0oZhfe7CgYmFafHZFbiHNUiCMMKbmygdETQM6/+PrINWEoRYuUGeb5AbhvE5
+7gns5K6Q9Q0XS8bhrXPzc/JL8nOUgwqRE/aUadQqsUTrcrlZMZwZs1jMGE1Oh8tt4o9ao1it0sBr
+p8NEiflrtszlxiWBoWDNa5mGlH5ZiWn1jr7ipe6pI90tue6xLqvTlFfFlnS5drXW1A3mkJ8HfbXh
+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
+49dTJ1ElOQ58TqNRchjtIr+Esw1IAvQ+3N9Ao7gbWcgs3KeiUeoMnL+AsxTeDcH1HFA+YmFPMvkV
+ioBeiLqAUkkrokkpspMpFMIfg9wpIEf8vAeeQe/A0AOIRrgOUc+hEP8ceLqFPeeBriEWzyAZPPfj
+L4GvAqUQOVJgDmHednyY/6VA+LPE6S2g/+F/9wUqBwJtMIxcoAEi/A8Wf4/4ko6ocSDwBQ3r6Bdg
+mnAAnQAXwHrxMwhJ4LkE1kieBboKBNKTRoAeBroMBPc7dgJNAwH/5CQg+FRKhvUp8A2ZAl8AKfcA
+wdpU4J0KBTT13xCStgMB/zRYnwbP0v4LoXR4n74ABGOsDOTK8oDuAwJb5MBLfhYIdFAAfwXsVQAf
+JTxXPgEEa1SWOPUIUdIAyOjQMkTT7TFDI/yPeHPlBfoB9P/SbAAxDQplbmRzdHJlYW0KZW5kb2Jq
+CjE5IDAgb2JqCjw8Ci9MZW5ndGggMTMKL0ZpbHRlciAvRmxhdGVEZWNvZGUKPj4Kc3RyZWFtDQp4
+nPv/n0LwBwCbFEG8DQplbmRzdHJlYW0KZW5kb2JqCnhyZWYKMCAyMAowMDAwMDAwMDAwIDY1NTM1
+IGYNCjAwMDAwMDAwMTUgMDAwMDAgbg0KMDAwMDAwMDE4NiAwMDAwMCBuDQowMDAwMDAwMDc4IDAw
+MDAwIG4NCjAwMDAwMDAyNDMgMDAwMDAgbg0KMDAwMDAwMDM1OSAwMDAwMCBuDQowMDAwMDAyODg0
+IDAwMDAwIG4NCjAwMDAwMDI5NDMgMDAwMDAgbg0KMDAwMDAwNjU5NyAwMDAwMCBuDQowMDAwMDA2
+NjI5IDAwMDAwIG4NCjAwMDAwMDY4NDEgMDAwMDAgbg0KMDAwMDAwNjkyMCAwMDAwMCBuDQowMDAw
+MDExNjU2IDAwMDAwIG4NCjAwMDAwMTE4MDcgMDAwMDAgbg0KMDAwMDAxMjMwMSAwMDAwMCBuDQow
+MDAwMDEyNjgzIDAwMDAwIG4NCjAwMDAwMTI3NTggMDAwMDAgbg0KMDAwMDAxMzAzNCAwMDAwMCBu
+DQowMDAwMDEzMjQyIDAwMDAwIG4NCjAwMDAwMTc2NzEgMDAwMDAgbg0KdHJhaWxlcgo8PAovUm9v
+dCAxIDAgUgovSW5mbyAzIDAgUgovSUQgWzw4ODgwNzMzMzExOTI5NEIzMTdCM0MyNTY0ODg2MUU4
+Nj4gPDg4ODA3MzMzMTE5Mjk0QjMxN0IzQzI1NjQ4ODYxRTg2Pl0KL1NpemUgMjAKPj4Kc3RhcnR4
+cmVmCjE3NzU4CiUlRU9GCg==
+
+
+--37b8b71f9e6a7fe648fd52d90ca64943d6c4196affc69bf00d71b82f1145--
+
