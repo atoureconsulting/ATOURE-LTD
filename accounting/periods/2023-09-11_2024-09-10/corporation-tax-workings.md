@@ -1,21 +1,28 @@
 # Corporation Tax Workings — Period 11 Sept 2023 to 10 Sept 2024
 
 HMRC company tax reference: 623 24114 14574 A 01
-Status: **DRAFT — depends on profit-and-loss.md being completed first**
+Status: **FINAL — profit-and-loss.md is complete, figures below are
+locked**
 
 This period spans two UK financial years (FY2023: 1 Apr 2023–31 Mar 2024,
-and FY2024: 1 Apr 2024–31 Mar 2025), so profit must be time-apportioned
-between them, same as HMRC did in their determination (21,165 days'-worth
-at FY23 rate, 16,994 at FY24 rate, both at 25% main rate since profits are
-below/at the small-profit threshold check — see note below).
+and FY2024: 1 Apr 2024–31 Mar 2025), so profit is technically
+time-apportioned between them, same as HMRC did in their determination.
+In practice this doesn't change the outcome here: the small profits rate
+(19%) applies to both FY2023 and FY2024 portions, since actual profit
+(£2,531.17 for the whole period) is nowhere near the £50,000 annual
+threshold even before apportioning it — so a single 19% rate applies to
+the whole period without needing marginal relief.
 
 ## Step 1 — Apportionment of profit across financial years
 
 | Financial year starting | Days in this CT period within that FY | Profit apportioned (£) | Rate | Tax (£) |
 |---|---|---|---|---|
-| 1 April 2023 | | | 19% or 25% (see note) | |
-| 1 April 2024 | | | 19% or 25% (see note) | |
-| **Total** | 366 days | **£0.00** | | **£0.00** |
+| 1 April 2023 (11 Sept 2023 – 31 Mar 2024) | 203 days | 1,404.53 | 19% | 266.86 |
+| 1 April 2024 (1 Apr 2024 – 10 Sept 2024) | 163 days | 1,126.64 | 19% | 214.06 |
+| **Total** | 366 days | **£2,531.17** | | **£480.92** |
+
+(Profit apportioned pro-rata by days: £2,531.17 × 203/366 = £1,404.53;
+£2,531.17 × 163/366 = £1,126.64.)
 
 ## Note on rate — Small Profits Rate vs Main Rate
 
@@ -36,21 +43,29 @@ of the profit figure itself likely being much lower than £38,159.
 
 **Open question:** does Atoure Ltd have any associated companies (e.g.
 other companies under common control)? This affects whether the £50,000
-small-profits threshold is divided between them. Assumed "no" until told
-otherwise — recorded in notes.md.
+small-profits threshold is divided between them. Assumed "no" — even if
+there were one or two associated companies, the threshold divided
+between them would still be far above this period's actual profit, so
+this assumption doesn't put the 19% rate at risk. Flag for the
+accountant to confirm formally.
 
 ## Step 2 — Tax payable
 
 | | £ |
 |---|---|
-| Corporation tax chargeable | 0.00 |
-| Less: marginal relief (if applicable) | 0.00 |
-| Net corporation tax liability | 0.00 |
+| Corporation tax chargeable | 480.92 |
+| Less: marginal relief (not applicable — profit well under £50,000) | 0.00 |
+| **Net corporation tax liability** | **480.92** |
 
 ## Comparison to HMRC's determination
 
-| | HMRC determination | Our draft calculation |
+| | HMRC determination | Our final calculation |
 |---|---|---|
-| Profit | £38,159 | £0.00 (pending data) |
-| Rate applied | 25% (flat) | 19% assumed, pending associated-company check |
-| Tax | £9,539.75 | £0.00 (pending data) |
+| Profit | £38,159 | £2,531.17 |
+| Rate applied | 25% (flat) | 19% (small profits rate) |
+| Tax | £9,539.75 | **£480.92** |
+
+**The real corporation tax due for this period is £480.92 — about 5% of
+HMRC's determination of £9,539.75.** This is the figure that should go
+on the actual Company Tax Return, superseding HMRC's estimate once
+filed.

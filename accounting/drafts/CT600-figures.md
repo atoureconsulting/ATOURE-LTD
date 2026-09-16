@@ -7,15 +7,20 @@ software, in iXBRL format) — it's the set of figures your accountant needs
 to complete boxes on the CT600, laid out per period, so they don't have to
 derive them from scratch.
 
-## Period 1: 11 Sept 2023 – 10 Sept 2024 (ref ...A01)
+## Period 1: 11 Sept 2023 – 10 Sept 2024 (ref ...A01) — FINAL
 
 | CT600 box (approx.) | Description | Value |
 |---|---|---|
-| Box 30 | Turnover | £0.00 |
-| Box 155 | Trading profit | £0.00 |
-| Box 165 | Profits chargeable to Corporation Tax | £0.00 |
-| Box 475/480-ish | Corporation Tax chargeable | £0.00 |
-| — | Rate applied | 19% (assumed — see corporation-tax-workings.md) |
+| Box 30 | Turnover | £7,076.99 |
+| Box 155 | Trading profit | £2,531.17 |
+| Box 165 | Profits chargeable to Corporation Tax | £2,531.17 |
+| Box 475/480-ish | Corporation Tax chargeable | £480.92 |
+| — | Rate applied | 19% (small profits rate — see corporation-tax-workings.md) |
+
+Full backing detail (every income/expense line, source documents, FX
+methodology) is in
+`../periods/2023-09-11_2024-09-10/profit-and-loss.md` and
+`../periods/2023-09-11_2024-09-10/corporation-tax-workings.md`.
 
 ## Period 2: 11 Sept 2024 – 30 Sept 2024 (ref ...A02)
 
