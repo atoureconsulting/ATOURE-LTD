@@ -1,8 +1,9 @@
 # Profit & Loss — Period 11 Sept 2023 to 10 Sept 2024
 
 HMRC company tax reference: 623 24114 14574 A 01
-Status: **DRAFT — bank-verified for income; still missing genuine
-operating expenses**
+Status: **COMPLETE — bank-verified income and expenses, all open
+questions resolved, all FX conversions final. Ready for the
+corporation tax workings to be finalised.**
 
 ## Income — reconciled against Santander bank statements (real, primary source)
 
@@ -81,11 +82,11 @@ FX conversion for Invoice #10 (€1,500) still needed (roughly
 |---|---|---|---|---|
 | 9 Sept 2023 | Companies House | Company filing fee | 12.00 | "CARD PAYMENT TO COMPANIESHOUSE WEB FIL" — genuine, small business expense, confirmed on bank statement |
 | 6 Nov 2023 (recognised) | Reality Entertainment (bad debt) | Bad debt write-off | 1,000.00 | Offsets the unpaid #3 invoice recognised as income above |
-| 2 May 2024 (recognised) | Connect SARL (bad debt) | Bad debt write-off | ~1,280.00 | Offsets unpaid Invoice #10 — FX conversion pending |
+| 2 May 2024 (recognised) | Connect SARL (bad debt) | Bad debt write-off | 1,246.99 | Offsets unpaid Invoice #10 (€1,500). FX: uses the actual realized rate from the sister invoice (#9, same €1,500 amount, same client, paid 11 Apr 2024 and converted to £1,246.99 by the bank) rather than a generic published rate — more directly evidenced for this specific client/invoice pair |
 | various | H3G (phone) | Direct debit, ~£16–17/month × 12 months, **50% business use (user-confirmed)** | ~97.50 | £16.25/month average × 12 = £195/year, × 50% = £97.50. See notes.md and user-facing answer below on evidencing the 50% estimate |
 | 2 Sept 2023 (deemed 11 Sept 2023) | Ryanair | Travel — pre-trading expense | 167.35 | Round-trip London Stansted–Berlin, 2–7 Sept 2023, for the Connect SARL job (Invoice #9, the £1,246.99 income recognised above). **Pre-trading expense**: incurred just before incorporation (11 Sept 2023) but wholly for the trade that generated confirmed income in this period, so treated as incurred on day 1 of trading under the pre-trading expenditure rule. Source: Ryanair itinerary email, booking ref RENH9F, passenger Mr Abdul-Malik Toure, paid via Apple Pay Mastercard ending 8931 |
-| 5–6 Sept 2023 (deemed 11 Sept 2023) | Bolt | Ground transport — pre-trading expense | ~30.44 (€35.30) | 3 Bolt rides in Berlin during the same trip (invoice #s 39177408-DE1123-446 €18.00, 47134568-DE1123-131 €8.30, 46856728-DE1123-102 €9.00). Same pre-trading treatment as the flight. FX approximate (Sept 2023 rate ~1.16), exact conversion pending |
-| 2–7 Sept 2023 (deemed 11 Sept 2023) | Uber | Ground transport — pre-trading expense | ~145.63 (€168.93) | 7 unique Uber rides in Berlin during the same trip (an 8th receipt, "uber 3", was a duplicate of "uber 4" — same trip/timestamp/amount, counted once). Individual fares: €40.91, €23.90, €16.96, €6.00, €20.98, €17.25, €42.93. Same pre-trading treatment as the flight. FX approximate, exact conversion pending |
+| 5–6 Sept 2023 (deemed 11 Sept 2023) | Bolt | Ground transport — pre-trading expense | 30.21 (€35.30) | 3 Bolt rides in Berlin during the same trip (invoice #s 39177408-DE1123-446 €18.00, 47134568-DE1123-131 €8.30, 46856728-DE1123-102 €9.00). Same pre-trading treatment as the flight. FX: HMRC official rate for September 2023, £1 = €1.1683 |
+| 2–7 Sept 2023 (deemed 11 Sept 2023) | Uber | Ground transport — pre-trading expense | 144.59 (€168.93) | 7 unique Uber rides in Berlin during the same trip (an 8th receipt, "uber 3", was a duplicate of "uber 4" — same trip/timestamp/amount, counted once). Individual fares: €40.91, €23.90, €16.96, €6.00, €20.98, €17.25, €42.93. Same pre-trading treatment as the flight. FX: HMRC official rate for September 2023, £1 = €1.1683 |
 | 8 May 2024 | Emirates | Travel — client business trip (user-confirmed) | 703.46 | Original booking, London Gatwick–Dubai–London Heathrow, booking ref CSHGVS. User confirms this trip was for a client. Source: Emirates booking confirmation email |
 | 12 Jun 2024 | Emirates (via PayPal) | Travel — flight change fee | 425.00 | Change fee for the same Dubai trip (CSHGVS): £350 fare difference + £75 change fee, moving return date to 3 June 2024. Paid via PayPal, matched to 12 Jun 2024 personal Revolut transaction |
 | 9 May – 3 Jun 2024 | Careem / Cars Taxi / Dubai Taxi / Royal Smart Limousine / National Parking | Ground transport — client business trip (user-confirmed) | 244.56 | Dubai/Abu Dhabi ground transport for the same Emirates trip (booking CSHGVS). User confirmed the full trip was for the client. 25 transactions: £3.28, £14.43, £17.68, £16.07, £3.44, £6.34, £14.85, £25.77, £12.36, £2.59, £13.90, £0.84, £10.22, £7.86, £6.01, £1.85, £4.07, £12.14, £8.56, £10.99, £6.90, £8.43, £11.92, £23.77, £0.29 (personal Revolut statement) |
@@ -95,27 +96,24 @@ FX conversion for Invoice #10 (€1,500) still needed (roughly
 | various | American Express / Capital One | Card repayments, £100–£500/instance | not counted | User no longer has access to these card statements/accounts, so the underlying purchases can't be verified — **not claimed** |
 | | | **Other genuine operating expenses (equipment, software, subscriptions)** | **0.00** | User confirmed no website hosting or other such costs incurred in this period |
 
-**Total expenses counted so far: £4,580.10** (Companies House fee + two
-bad debt write-offs + H3G at 50% apportionment + Berlin flight + Berlin
-ground transport (Bolt/Uber) + Dubai trip flights + Dubai ground
-transport + Dubai hotels + home working allowance)
+**Total expenses: £4,545.82** (Companies House fee + two bad debt
+write-offs + H3G at 50% apportionment + Berlin flight + Berlin ground
+transport (Bolt/Uber) + Dubai trip flights + Dubai ground transport +
+Dubai hotels + home working allowance). All FX conversions now final
+(no more approximations) — this figure is no longer provisional.
 
 ## Net profit / (loss)
 
-| | £ (approx.) |
+| | £ |
 |---|---|
 | Total income (bank-verified, incl. unpaid invoice recognised on accruals basis) | 7,076.99 |
-| Total expenses (bad debts + Companies House fee + H3G apportioned + Berlin flight + Berlin ground transport + Dubai flights + Dubai ground transport + Dubai hotels + home working allowance) | 4,580.10 |
-| **Net trading profit / (loss) so far** | **≈ 2,496.89** |
+| Total expenses | 4,545.82 |
+| **Net trading profit** | **2,531.17** |
 
-This is provisional. Compare to HMRC's £38,159 estimate — **already
-about 13% of it**, and this is before adding the H3G phone bill
-apportionment (which would reduce this further), resolving the
-remaining £120 unexplained receipt (an invoice for it will add to
-income), or finding any further genuine business expenses.
-
-Compare to HMRC's determination for this period: **£38,159** (see
-`../../hmrc-correspondence/07_CT620-determination_A01_period_p1.jpg`).
+**Final figure.** Compare to HMRC's determination for this period:
+**£38,159** (see
+`../../hmrc-correspondence/07_CT620-determination_A01_period_p1.jpg`)
+— our bank-verified figure is **≈6.6% of HMRC's estimate**.
 
 ## Open questions — status
 

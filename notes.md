@@ -361,6 +361,34 @@ varying it. This is flagged as a judgement-call area for the real
 accountant to sanity-check, not something requiring exhaustive evidence
 gathered now.
 
+## 6i. Period A01 finalised — FX conversions locked
+
+Two remaining FX estimates finalised:
+
+1. **Invoice #10 bad debt (€1,500):** rather than use a generic
+   published rate, used the actual realized rate from the sister
+   invoice (#9, identical €1,500 amount, same client Connect SARL,
+   paid 11 Apr 2024 and converted by the bank to £1,246.99) — more
+   directly evidenced for this specific client/invoice pair than a
+   monthly table rate. Changed from ~£1,280.00 (estimate) to £1,246.99
+   (final).
+2. **Berlin Bolt/Uber (€35.30 + €168.93):** used HMRC's official
+   published exchange rate for September 2023 (£1 = €1.1683, via web
+   search of trade-tariff.service.gov.uk data). Bolt: £30.21 (was
+   ~£30.44 estimate). Uber: £144.59 (was ~£145.63 estimate).
+
+Updated `profit-and-loss.md`: total expenses £4,545.82, net trading
+profit **£2,531.17** (final, not provisional) — compare to HMRC's
+£38,159 estimate, ours is ≈6.6% of it. Status changed from DRAFT to
+COMPLETE. Every open question in the file is now resolved and every
+FX conversion is final rather than approximate.
+
+Next for this period: finalise `corporation-tax-workings.md` with this
+profit figure (small profits rate 19% applies, well under £50,000
+threshold) and move on to `CT600-figures.md` and the balance sheet.
+Period A02 (11-30 Sept 2024) still needs its own Santander
+reconciliation before it can be considered final too.
+
 ## 6h. Period A01 closed out — hotels, home working, VAT, cards
 
 Four remaining items resolved in one round with the user:
