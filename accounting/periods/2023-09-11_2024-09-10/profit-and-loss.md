@@ -22,14 +22,15 @@ useful corroboration but the bank statement is what actually happened.
 | 27 Dec 2023 | £250.00 | "FASTER PAYMENTS RECEIPT REF.CHICKEN SHOP FROM AJIMOTOKIN IE" | Part of Chicken Shop deal — see below |
 | 5 Jan 2024 | £1,000.00 | "FASTER PAYMENTS RECEIPT REF.CHICKEN SHOP FROM AJIMOTOKIN IE" | Part of Chicken Shop deal — see below |
 | 8 Mar 2024 | £110.00 | "FASTER PAYMENTS RECEIPT REF.VALENTINES SHOOT FROM DAPAAH INTERNATIONAL GROUP LIMITED" | ✅ Invoice #6 (£110, Valentines Shoot Cast) |
-| 11 Apr 2024 | £1,246.99 | "TRANSFER FROM CONNECT SARL IMM DES GENERAT" | ❓ **No matching invoice — open question below (predates invoices #9/#10, which are dated 2 May 2024 and marked unpaid)** |
+| 11 Apr 2024 | £1,246.99 | "TRANSFER FROM CONNECT SARL IMM DES GENERAT" | ✅ **RESOLVED — user confirms this is payment for ONE of invoices #9/#10 (the €1,500 pair), received as an advance before the invoice was formally raised on 2 May 2024.** £1,246.99 ≈ €1,500 at the GBP/EUR rate around that date, consistent. **Still need: which of the two (#9 Corporate Bookkeeping and Archiving, or #10 Chauffering & Security Services) does this cover?** — only ONE is paid; the other remains unpaid. |
 
 **No payment found** from Reality Entertainment (invoice #3, £1,000) —
 consistent with user's confirmation it's unpaid.
-**No payment found** matching invoices #9/#10 (the two €1,500 Connect
-SARL invoices dated 2 May 2024) — consistent with user's confirmation
-they're unpaid. (The 11 Apr £1,246.99 receipt is a *different*, earlier,
-unexplained payment — see below.)
+**One of the two €1,500 Connect SARL invoices (#9/#10) is now confirmed
+PAID** (the 11 Apr 2024 receipt above, paid in advance of the invoice
+date) — the other remains unpaid. **Action for user: update the Canva
+invoice book to mark the correct one of #9/#10 as paid, and tell me
+which one so the accounts reflect it correctly.**
 
 ### Chicken Shop deal — net cash actually received
 
@@ -44,16 +45,9 @@ referencing "Chicken Shop" and involving Isaac Ajimotokin:
 | 5 Jan 2024 | In | £1,000.00 |
 | **Net** | | **£2,750.00** |
 
-**This does not match the £2,250 "15% commission" figure previously
-calculated in this file** (based on the user's "Option B" explanation —
-that the client paid the talent directly and only Atoure's commission
-reached Atoure). The real bank evidence shows a more complex flow: money
-moving both ways between Atoure and Ajimotokin, netting to £2,750, not a
-single clean £2,250 commission receipt. **Flagging for user: does £2,750
-look right for what Atoure actually kept from this deal, or does the
-£500 paid out on 1 Dec need a different explanation (e.g. a refund,
-expense recharge, or the two "leads" payments in the table above also
-being related to this same relationship with Ajimotokin)?**
+**RESOLVED — user confirms £2,750 is correct.** This replaces the earlier
+£2,250 estimate; the Chicken Shop deal's real net contribution to income
+is £2,750, per the four transactions above.
 
 ## Income actually received (bank-verified, accruals basis)
 
@@ -63,25 +57,24 @@ being related to this same relationship with Ajimotokin)?**
 | Manikeisaac / Ajimotokin "LEADS" (11 Oct 2023) | 70.00 |
 | Chicken Shop deal, net (30 Nov 2023 – 5 Jan 2024) | 2,750.00 |
 | Dapaah International (8 Mar 2024) | 110.00 |
-| **Subtotal, invoices we can match** | **£3,430.00** |
-| Unexplained "LEADS" receipt (28 Oct 2023) | 120.00 |
-| Unexplained Connect SARL receipt (11 Apr 2024) | 1,246.99 |
-| **Total received income, including unexplained items** | **£4,796.99** |
+| Connect SARL — one of #9/#10, paid in advance (11 Apr 2024) | 1,246.99 |
+| **Subtotal, matched/confirmed income** | **£4,676.99** |
+| Still-unexplained "LEADS" receipt (28 Oct 2023) — **user to issue an invoice for this, see action item below** | 120.00 |
+| **Total received income** | **£4,796.99** |
 
 ## Invoiced but unpaid — bad debt candidates
 
 | | £ / € |
 |---|---|
 | #3 Reality Entertainment | £1,000.00 |
-| #9 Connect SARL | €1,500.00 |
-| #10 Connect SARL | €1,500.00 |
+| Whichever of #9/#10 was NOT the one paid 11 Apr — **need user to confirm which** | €1,500.00 |
 
 Under accruals-basis accounting, these are recognised as income when
 invoiced, then offset by a bad debt expense once confirmed unlikely to
 be paid — netting to roughly nil effect on profit, but the technically
 correct presentation. User confirmed these as unlikely to be paid.
-FX conversion for the two €1,500 invoices still needed (roughly
-£1,280–£1,290 each estimated).
+FX conversion for the remaining unpaid €1,500 invoice still needed
+(roughly £1,280–£1,290 estimated).
 
 ## Expenses
 
@@ -89,43 +82,44 @@ FX conversion for the two €1,500 invoices still needed (roughly
 |---|---|---|---|---|
 | 9 Sept 2023 | Companies House | Company filing fee | 12.00 | "CARD PAYMENT TO COMPANIESHOUSE WEB FIL" — genuine, small business expense, confirmed on bank statement |
 | 6 Nov 2023 (recognised) | Reality Entertainment (bad debt) | Bad debt write-off | 1,000.00 | Offsets the unpaid #3 invoice recognised as income above |
-| 2 May 2024 (recognised) | Connect SARL (bad debt) | Bad debt write-off | ~1,280.00 | Offsets unpaid #9 — FX conversion pending |
-| 2 May 2024 (recognised) | Connect SARL (bad debt) | Bad debt write-off | ~1,280.00 | Offsets unpaid #10 — FX conversion pending |
-| various | H3G (phone) | Direct debit, ~£16–17/month | ~190.00 (12 months) | **Open question: is this a personal or business phone line?** Appears monthly throughout the account — if business use, it's a genuine deductible expense; if personal, it should be excluded (or apportioned) |
+| 2 May 2024 (recognised) | Connect SARL (bad debt) | Bad debt write-off | ~1,280.00 | Offsets whichever of #9/#10 remains unpaid — FX conversion pending |
+| various | H3G (phone) | Direct debit, ~£16–17/month | apportioned — see note below | **Business-use portion only is deductible** — see answer to user below on how to apportion a mixed-use phone bill |
 | various | American Express / Capital One | Card repayments, £100–£500/instance | not counted | Looks like personal credit card repayments (the underlying purchases aren't visible), not treated as a business expense without more detail — **flag for user: any of this business-related?** |
 | | | **Other genuine operating expenses (equipment, software, travel specific to client work)** | **0.00** | **Still not found on this account.** Nearly everything else visible is personal spending (Uber, restaurants, TfL, Halal Meat shops, PayPal purchases) |
 
-**Total expenses counted so far: £3,572.00** (Companies House fee +
-three bad debt write-offs)
+**Total expenses counted so far: £2,292.00** (Companies House fee + two
+bad debt write-offs; H3G apportionment still to be added once business-use
+% is confirmed)
 
 ## Net profit / (loss)
 
 | | £ (approx.) |
 |---|---|
-| Total income (bank-verified, incl. unpaid invoices recognised on accruals basis, incl. unexplained receipts) | 7,796.99 |
-| Total expenses (bad debts + Companies House fee only) | 3,572.00 |
-| **Net trading profit / (loss) so far** | **≈ 4,225.00** |
+| Total income (bank-verified, incl. unpaid invoice recognised on accruals basis) | 7,076.99 |
+| Total expenses (bad debts + Companies House fee only, H3G not yet added) | 2,292.00 |
+| **Net trading profit / (loss) so far** | **≈ 4,785.00** |
 
 This is provisional. Compare to HMRC's £38,159 estimate — **already
-about 11% of it**, and this is before resolving the H3G phone line
-question, the two unexplained receipts, or finding any further genuine
-business expenses (which would only reduce this further).
+about 13% of it**, and this is before adding the H3G phone bill
+apportionment (which would reduce this further), resolving the
+remaining £120 unexplained receipt (an invoice for it will add to
+income), or finding any further genuine business expenses.
 
 Compare to HMRC's determination for this period: **£38,159** (see
 `../../hmrc-correspondence/07_CT620-determination_A01_period_p1.jpg`).
 
-## Open questions raised by the Santander reconciliation
+## Open questions — status
 
-1. **£120 received 28 Oct 2023** ("LEADS" from Ajimotokin) — what was
-   this for? No matching invoice.
-2. **£1,246.99 received 11 Apr 2024** (Connect SARL) — what was this
-   for? Predates invoices #9/#10 by 3 weeks, doesn't match their amounts
-   even after FX conversion, and those two invoices are separately
-   marked unpaid.
-3. **Chicken Shop net £2,750** vs the previously assumed clean £2,250
-   commission — does this look right, or does the £500 paid out on 1 Dec
-   need separate explanation?
-4. **H3G phone line (~£16–17/month)** — business or personal use?
+1. ~~£120 received 28 Oct 2023~~ — **RESOLVED (action needed):** user
+   will issue a new invoice for this, matching the "LEADS" pattern of
+   invoice #2. **Once issued, add it to the Canva invoice book and tell
+   me the details so it's logged properly** (client, description, date).
+2. ~~£1,246.99 received 11 Apr 2024~~ — **RESOLVED:** confirmed as
+   advance payment for one of invoices #9/#10. **Still need: which one**
+   (Bookkeeping or Chauffering) — the other stays an unpaid bad debt.
+3. ~~Chicken Shop net £2,750~~ — **RESOLVED, confirmed correct by user.**
+4. **H3G phone line (~£16–17/month)** — user confirms mixed personal/
+   business use. See notes.md and user-facing answer on apportionment.
 5. Still need: any other genuine operating expenses (equipment,
    software, subscriptions specifically for the business) not visible
    on this personal account — e.g. did any business costs go through
