@@ -89,21 +89,24 @@ FX conversion for Invoice #10 (€1,500) still needed (roughly
 | 8 May 2024 | Emirates | Travel — client business trip (user-confirmed) | 703.46 | Original booking, London Gatwick–Dubai–London Heathrow, booking ref CSHGVS. User confirms this trip was for a client. Source: Emirates booking confirmation email |
 | 12 Jun 2024 | Emirates (via PayPal) | Travel — flight change fee | 425.00 | Change fee for the same Dubai trip (CSHGVS): £350 fare difference + £75 change fee, moving return date to 3 June 2024. Paid via PayPal, matched to 12 Jun 2024 personal Revolut transaction |
 | 9 May – 3 Jun 2024 | Careem / Cars Taxi / Dubai Taxi / Royal Smart Limousine / National Parking | Ground transport — client business trip (user-confirmed) | 244.56 | Dubai/Abu Dhabi ground transport for the same Emirates trip (booking CSHGVS). User confirmed the full trip was for the client. 25 transactions: £3.28, £14.43, £17.68, £16.07, £3.44, £6.34, £14.85, £25.77, £12.36, £2.59, £13.90, £0.84, £10.22, £7.86, £6.01, £1.85, £4.07, £12.14, £8.56, £10.99, £6.90, £8.43, £11.92, £23.77, £0.29 (personal Revolut statement) |
-| various | American Express / Capital One | Card repayments, £100–£500/instance | not counted | Looks like personal credit card repayments (the underlying purchases aren't visible), not treated as a business expense without more detail — **flag for user: any of this business-related?** |
-| | | **Other genuine operating expenses (equipment, software, travel specific to client work)** | **0.00** | **Still not found on this account.** Nearly everything else visible is personal spending (Uber, restaurants, TfL, Halal Meat shops, PayPal purchases) |
+| 3 Jun 2024 | Vida The Hills Hotel | Accommodation — client business trip (user-confirmed) | 155.66 | Dubai hotel stay, same Emirates trip (booking CSHGVS) |
+| 3 Jun 2024 | Blu Oasis Desert Hotel | Accommodation/excursion — client business trip (user-confirmed) | 6.50 | Same Dubai trip, small charge (possibly a desert excursion rather than a full stay) |
+| various, deemed across the period | Use of home as office | Home working allowance | 312.00 | HMRC simplified flat rate for a director regularly working from home: £6/week × 52 weeks. No receipts or bill-splitting required under this flat rate — supported by the company's registered address being the director's home |
+| various | American Express / Capital One | Card repayments, £100–£500/instance | not counted | User no longer has access to these card statements/accounts, so the underlying purchases can't be verified — **not claimed** |
+| | | **Other genuine operating expenses (equipment, software, subscriptions)** | **0.00** | User confirmed no website hosting or other such costs incurred in this period |
 
-**Total expenses counted so far: £4,105.94** (Companies House fee + two
+**Total expenses counted so far: £4,580.10** (Companies House fee + two
 bad debt write-offs + H3G at 50% apportionment + Berlin flight + Berlin
 ground transport (Bolt/Uber) + Dubai trip flights + Dubai ground
-transport)
+transport + Dubai hotels + home working allowance)
 
 ## Net profit / (loss)
 
 | | £ (approx.) |
 |---|---|
 | Total income (bank-verified, incl. unpaid invoice recognised on accruals basis) | 7,076.99 |
-| Total expenses (bad debts + Companies House fee + H3G apportioned + Berlin flight + Berlin ground transport + Dubai flights + Dubai ground transport) | 4,105.94 |
-| **Net trading profit / (loss) so far** | **≈ 2,971.05** |
+| Total expenses (bad debts + Companies House fee + H3G apportioned + Berlin flight + Berlin ground transport + Dubai flights + Dubai ground transport + Dubai hotels + home working allowance) | 4,580.10 |
+| **Net trading profit / (loss) so far** | **≈ 2,496.89** |
 
 This is provisional. Compare to HMRC's £38,159 estimate — **already
 about 13% of it**, and this is before adding the H3G phone bill
@@ -127,12 +130,9 @@ Compare to HMRC's determination for this period: **£38,159** (see
 4. ~~H3G phone line (~£16–17/month)~~ — **RESOLVED: 50% business use
    confirmed by user.** Apportioned at £97.50/year (50% of ~£195/year).
    See notes.md and user-facing answer on evidencing this to HMRC.
-5. Still need: any other genuine operating expenses (equipment,
-   software, subscriptions specifically for the business) not visible
-   on this personal account — e.g. did any business costs go through
-   the Revolut Business account instead, inside this period? (The
-   Revolut Business statement obtained earlier only covered from 14
-   Sept 2024 onward, so period A01 isn't covered by it.)
+5. ~~Other genuine operating expenses (equipment, software,
+   subscriptions)~~ — **RESOLVED: user confirms none incurred** (no
+   website hosting or similar costs this period).
 6. ~~Berlin flight, 2–7 Sept 2023, £167.35~~ — **RESOLVED:** user
    confirms this trip was for the Connect SARL job (Invoice #9).
    Claimed as a pre-trading expense, deemed incurred on 11 Sept 2023.
@@ -151,6 +151,20 @@ Compare to HMRC's determination for this period: **£38,159** (see
    User confirmed all of the above were personal travel. No further
    flight expenses to add for Period A01 — the flight review is
    complete (Berlin and Dubai trips are the only claimed travel).
+10. ~~Dubai hotels~~ — **RESOLVED:** user confirmed the full Dubai/Abu
+    Dhabi trip was for the client. Vida The Hills (£155.66) and Blu
+    Oasis Desert Hotel (£6.50) added as accommodation expenses.
+11. ~~Use of home as office~~ — **RESOLVED:** user confirmed working
+    from home; the company's registered address is the director's
+    home. Claimed at HMRC's simplified flat rate (£6/week × 52 weeks =
+    £312.00) — no receipts or bill-splitting required at this rate.
+12. ~~VAT registration~~ — **RESOLVED:** user confirms turnover well
+    under £15,000/year, far below the £85,000/£90,000 VAT registration
+    threshold. Not VAT registered, correctly so.
+13. ~~American Express / Capital One card spend~~ — **CLOSED, NOT
+    CLAIMED:** user no longer has access to these card accounts/
+    statements, so the underlying purchases can't be verified. Left
+    out of the accounts rather than estimated.
 
 ## Notes / assumptions for this period
 

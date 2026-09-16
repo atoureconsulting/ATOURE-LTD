@@ -361,6 +361,41 @@ varying it. This is flagged as a judgement-call area for the real
 accountant to sanity-check, not something requiring exhaustive evidence
 gathered now.
 
+## 6h. Period A01 closed out — hotels, home working, VAT, cards
+
+Four remaining items resolved in one round with the user:
+
+1. **Dubai hotels** — user confirmed "yes the hills" (referring to
+   both Dubai hotel charges given the same confirmed-business-trip
+   basis as the transport). Added Vida The Hills (£155.66) and Blu
+   Oasis Desert Hotel (£6.50) as accommodation expenses.
+2. **Use of home as office** — user confirmed working from home, and
+   that the company's registered business address is the home address.
+   Claimed HMRC's simplified flat rate for a director regularly
+   working from home: £6/week x 52 weeks = £312.00. This rate needs no
+   receipts or bill-apportionment evidence — it's a pre-agreed HMRC
+   allowance, which directly answers the user's "how do I prove this"
+   question.
+3. **VAT** — user confirmed turnover well under £15,000/year, so no
+   VAT registration required (threshold £85,000/£90,000). Noted as
+   correctly unregistered.
+4. **Amex/Capital One cards** — user confirmed they no longer have
+   access to these card accounts, so the underlying purchases cannot
+   be verified. Left out of the accounts entirely rather than
+   estimated — the honest position given no evidence is obtainable.
+5. **Equipment/software/subscriptions** — user confirmed none incurred
+   (specifically ruled out website hosting).
+
+Updated `profit-and-loss.md`: total expenses now £4,580.10, net trading
+profit ≈ £2,496.89 (down from £2,971.05 due to the hotels + home
+working allowance, partially offset by nothing new on income).
+
+This effectively closes out Period A01's expense-gathering — every
+open question in the file is now resolved. Remaining before this
+period can be finalised: FX conversion of the €1,500 Invoice #10 bad
+debt into GBP (currently an estimate), and then locking
+`corporation-tax-workings.md` with the final profit figure.
+
 ## 6g. Dubai trip ground transport added
 
 User asked to add Uber/taxi costs from business trips. Checked the
