@@ -83,19 +83,20 @@ FX conversion for Invoice #10 (€1,500) still needed (roughly
 | 6 Nov 2023 (recognised) | Reality Entertainment (bad debt) | Bad debt write-off | 1,000.00 | Offsets the unpaid #3 invoice recognised as income above |
 | 2 May 2024 (recognised) | Connect SARL (bad debt) | Bad debt write-off | ~1,280.00 | Offsets unpaid Invoice #10 — FX conversion pending |
 | various | H3G (phone) | Direct debit, ~£16–17/month × 12 months, **50% business use (user-confirmed)** | ~97.50 | £16.25/month average × 12 = £195/year, × 50% = £97.50. See notes.md and user-facing answer below on evidencing the 50% estimate |
+| 2 Sept 2023 (deemed 11 Sept 2023) | Ryanair | Travel — pre-trading expense | 167.35 | Round-trip London Stansted–Berlin, 2–7 Sept 2023, for the Connect SARL job (Invoice #9, the £1,246.99 income recognised above). **Pre-trading expense**: incurred just before incorporation (11 Sept 2023) but wholly for the trade that generated confirmed income in this period, so treated as incurred on day 1 of trading under the pre-trading expenditure rule. Source: Ryanair itinerary email, booking ref RENH9F, passenger Mr Abdul-Malik Toure, paid via Apple Pay Mastercard ending 8931 |
 | various | American Express / Capital One | Card repayments, £100–£500/instance | not counted | Looks like personal credit card repayments (the underlying purchases aren't visible), not treated as a business expense without more detail — **flag for user: any of this business-related?** |
 | | | **Other genuine operating expenses (equipment, software, travel specific to client work)** | **0.00** | **Still not found on this account.** Nearly everything else visible is personal spending (Uber, restaurants, TfL, Halal Meat shops, PayPal purchases) |
 
-**Total expenses counted so far: £2,389.50** (Companies House fee + two
-bad debt write-offs + H3G at 50% apportionment)
+**Total expenses counted so far: £2,556.85** (Companies House fee + two
+bad debt write-offs + H3G at 50% apportionment + Berlin flight)
 
 ## Net profit / (loss)
 
 | | £ (approx.) |
 |---|---|
 | Total income (bank-verified, incl. unpaid invoice recognised on accruals basis) | 7,076.99 |
-| Total expenses (bad debts + Companies House fee + H3G apportioned) | 2,389.50 |
-| **Net trading profit / (loss) so far** | **≈ 4,687.49** |
+| Total expenses (bad debts + Companies House fee + H3G apportioned + Berlin flight) | 2,556.85 |
+| **Net trading profit / (loss) so far** | **≈ 4,520.14** |
 
 This is provisional. Compare to HMRC's £38,159 estimate — **already
 about 13% of it**, and this is before adding the H3G phone bill
@@ -125,6 +126,13 @@ Compare to HMRC's determination for this period: **£38,159** (see
    the Revolut Business account instead, inside this period? (The
    Revolut Business statement obtained earlier only covered from 14
    Sept 2024 onward, so period A01 isn't covered by it.)
+6. ~~Berlin flight, 2–7 Sept 2023, £167.35~~ — **RESOLVED:** user
+   confirms this trip was for the Connect SARL job (Invoice #9).
+   Claimed as a pre-trading expense, deemed incurred on 11 Sept 2023.
+   Other flights found on the personal Revolut account (28 Nov 2023,
+   9 Jan 2024, 2 May 2024, 9 May 2024, 29 Jun 2024, 1 Jul 2024, 12 Jul
+   2024, 17 Jul 2024, 24 Jul 2024) — **still need user confirmation on
+   business purpose for each before claiming.**
 
 ## Notes / assumptions for this period
 

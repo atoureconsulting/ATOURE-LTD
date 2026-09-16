@@ -361,6 +361,49 @@ varying it. This is flagged as a judgement-call area for the real
 accountant to sanity-check, not something requiring exhaustive evidence
 gathered now.
 
+## 6c. Flight expenses — Santander/Revolut Personal search, Berlin trip confirmed
+
+User asked to look up all flight expenses paid in the bank statements.
+Searched all Santander and both Revolut PDFs for airline/flight keywords
+(pypdf text extraction). Result: **no flight charges on the Santander or
+Revolut Business accounts** — all flight spending is on the **personal
+Revolut account**, meaning any claimed as a business expense needs
+treating as a director's expense/reimbursement, not a direct company
+payment.
+
+Flights found inside 11 Sept 2023 – 30 Sept 2024 (Period A01/A02):
+28 Nov 2023 Ryanair £184.80; 9 Jan 2024 Ryanair £117.24; 2 May 2024 Air
+France £25.70; 9 May 2024 Emirates £703.46 (ref "Airport baba"); 29 Jun
+2024 EasyJet £288.99; 1 Jul 2024 EasyJet inflight £6.50; 12 Jul 2024
+jet2.com £2.70 (ref "Airport job"); 17 Jul 2024 British Airways £17.50;
+24 Jul 2024 British Airways £32.50 (ref "Flights"). None of these have
+been confirmed as business yet — still need user to state purpose for
+each.
+
+**Berlin trip, resolved:** user provided a Ryanair itinerary email
+(saved to
+`accounting/source-data/receipts-and-invoices/Ryanair_Berlin_2-7Sept2023_itinerary.eml`)
+— round-trip London Stansted–Berlin, **Sat 2 Sept 2023 to Thu 7 Sept
+2023**, £167.35 total, passenger Mr Abdul-Malik Toure, booking ref
+RENH9F. This is *before* incorporation (11 Sept 2023) and before both
+accounting periods start. User confirmed this trip was for the Connect
+SARL job (the one that produced the £1,246.99 payment / Invoice #9,
+Corporate Bookkeeping and Archiving).
+
+**Treatment decision:** claimed under the pre-trading expenditure rule
+(CTA 2009 s.61) — costs incurred up to 7 years before a company starts
+trading, wholly for the purpose of that trade, are treated as incurred
+on the first day of the first accounting period. Deemed incurred 11
+Sept 2023, added to Period A01 expenses at £167.35. This is a
+reasonable, defensible position given the trip directly produced
+confirmed invoiced income in this period — flagged for the real
+accountant to confirm the treatment is correctly presented on the
+CT600/accounts (may want a note in the accounts explaining the
+pre-trading nature).
+
+Updated `profit-and-loss.md`: total expenses now £2,556.85, net trading
+profit ≈ £4,520.14.
+
 ## 6a. Santander statements received — reconciling against invoices
 
 Santander (personal current account, sort code 09 01 29) statements
