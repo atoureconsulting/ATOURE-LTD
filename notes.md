@@ -327,6 +327,40 @@ _(to be filled in as figures are built)_
 
 ---
 
+## 6b. Final resolutions for period A01 — invoice #9 vs #10, phone apportionment
+
+User confirmed three outstanding items directly:
+
+1. **£120 "LEADS" receipt (28 Oct 2023):** user issued a new invoice on
+   Canva for £120 and marked it paid, matching the existing "LEADS"
+   pattern from invoice #2. No longer an unexplained receipt.
+2. **£1,246.99 advance payment (11 Apr 2024):** user confirmed this
+   covers **Invoice #9 (Corporate Bookkeeping and Archiving, €1,500)**,
+   marked paid on Canva. This means **Invoice #10 (Chauffering &
+   Security Services, €1,500)** is the one that remains unpaid and is
+   treated as a bad debt write-off.
+3. **H3G phone bill apportionment:** user confirmed **50% business use**.
+   Applied as 50% × ~£195/year (average ~£16.25/month × 12) ≈ £97.50
+   deductible for the year. Added as a genuine expense line in
+   `profit-and-loss.md`.
+
+Updated `accounting/periods/2023-09-11_2024-09-10/profit-and-loss.md`
+accordingly: total expenses now £2,389.50, net trading profit ≈ £4,687.49
+(down slightly from £4,785.00 due to the added H3G expense; the £120
+receipt was already counted in the total so no income change).
+
+**User question: "how can i prove that i use my phone so that its
+justifiable to them"** — answered in chat. HMRC does not generally
+require pre-emptive documentary proof to submit a return; it wants a
+reasonable, consistent, defensible estimate that would hold up if ever
+queried. Practical ways to support it if asked later: review an itemised
+H3G bill for business-related calls/texts/data usage in a representative
+month; keep a simple ongoing note/diary of business vs personal use;
+apply the same percentage consistently period to period rather than
+varying it. This is flagged as a judgement-call area for the real
+accountant to sanity-check, not something requiring exhaustive evidence
+gathered now.
+
 ## 6a. Santander statements received — reconciling against invoices
 
 Santander (personal current account, sort code 09 01 29) statements
