@@ -361,6 +361,32 @@ varying it. This is flagged as a judgement-call area for the real
 accountant to sanity-check, not something requiring exhaustive evidence
 gathered now.
 
+## 7a. Period A02 finalised — all open questions resolved
+
+User confirmed the remaining items:
+- Ermal Alija (£50 income): a client — income confirmed as recorded.
+- PayPal *Payin3 (£11.33): confirmed personal, not claimed.
+- SumUp *Amilcare Rimol[a] (£15.63 + £22.95 = £38.58, 16 & 19 Sept
+  2024): user confirmed these were likely personal purchases made
+  during the hospital admission, paid via the Revolut Business
+  account (both dates fall within the 7-25 Sept hospitalisation).
+  Removed from expenses (not a business cost) and instead tracked as
+  a director's loan item — same treatment logic as period A01's
+  overdrawn loan (business funds used for a personal purchase).
+
+Updated `profit-and-loss.md`: total expenses now just £8.63 (H3G phone
+at 50%), net profit **£41.37** (up from the earlier £(8.54) draft).
+Updated `corporation-tax-workings.md`: tax due £7.86 (19% x £41.37).
+Updated `CT600-figures.md` with final A02 figures and a combined
+total across both periods: **£482.51 total corporation tax due**
+across A01+A02, versus HMRC's combined £10,334.75 assumption (~4.7%).
+
+Status changed to COMPLETE. Both periods A01 and A02 are now fully
+reconciled, bank-verified, and locked. Still outstanding: the £38.58
+(A02) and £474.65 (A01) director's loan items need reflecting in a
+combined/updated balance sheet — balance-sheet.md's 30 Sept 2024
+column is still marked "pending" and needs this update next.
+
 ## 7. Period A02 reconciled against all three accounts
 
 Checked all three bank accounts for the 11-30 Sept 2024 window

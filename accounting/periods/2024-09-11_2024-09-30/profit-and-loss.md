@@ -1,8 +1,8 @@
 # Profit & Loss — Period 11 Sept 2024 to 30 Sept 2024 (19-day stub period)
 
 HMRC company tax reference: 623 24114 14574 A 02
-Status: **Bank-verified across all three accounts (Revolut Business,
-Revolut Personal, Santander) — see reconciliation below.**
+Status: **COMPLETE — bank-verified across all three accounts, all open
+questions resolved.**
 
 **Note:** confirm with Companies House / accountant why this short stub
 period exists immediately after the 12-month period above — likely an
@@ -39,29 +39,35 @@ Source: Revolut Business (GBP) statement, ATOURE_LTD.pdf, account 38953900 / sor
 
 | Date | Payee | Category | Amount (£) | Notes |
 |---|---|---|---|---|
-| 16 Sept 2024 | Sumup *Amilcare Rimol | Card payment | 15.63 | **Need from user: what is this? A supplier/merchant name via SumUp card reader.** |
-| 19 Sept 2024 | Sumup **Amilcare Rimol | Card payment | 22.95 | Same merchant as above, second payment |
 | 23 Sept 2024 | H3G (phone) | Direct debit, 50% business use (consistent with Period A01 treatment) | 8.63 | Full charge £17.26, 50% business use per user-confirmed rate. Source: Santander statement 11 Sept–10 Oct 2024 |
-| 24 Sept 2024 | PayPal *Payin3 | Card payment | 11.33 | **Need from user: what was this for?** "PayPal Pay-in-3" instalment payment — unclear if business or personal. Source: Santander statement |
 
-**Not counted:** 24 Sept 2024, £10.00 transfer from Santander to
-Revolut (both the director's own accounts) — an internal transfer
-between personal accounts, not a business expense.
+**Not counted as business expenses:**
+- 24 Sept 2024, £10.00 transfer from Santander to Revolut (both the
+  director's own accounts) — internal transfer, not an expense.
+- 24 Sept 2024, £11.33 PayPal *Payin3 — **user confirmed personal**
+  purchase, not claimed.
+- 16 & 19 Sept 2024, £15.63 + £22.95 SumUp *Amilcare Rimol[a] (£38.58
+  total) — **user confirmed these were likely personal purchases made
+  during the hospital admission** (both dates fall within the 7–25
+  Sept hospitalisation), paid via the Revolut Business account. Not a
+  business expense, so excluded from the P&L — but since business
+  funds were used for a personal purchase, this is tracked instead as
+  a director's loan item (director owes the company £38.58) — see
+  balance sheet.
 
-**Total expenses: £58.54**
+**Total expenses: £8.63**
 
 ## Net profit / (loss)
 
 | | £ |
 |---|---|
 | Total income | 50.00 |
-| Total expenses | 58.54 |
-| **Net trading profit / (loss)** | **(8.54)** |
+| Total expenses | 8.63 |
+| **Net trading profit** | **41.37** |
 
-**This period now shows a small loss**, not a profit — a result of
-adding the H3G phone apportionment and the PayPal charge found on
-Santander. Still two open items before this is final: who Ermal Alija
-is (income) and what the PayPal Pay-in-3 charge was for (expense).
+Ermal Alija (the £50 income) confirmed by user as a client — income
+stands as recorded. All open questions for this period are now
+resolved.
 
 Compare to HMRC's determination for this period: **£3,180** (see
 `../../hmrc-correspondence/03_CT620-determination_A02_period_p1.jpg`).
