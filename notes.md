@@ -361,6 +361,16 @@ varying it. This is flagged as a judgement-call area for the real
 accountant to sanity-check, not something requiring exhaustive evidence
 gathered now.
 
+## 6s. All three documents signed
+
+User confirmed the dividend board minute, dividend voucher, and
+penalty appeal letter are all signed and saved in their Google Drive.
+Status: dividend paperwork is now legally effective (dated 17 Sept
+2026); appeal letter is ready to post to HMRC (deadline 2 Oct 2026).
+Remaining work is the appeal letter's physical posting, plus the
+larger remaining items: Period A02 reconciliation, statutory accounts,
+actual CT600 filing, and accountant engagement.
+
 ## 6r. Dividend paperwork finalised, ready to sign (Option B chosen)
 
 User confirmed they want to just sign the dividend paperwork
