@@ -361,6 +361,32 @@ varying it. This is flagged as a judgement-call area for the real
 accountant to sanity-check, not something requiring exhaustive evidence
 gathered now.
 
+## 7. Period A02 reconciled against all three accounts
+
+Checked all three bank accounts for the 11-30 Sept 2024 window
+(previously only Revolut Business had been checked):
+
+- **Revolut Personal:** full review confirms no business activity.
+  Notably, this account shows near-daily "Royal Free Hospital" charges
+  from 17-29 Sept 2024 and support payments from "Menardin" — directly
+  consistent with the director's hospitalisation (7-25 Sept 2024, see
+  section 6o) overlapping this exact period. Good independent
+  corroboration of the illness timeline from a completely different
+  data source.
+- **Santander:** statement for 11 Sept-10 Oct 2024 checked. Found real
+  activity previously missed: H3G phone direct debit (£17.26, 50%
+  business use per the established A01 rate = £8.63) and a PayPal
+  "Pay-in-3" charge (£11.33, purpose unknown — need to ask user). Also
+  a £10 transfer to the director's own Revolut account — correctly
+  excluded as an internal transfer, not an expense.
+- **Revolut Business:** unchanged, already fully reviewed in 6c/6g.
+
+Updated `profit-and-loss.md` for period A02: total expenses now
+£58.54 (was £38.58), and the period now shows a small loss of £(8.54)
+rather than a £11.42 profit. Two open questions remain before this is
+final: who "Ermal Alija" is (the £50 income), and what the PayPal
+Pay-in-3 charge was for.
+
 ## 6s. All three documents signed
 
 User confirmed the dividend board minute, dividend voucher, and
