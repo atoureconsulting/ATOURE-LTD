@@ -40,10 +40,15 @@ pending that period's own reconciliation.**
 Equity (£1.00), once the £2,023.51 dividend is formally declared and
 paid — since that removes both the retained-profit equity and the
 corresponding DLA receivable from the books, leaving only the £1.00
-nominal share capital as equity. **Until the dividend paperwork (board
-minute + voucher) is actually done, the £2,023.51 remains sitting as a
-DLA receivable/undistributed profit instead of being paid out** —
-flagged for the accountant to finalise the paperwork and confirm this
+nominal share capital as equity. **Dividend paperwork now drafted** —
+see `../drafts/dividend-board-minute.md` and
+`../drafts/dividend-voucher.md`; dated with the real signing date
+(not backdated), satisfied by set-off against the director's loan
+account. Once signed, the £2,023.51 is formally distributed. Note this
+doesn't retroactively change Period A01's S455 exposure, since the
+9-month deadline had already passed before this dividend was declared
+— see `notes.md` and `../drafts/penalty-appeal-letter.md` for that
+separate issue. Still flagged for the accountant to confirm this
 treatment. One more open point for the accountant: whether the £1.00
 share capital was actually paid in cash at incorporation, or remains
 called-up-but-unpaid (common for nominal amounts like this) — doesn't

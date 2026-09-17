@@ -361,6 +361,27 @@ varying it. This is flagged as a judgement-call area for the real
 accountant to sanity-check, not something requiring exhaustive evidence
 gathered now.
 
+## 6q. Dividend paperwork drafted
+
+Drafted the two documents needed to formalise the £2,023.51 dividend
+(the distributable-profit portion of the DLA, per 6l/6m): a written
+resolution of the sole director (`dividend-board-minute.md`) and a
+dividend voucher (`dividend-voucher.md`), both in `accounting/drafts/`.
+
+Key decision, flagged clearly in both documents: **dated with the
+real signing date, not backdated into 2024** — dividends cannot be
+legally backdated. Explained to user that this means the dividend
+formally clears the loan going forward, but does not retroactively
+fix Period A01's S455 exposure (that deadline already passed before
+today), which remains a separate issue covered in the penalty
+appeal/balance sheet notes. Satisfied by set-off against the DLA
+rather than a fresh cash payment, since the money was already drawn.
+
+Both documents still need: today's actual date filled in, and the
+user's signature. Recommended accountant review before signing,
+particularly given the unusual timing (declared ~2 years after the
+period it relates to).
+
 ## 6p. Illness narrative extended (3-week prodrome + infection); images redacted and pushed
 
 User added two facts: (1) approximately 3 weeks of worsening symptoms
