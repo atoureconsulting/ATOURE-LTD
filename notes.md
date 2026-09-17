@@ -361,6 +361,27 @@ varying it. This is flagged as a judgement-call area for the real
 accountant to sanity-check, not something requiring exhaustive evidence
 gathered now.
 
+## 6m. Share capital confirmed — period A01 balance sheet fully locked
+
+User confirmed 100% of shares held by director Abdul-Malik Baba Toure.
+Found the exact share capital via Google Drive search: Articles of
+Association state "the share capital of the Company is divided into
+[100] shares of £[0.01] each" (£1.00 total), and the Memorandum of
+Association confirms the sole subscriber is Abdul-Malik Toure —
+consistent with 100% ownership.
+
+Added £1.00 share capital to both sides of `balance-sheet.md` (assets:
+called-up share capital; equity: share capital). Flagged one minor,
+immaterial open point for the accountant: whether the £1.00 was
+actually paid in cash at incorporation or remains called-up-but-unpaid
+(common for nominal amounts this small) — doesn't affect any other
+figure.
+
+**This closes out the last open item on Period A01's balance sheet.**
+Status changed to COMPLETE. Full picture for Period A01: assets
+£787.65, liabilities £786.65, equity £1.00 (rising to £2,024.51 once
+the £2,023.51 dividend is formally declared and paid, per 6l).
+
 ## 6l. DLA revised — user corrected personal spend to £2,498.16, not £2,810.16
 
 User revisited the DLA figures and clarified: of the £2,810.16 residual

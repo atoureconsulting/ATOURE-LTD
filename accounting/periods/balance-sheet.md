@@ -5,18 +5,20 @@ covers the position **as at 10 September 2024** (end of the 12-month
 period) and **as at 30 September 2024** (end of the stub period), plus
 opening position at incorporation for reference.
 
-Status: **Period A01 (10 Sept 2024) drafted from real data below — Period
-A02 (30 Sept 2024) still pending that period's own reconciliation.**
+Status: **Period A01 (10 Sept 2024) COMPLETE — all figures locked,
+including confirmed share capital. Period A02 (30 Sept 2024) still
+pending that period's own reconciliation.**
 
 ## Assets
 
 | | At incorporation (2023) | 10 Sept 2024 | 30 Sept 2024 |
 |---|---|---|---|
+| Called-up share capital (100 shares × £0.01 — see Equity section) | 1.00 | 1.00 | pending |
 | Cash held (in director's personal account, on company's behalf — unspent) | 0.00 | 312.00 | pending |
 | Debtors — trade (money owed to the company) | 0.00 | 0.00 (the two unpaid invoices, £2,246.99 total, are already written off as bad debt in the P&L, so carried at nil) | pending |
 | Debtors — director's loan account (amount drawn in excess of distributable profit, director owes company) | 0.00 | 474.65 (see working below) | pending |
 | Fixed assets (equipment etc.) | 0.00 | 0.00 (none purchased this period) | pending |
-| **Total assets** | **0.00** | **786.65** | pending |
+| **Total assets** | **1.00** | **787.65** | pending |
 
 ## Liabilities
 
@@ -30,19 +32,23 @@ A02 (30 Sept 2024) still pending that period's own reconciliation.**
 
 | | At incorporation (2023) | 10 Sept 2024 | 30 Sept 2024 |
 |---|---|---|---|
-| Share capital | 0.00 (see note — not yet confirmed with user) | 0.00 | pending |
+| Share capital — 100 ordinary shares of £0.01 each, 100% held by Abdul-Malik Baba Toure (per Articles/Memorandum of Association) | 1.00 | 1.00 | pending |
 | Retained profit/(loss) | 0.00 | 2,498.16 (net trading profit) − 474.65 (tax) = **2,023.51**, of which £2,023.51 declared as dividend (see below) | pending |
-| **Total equity** | **0.00** | **0.00** (fully distributed as dividend — see below) | pending |
+| **Total equity** | **1.00** | **1.00** (once the £2,023.51 is fully distributed as dividend — see below) | pending |
 
-**Balances:** Total assets (£786.65) = Total liabilities (£786.65) once
-the £2,023.51 dividend is formally declared and paid, since that
-removes both the equity (retained profit) and the corresponding DLA
-receivable from the books. **Until the dividend paperwork (board
+**Balances:** Total assets (£787.65) = Total liabilities (£786.65) +
+Equity (£1.00), once the £2,023.51 dividend is formally declared and
+paid — since that removes both the retained-profit equity and the
+corresponding DLA receivable from the books, leaving only the £1.00
+nominal share capital as equity. **Until the dividend paperwork (board
 minute + voucher) is actually done, the £2,023.51 remains sitting as a
-DLA receivable/undistributed profit instead** — flagged for the
-accountant to finalise the paperwork and confirm this treatment. Share
-capital assumed £0/nominal — needs confirming against the Certificate
-of Incorporation or Companies House record.
+DLA receivable/undistributed profit instead of being paid out** —
+flagged for the accountant to finalise the paperwork and confirm this
+treatment. One more open point for the accountant: whether the £1.00
+share capital was actually paid in cash at incorporation, or remains
+called-up-but-unpaid (common for nominal amounts like this) — doesn't
+affect the numbers either way given the trivial amount, but affects
+which asset line it technically sits under.
 
 ## Director's loan account / capital introduced / distributions
 
