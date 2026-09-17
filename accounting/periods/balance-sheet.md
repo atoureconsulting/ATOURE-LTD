@@ -12,35 +12,37 @@ A02 (30 Sept 2024) still pending that period's own reconciliation.**
 
 | | At incorporation (2023) | 10 Sept 2024 | 30 Sept 2024 |
 |---|---|---|---|
-| Cash at bank | 0.00 | 0.00 (no separate company account existed — see note) | pending |
+| Cash held (in director's personal account, on company's behalf — unspent) | 0.00 | 312.00 | pending |
 | Debtors — trade (money owed to the company) | 0.00 | 0.00 (the two unpaid invoices, £2,246.99 total, are already written off as bad debt in the P&L, so carried at nil) | pending |
-| Debtors — director's loan account (director owes company) | 0.00 | 2,498.16 (see working below) | pending |
+| Debtors — director's loan account (amount drawn in excess of distributable profit, director owes company) | 0.00 | 474.65 (see working below) | pending |
 | Fixed assets (equipment etc.) | 0.00 | 0.00 (none purchased this period) | pending |
-| **Total assets** | **0.00** | **2,498.16** | pending |
+| **Total assets** | **0.00** | **786.65** | pending |
 
 ## Liabilities
 
 | | At incorporation (2023) | 10 Sept 2024 | 30 Sept 2024 |
 |---|---|---|---|
-| Creditors (money the company owes, excl. tax) | 0.00 | 0.00 | pending |
-| Corporation tax owed to HMRC | 0.00 | 474.65 (see corporation-tax-workings.md) | pending |
-| **Total liabilities** | **0.00** | **474.65** | pending |
+| Creditors — home working allowance owed to director (not yet paid) | 0.00 | 312.00 | pending |
+| Corporation tax owed to HMRC (incl. S455 — see note) | 0.00 | 474.65 | pending |
+| **Total liabilities** | **0.00** | **786.65** | pending |
 
 ## Equity
 
 | | At incorporation (2023) | 10 Sept 2024 | 30 Sept 2024 |
 |---|---|---|---|
 | Share capital | 0.00 (see note — not yet confirmed with user) | 0.00 | pending |
-| Retained profit/(loss) | 0.00 | 2,498.16 (net trading profit) − 474.65 (tax) = **2,023.51** | pending |
-| **Total equity** | **0.00** | **2,023.51** | pending |
+| Retained profit/(loss) | 0.00 | 2,498.16 (net trading profit) − 474.65 (tax) = **2,023.51**, of which £2,023.51 declared as dividend (see below) | pending |
+| **Total equity** | **0.00** | **0.00** (fully distributed as dividend — see below) | pending |
 
-**Balances:** Assets (£2,498.16) = Liabilities (£474.65) + Equity
-(£2,023.51) ✓. Share capital assumed £0/nominal — needs confirming
-against the Certificate of Incorporation or Companies House record
-(typically £1–£100 for a company this size); if it turns out to be a
-non-nil amount, that value would need to be added to assets (as cash
-received for shares, if actually paid) or otherwise reconciled.
-**Flagged for accountant, not resolved here.**
+**Balances:** Total assets (£786.65) = Total liabilities (£786.65) once
+the £2,023.51 dividend is formally declared and paid, since that
+removes both the equity (retained profit) and the corresponding DLA
+receivable from the books. **Until the dividend paperwork (board
+minute + voucher) is actually done, the £2,023.51 remains sitting as a
+DLA receivable/undistributed profit instead** — flagged for the
+accountant to finalise the paperwork and confirm this treatment. Share
+capital assumed £0/nominal — needs confirming against the Certificate
+of Incorporation or Companies House record.
 
 ## Director's loan account / capital introduced / distributions
 
@@ -53,38 +55,48 @@ This account reconstructs the net effect:
 |---|---|
 | Client cash received into director's personal account (cash-basis, matched income only — excludes the two unpaid/written-off invoices) | 4,796.99 |
 | Less: genuine business expenses paid personally by director (Companies House fee, Berlin trip, Dubai trip flights/transport/hotels, H3G business share) | (1,986.83) |
-| Less: personal living expenses the director confirms were paid from this same client income (groceries, regular living costs) | (2,810.16) |
-| **Net (should be ~nil — client cash fully accounted for)** | **0.00** |
-| Add: home working allowance owed by company to director (not yet paid) | 312.00 |
-| **Net director's loan account position: director owes company** | **2,498.16** |
+| Less: personal living expenses the director confirms were paid from this same client income (groceries, regular living costs) | (2,498.16) |
+| **Remaining, still held unspent by director (confirmed by user)** | **312.00** |
+
+The £2,498.16 drawn for personal living expenses is close to, but not
+fully covered by, the period's **distributable** profit (post-tax
+retained profit, £2,023.51 — not the pre-tax £2,498.16, since the
+£474.65 tax portion of profit was never available to distribute). This
+splits into three pieces:
+
+| Treatment | Amount £ | Status |
+|---|---|---|
+| Still held, unspent — just company cash sitting in the director's account | 312.00 | No issue — not a drawing |
+| Covered by distributable (post-tax) profit — can be formally declared as a dividend | 2,023.51 | Needs board minute + dividend voucher to formalise — not yet done |
+| Exceeds distributable profit — genuinely an overdrawn director's loan | **474.65** | See S455 note below |
+
+Separately, the company owes the director £312.00 for the home working
+allowance (unrelated to the above — a flat-rate expense claim, not yet
+paid).
 
 **Important flag for the accountant — do not resolve without
 professional advice:**
 
-The £2,810.16 the director drew for personal living expenses **exceeds
-the company's actual profit for the period (£2,498.16)**. This means:
+The £474.65 excess is a genuine overdrawn director's loan. Because
+the 9-month repayment deadline for this period (10 June 2025) has
+already passed, repaying it now does **not** appear to avoid a S455
+tax charge of 32.5% — approximately **£154.26** — which would likely
+need to be paid alongside the corporation tax when this return is
+filed, then reclaimed once the loan is actually repaid (relief
+available roughly 9 months after the end of whichever future
+accounting period the repayment falls in). **This timing interaction
+with the also-overdue CT600 filing should be confirmed by the
+accountant** — flagged, not resolved here with certainty.
 
-1. It **cannot simply be treated as a dividend** — dividends can only
-   be paid out of distributable (actual, already-earned) profit, and
-   this exceeds that.
-2. It **was not run through PAYE payroll** as salary.
-3. The technically correct treatment right now is an **overdrawn
-   director's loan account**. Under UK tax rules, if a director's loan
-   is not repaid within 9 months of the end of the accounting period,
-   the company becomes liable for an additional **S455 tax charge of
-   32.5%** on the outstanding balance (repayable to the company once
-   the loan itself is repaid, but a real cost while outstanding).
-
-Options an accountant would normally consider: formally declare part
-of this as salary (with retrospective PAYE implications) or as a
-dividend up to the distributable profit limit with the remainder
-treated as a loan, negotiate repayment before the 9-month deadline, or
-accept the S455 charge as a temporary cost. **This decision needs the
-accountant's input — not made here.**
+Options an accountant would normally consider for the £474.65: repay
+it now (starts the S455 reclaim clock even if the charge itself is
+initially due), formally declare it as a small late salary payment
+(retrospective PAYE implications), or accept the modest S455 cost.
 
 | Date | Description | In (company owes you) £ | Out (you owe company / drawn) £ | Running balance £ |
 |---|---|---|---|---|
 | various | Business expenses paid personally by director (see profit-and-loss.md for full breakdown) | 1,986.83 | | |
 | various | Home working allowance (flat rate, owed not yet paid) | 312.00 | | |
-| various | Personal living expenses drawn from client income | | 2,810.16 | |
-| **10 Sept 2024** | **Net — director owes company** | **2,298.83** | **2,810.16** | **(2,498.16)** |
+| various | Personal living expenses drawn from client income | | 2,498.16 | |
+| — | Less: £2,023.51 of the above to be covered by a formally declared dividend (once board minute + voucher done) | 2,023.51 | | |
+| **10 Sept 2024** | **Net — director owes company (genuine overdrawn loan, after the dividend is declared)** | | | **(474.65)** |

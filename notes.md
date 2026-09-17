@@ -361,6 +361,47 @@ varying it. This is flagged as a judgement-call area for the real
 accountant to sanity-check, not something requiring exhaustive evidence
 gathered now.
 
+## 6l. DLA revised — user corrected personal spend to £2,498.16, not £2,810.16
+
+User revisited the DLA figures and clarified: of the £2,810.16 residual
+from the cash reconciliation, only **£2,498.16** was actually spent
+personally (groceries/living costs) — the remaining **£312.00** is
+still held, unspent, in the director's account. This is a genuine
+correction to the fact pattern established in 6k, not a bookkeeping
+error — logged as a fact change, not a mistake.
+
+**Further correction on my part during this exchange:** initially
+said £2,498.16 "exactly matches profit, so it's a clean dividend, no
+issue." This was wrong — the amount legally available to distribute
+as a dividend is the **post-tax retained profit** (£2,023.51), not the
+pre-tax trading profit (£2,498.16), since the £474.65 tax portion was
+never available to distribute. Caught and corrected before locking the
+figures.
+
+**Revised picture:**
+- £312.00 — still held, unspent — just company cash, no issue
+- £2,023.51 — covered by distributable profit — can be a clean
+  dividend once board minute + voucher are done (not yet done)
+- £474.65 — genuinely exceeds distributable profit — remains an
+  overdrawn director's loan
+
+This is a large improvement on the earlier £2,810.16 loan figure.
+**S455 timing:** user asked whether repaying now avoids the S455
+charge. Answered: likely no — the 9-month repayment deadline (10 June
+2025) and the second grace period (repay before the CT600 filing
+deadline, 10 Sept 2025) have both already passed, given how overdue
+this filing already is. So the charge (~£154.26 = 32.5% × £474.65)
+will likely still apply when the return is filed, refundable once the
+loan is actually repaid. Flagged explicitly as something to confirm
+with the accountant given the unusual interaction with an already
+very-late filing — not stated with full certainty.
+
+Updated `balance-sheet.md`: assets £786.65 (cash held £312 + DLA
+receivable £474.65), liabilities £786.65 (home allowance owed £312 +
+corp tax £474.65), equity £0 once the £2,023.51 dividend is declared
+(otherwise sits as undistributed retained profit until that paperwork
+is done).
+
 ## 6j. Correction: stale income figure found while building the DLA
 
 While reconstructing the director's loan account (see below), cash-flow
