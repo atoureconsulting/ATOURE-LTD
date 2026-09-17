@@ -66,18 +66,81 @@ almost entirely:
 Revolut Business, not Santander** (unlike A01/A02). Santander's only
 relevant item here is the H3G phone bill.
 
+## Income — Revolut Business, agency deals resolved
+
+User confirmed three separate deals, distinguished by the reference on
+the matching outgoing "Manlikeisaac LTD" payment:
+
+| Date | Payer | Gross in | Paid to Manlikeisaac LTD | Ref on outgoing payment | Treatment | Real income |
+|---|---|---|---|---|---|---|
+| 18 Nov 2024 | THE PARCHE NETWORK | £2,640.52 | £2,636.00 | "Facemoji" | Agent (brand deal via Manlikeisaac) — net commission only | £4.52 |
+| 10 Jan 2025 | DAZN LIMITED | £4,625.00 | £3,620.00 | "Dazn" | Agent — net commission only | £1,005.00 |
+| 5 Feb 2025 | THE PARCHE NETWORK | £2,670.93 | — (none found) | — | **Separate arrangement with Isaac (Ajimotokin) — user confirms this amount was kept in full**, not agency | £2,670.93 |
+| | | | | | **Subtotal so far** | **£3,680.45** |
+
+Under agency accounting treatment, only the net commission is Atoure's
+turnover for the two agency deals — the gross amounts received and
+paid onward to Manlikeisaac LTD are not Atoure's income/expense (they
+pass through on behalf of the principal). This mirrors the Chicken
+Shop deal treatment from Period A01 (net cash basis).
+
+## Full income summary
+
+| Source | Amount (£) |
+|---|---|
+| Facemoji (Parche Network) — agent commission | 4.52 |
+| DAZN — agent commission | 1,005.00 |
+| Parche Network (Isaac arrangement) — kept in full | 2,670.93 |
+| **Total trading income** | **3,680.45** |
+
+**Not counted as income:** £50.00 "MOR From Abdul-Malik Baba Toure"
+(23 Apr 2025) — the director adding his own money into the business
+account, not trading income. Tracked as a DLA credit instead.
+
+## Full expenses summary
+
+| Category | Amount (£) | Notes |
+|---|---|---|
+| Revolut Business monthly fees | 105.00 | Oct £10, Nov–Feb £5/mo, Mar–Jul £15/mo (basic £10 + expenses app £5). No fees found Aug–Sept 2025 (account balance near/below zero) |
+| H3G phone, 50% business use | 88.60 | Confirmed charges total £177.20 (some months may be incomplete due to the Apr–May statement gap and a Jun reversal/recharge) × 50% |
+| **Total confirmed business expenses** | **193.60** | |
+
+## Items found but NOT yet counted as business — need user confirmation
+
+| Item | Amount (£) | Notes |
+|---|---|---|
+| Card spending on Revolut Business (restaurants, Uber, supermarkets, IKEA, TfL, Flixbus) | 790.93 | Looks personal — same pattern as A01/A02. **Assumed personal unless told otherwise.** |
+| Morocco trip charges, 6–13 Feb 2025 (restaurants, an "art gallery", nightlife, fast food — Beldi Fusion Kitchen, La Galerie Du Caftan, Yanis Art R, McDonald's, KFC, etc.) | 434.54 | **Need from user: business trip or personal holiday?** |
+| ATM cash withdrawal, 24 Apr 2025 (Morocco, MAD currency) | 21.95 | Likely part of the same Morocco trip |
+| Transfers "To Abdul Malik Toure • Baba" (director paying himself out of the business account) | 2,278.00 | Drawings — same treatment as A01/A02's director's loan account, not a business expense |
+| Highbury TT Club payment (Santander), 4 Sept 2025 | 120.00 | **Need from user: business or personal?** |
+
+## Draft net profit (confirmed items only, pending the above)
+
+| | £ |
+|---|---|
+| Total trading income | 3,680.45 |
+| Total confirmed business expenses | 193.60 |
+| **Net trading profit (draft, before resolving open items above)** | **3,486.85** |
+
+This will change once the Morocco trip and Highbury TT Club questions
+are answered — if personal, no change; if business, expenses increase
+and profit decreases accordingly.
+
 ## Next steps (in order)
 
 1. ~~User to provide Santander statements~~ — done, reviewed above
-2. **Blocked on user: resolve the DAZN / Parche Network / Manlikeisaac
-   LTD pattern** — is Atoure Ltd acting as agent (pass-through, only
-   commission is real income) or principal (full amounts are real
-   income, with the onward payments as a business expense)?
-3. **Need from user:** Highbury TT Club £120 — business or personal?
-4. Full transaction-by-transaction extraction of Revolut Business for
-   this period once the above is resolved
-5. Separate genuine business income/expenses from personal spending on
-   Revolut Business, same rigour as A01/A02
-6. Calculate real profit and corporation tax due
-7. Given the tight deadline, prioritise **filing on time with best
+2. ~~Resolve DAZN/Parche Network/Manlikeisaac pattern~~ — done, see
+   above
+3. **Still need from user:**
+   - Highbury TT Club £120 — business or personal?
+   - Morocco trip (£434.54 + £21.95 ATM) — business or personal?
+   - Confirm the £790.93 general card spending is personal (assumed
+     so, consistent with A01/A02 pattern) — flag if any of it was
+     actually business-related
+4. Build the director's loan account for this period (£2,278.00 drawn
+   + £50.00 put in, net director owes £2,228.00, before this period's
+   profit/tax is factored in)
+5. Calculate final profit and corporation tax due
+6. Given the tight deadline, prioritise **filing on time with best
    available figures** over exhaustive precision

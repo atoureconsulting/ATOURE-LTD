@@ -11,6 +11,29 @@ their review before anything is filed with HMRC or Companies House.
 
 ---
 
+## 8a. Third period — agency deals resolved, full Revolut Business extraction done
+
+User resolved all three agency-pattern deals: Facemoji (Parche
+Network, 18 Nov 2024) and DAZN (10 Jan 2025) were both agent/commission
+arrangements via Manlikeisaac LTD; the second Parche Network payment
+(5 Feb 2025, £2,670.93) was a separate arrangement with Isaac
+(Ajimotokin), kept in full. Total trading income so far: £3,680.45.
+
+Extracted full Revolut Business activity for the period (Oct 2024–Sept
+2025), including catching foreign-currency (MAD) transactions from an
+apparent Morocco trip, 6–13 Feb 2025, that don't follow the normal
+£X.XX pattern in the statement text. Confirmed business expenses:
+£105.00 fees + £88.60 (H3G at 50%) = £193.60. Draft profit before
+resolving open items: £3,486.85.
+
+**Open items still needing user confirmation:** Highbury TT Club £120,
+the Morocco trip (£434.54 + £21.95 ATM — business trip or holiday?),
+and confirming £790.93 of general card spending is personal (assumed,
+consistent with A01/A02, but not yet explicitly confirmed for this
+period). Also identified £2,278.00 of director's-own-money transfers
+out (drawings) and £50.00 in — same DLA pattern as A01/A02, to be
+built out once the above is resolved.
+
 ## 8. NEW (17 Sept 2026): Third accounting period discovered — 1 Oct 2024 to 30 Sept 2025
 
 User shared a new HMRC letter (CT208, "Corporation Tax Return and
