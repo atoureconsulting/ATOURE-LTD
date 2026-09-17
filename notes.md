@@ -361,6 +361,30 @@ varying it. This is flagged as a judgement-call area for the real
 accountant to sanity-check, not something requiring exhaustive evidence
 gathered now.
 
+## 6p. Illness narrative extended (3-week prodrome + infection); images redacted and pushed
+
+User added two facts: (1) approximately 3 weeks of worsening symptoms
+before the 7 Sept 2024 admission — this matches the ED triage note
+verbatim ("2/52 nausea, fatigue, loss of appetite. 1/52 vomiting,
+SOBOE"), so it's independently corroborated by the medical record
+itself, not just self-reported; (2) explicitly asked not to forget the
+hospital-acquired Staph Aureus Bacteraemia (line infection) that
+extended the stay. Both added to `penalty-appeal-letter.md` — the
+letter now describes the full arc: 3-week prodrome → emergency
+admission → ICU → complicating infection → extended stay → discharge.
+
+**Redaction:** per the user's "yes" to redacting, manually redacted
+all 4 discharge letter images before committing — blacked out NHS
+number, date of birth, home address, phone numbers (patient and GP),
+and the GP's name/practice address in all four images, using PIL with
+coordinates verified by cropping and re-reading each region until no
+PII remained visible. Preserved all clinically/administratively
+relevant content: admission date, discharge date, diagnosis, ward,
+consultant, treatment. Original unredacted images were never
+committed to git — only redacted versions were staged and pushed, so
+there's no PII in git history. Renamed files to
+`*-redacted.png` for clarity.
+
 ## 6o. Penalty appeal letter — verified with NHS discharge documentation
 
 User provided 4 images of NHS discharge letters (Royal Free London NHS

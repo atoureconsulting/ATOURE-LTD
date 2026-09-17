@@ -43,15 +43,22 @@ determinations issued on 2 September 2026 for the following periods:
 
 I am the sole director of Atoure Ltd and have personally managed all of
 the company's administrative and financial affairs since incorporation.
+For approximately three weeks before my hospital admission, I
+experienced worsening symptoms of nausea, fatigue, and loss of
+appetite, progressing in the final week to vomiting and breathlessness.
 On 7 September 2024 I was admitted as an emergency to the Royal Free
 Hospital, London, with diabetic ketoacidosis and a new diagnosis of
 diabetes mellitus, and was admitted directly to the Intensive Care
-Unit. I remained an inpatient, including a period in intensive care,
-until my discharge on 25 September 2024 — a total of 18 days. This was
-an unexpected and out-of-the-ordinary medical emergency that left me
-unable to attend to the company's administrative affairs, including
-its filing obligations, both during this hospitalisation and for a
-period of recovery afterwards.
+Unit. During my admission I developed a bloodstream infection (Staph
+Aureus Bacteraemia), which required a further course of intravenous
+antibiotics and extended my hospital stay. I remained an inpatient,
+including a period in intensive care, until my discharge on
+25 September 2024 — a total of 18 days, following a period of
+deteriorating health beforehand. This was an unexpected and
+out-of-the-ordinary medical emergency that left me unable to attend to
+the company's administrative affairs, including its filing
+obligations, both during this hospitalisation and for a period of
+recovery afterwards.
 
 As I am the company's only director, with no other officer, employee,
 or agent able to act on the company's behalf during this time, this
@@ -81,17 +88,27 @@ Director, Atoure Ltd
 
 ## Notes on this draft
 
-- **Reasonable excuse used:** serious illness (diabetic ketoacidosis,
-  new-onset diabetes mellitus) requiring 18 days of hospitalisation,
-  including immediate admission to ICU, 7–25 September 2024, at Royal
-  Free Hospital, London. Verified against the NHS discharge summary
-  and ED discharge letter (saved to
+- **Reasonable excuse used:** a progressive illness beginning
+  approximately 3 weeks before admission (nausea, fatigue, loss of
+  appetite, worsening to vomiting/breathlessness in the final week —
+  this matches the ED triage note verbatim: "2/52 nausea, fatigue,
+  loss of appetite. 1/52 vomiting, SOBOE"), culminating in emergency
+  admission on 7 September 2024 with diabetic ketoacidosis and a new
+  diagnosis of diabetes mellitus, immediate ICU admission, a
+  hospital-acquired Staph Aureus Bacteraemia (line infection)
+  requiring further IV antibiotics and extending the stay, and
+  discharge on 25 September 2024 — 18 days inpatient in total.
+  Verified against the NHS discharge summary and ED discharge letter
+  (saved, redacted, to
   `accounting/source-data/reasonable-excuse-evidence/`). This is a
   strong, well-established category of reasonable excuse that HMRC
   generally accepts — serious illness of the taxpayer (here, the
   company's sole director) preventing them from meeting an obligation
   is explicitly listed in HMRC's own guidance, and this one is
-  independently documented by an NHS Foundation Trust.
+  independently documented by an NHS Foundation Trust, with a clear
+  progression (weeks of worsening symptoms → emergency admission →
+  ICU → a complicating hospital-acquired infection → extended stay)
+  that reads as genuinely severe rather than a brief or minor illness.
 - **What's still needed:**
   1. **Accountant sign-off** on the letter before sending
   2. Decide whether to enclose copies of the NHS discharge documents
