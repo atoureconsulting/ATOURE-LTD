@@ -5,9 +5,12 @@ covers the position **as at 10 September 2024** (end of the 12-month
 period) and **as at 30 September 2024** (end of the stub period), plus
 opening position at incorporation for reference.
 
-Status: **COMPLETE — both periods A01 and A02 fully reconciled,
-bank-verified, and locked, including the dividend and both periods'
-director's loan movements.**
+Status: **A01 and A02 COMPLETE and locked. Period 3 (1 Oct 2024 – 30
+Sept 2025) director's loan account and equity roll-forward added below
+— see "Period 3" sections. Full asset/liability snapshot at 30 Sept
+2025 (cash balances by account) still TBC; not needed to file the
+Period 3 CT600, which only needs the P&L and DLA figures already
+locked.**
 
 ## Assets
 
@@ -138,3 +141,45 @@ loan would be minor (~£9.73 at 32.5%), and the 9-month repayment
 deadline for Period A02 (10 June 2025 + 19 days, i.e. still around
 10 June/July 2025) has also already passed by the time of writing —
 same practical position as the A01 loan.
+
+## Period 3 — director's loan movements (1 Oct 2024 – 30 Sept 2025)
+
+Opening balance carried forward from A02: director owed the company
+**£504.60** (see above).
+
+| Date | Description | In (company owes you) £ | Out (you owe company / drawn) £ | Running balance £ |
+|---|---|---|---|---|
+| — | Opening balance b/f from Period A02 | | | (504.60) |
+| various | Capital introduced by director | 50.00 | | |
+| various | Drawn by director during the period | | 2,278.00 | |
+| 17 Sept 2026 | Less: £2,278.00 dividend declared, satisfied by set-off (see `../drafts/dividend-board-minute-period3.md` / `dividend-voucher-period3.md`) | 2,278.00 | | |
+| **30 Sept 2025** | **Net — director owes company (Period 3)** | | | **(454.60)** |
+
+Unlike A01/A02, this period's drawings are **fully covered** by the
+period's own distributable profit — the £2,278.00 dividend clears the
+in-period drawing entirely, and £80.13 of distributable profit remains
+undistributed (retained). The £454.60 balance is simply the A01/A02
+legacy balance carried forward unchanged by this period's own
+activity (£50.00 in, £2,278.00 out, £2,278.00 dividend set-off nets
+to zero movement on top of the £504.60 b/f, less the £50.00
+introduced: 504.60 − 50.00 = **454.60**). No new S455 exposure arises
+from Period 3 itself; the existing A01/A02 S455 position is unchanged
+and still flagged for the accountant as before.
+
+## Period 3 — equity roll-forward
+
+| | £ |
+|---|---|
+| Net trading profit | 2,911.27 |
+| Less: corporation tax (19%, see `corporation-tax-workings.md`) | (553.14) |
+| Distributable (post-tax) profit | 2,358.13 |
+| Less: dividend declared 17 Sept 2026 | (2,278.00) |
+| **Retained profit carried forward — Period 3** | **80.13** |
+
+**Total equity at 30 Sept 2025** = £1.00 (share capital, unchanged) +
+£33.51 (A02 retained profit, unchanged) + £80.13 (Period 3 retained
+profit) = **£114.64**.
+
+**Combined liabilities to HMRC at 30 Sept 2025:** £474.65 (A01) +
+£7.86 (A02) + £553.14 (Period 3, once filed) = **£1,035.65** — matches
+the combined corporation tax total in `../drafts/CT600-figures.md`.

@@ -1,7 +1,7 @@
 # CT600 — Figures to Hand to Accountant (or Enter into Filing Software)
 
-Status: **BOTH PERIODS FINAL — P&L complete and bank-verified for A01
-and A02**
+Status: **ALL THREE PERIODS FINAL — P&L complete and bank-verified for
+A01, A02, and Period 3**
 
 This is not the CT600 form itself (that's filed digitally, in specific
 software, in iXBRL format) — it's the set of figures your accountant needs
@@ -41,14 +41,32 @@ Full backing detail is in
 treat the labels as the important part; your accountant or filing software
 will map them to the right boxes.
 
-## Combined total across both periods
+## Period 3: 1 Oct 2024 – 30 Sept 2025 (no HMRC ref yet — return reminder
+only, deadline 30 Sept 2026) — FINAL
 
-| | A01 | A02 | Combined |
-|---|---|---|---|
-| Turnover | £7,043.98 | £50.00 | £7,093.98 |
-| Profit | £2,498.16 | £41.37 | £2,539.53 |
-| Corporation tax | £474.65 | £7.86 | **£482.51** |
+| CT600 box (approx.) | Description | Value |
+|---|---|---|
+| Box 30 | Turnover | £3,680.45 |
+| Box 155 | Trading profit | £2,911.27 |
+| Box 165 | Profits chargeable to Corporation Tax | £2,911.27 |
+| Box 475/480-ish | Corporation Tax chargeable | £553.14 |
+| — | Rate applied | 19% (small profits rate, apportioned FY2024/FY2025 — see corporation-tax-workings.md) |
 
-Compare to HMRC's combined determination: £38,159 + £3,180 = £41,339
-profit assumed, £9,539.75 + £795.00 = **£10,334.75 tax assumed**. The
-real combined tax due (£482.51) is about **4.7%** of HMRC's estimate.
+Full backing detail is in
+`../periods/2024-10-01_2025-09-30/profit-and-loss.md` and
+`../periods/2024-10-01_2025-09-30/corporation-tax-workings.md`.
+
+## Combined total across all three periods
+
+| | A01 | A02 | Period 3 | Combined |
+|---|---|---|---|---|
+| Turnover | £7,043.98 | £50.00 | £3,680.45 | £10,774.43 |
+| Profit | £2,498.16 | £41.37 | £2,911.27 | £5,450.80 |
+| Corporation tax | £474.65 | £7.86 | £553.14 | **£1,035.65** |
+
+Compare to HMRC's combined determination for A01/A02 only (Period 3 has
+no determination — it's being filed on time before one is issued):
+£38,159 + £3,180 = £41,339 profit assumed, £9,539.75 + £795.00 =
+**£10,334.75 tax assumed**. Even adding Period 3's real tax on top, the
+combined real liability across all three periods (£1,035.65) is about
+**10%** of HMRC's determination for just the first two.

@@ -1100,3 +1100,44 @@ the single most important document still needed.
   statements/receipts as provided), `accounting/hmrc-correspondence/`
   (scans of the letters already received), `accounting/drafts/` (P&L,
   balance sheet, CT600 figures, appeal letter drafts).
+
+## 9. Period 3 dividend paperwork — Drive upload
+
+- **2026-09-17:** Generated PDFs for the Period 3 dividend board minute
+  and dividend voucher (£2,278.00, dated 17 Sept 2026) and uploaded
+  both directly to the user's Google Drive folder (the same folder
+  holding the signed A01 documents), per explicit request "put these
+  docs in the drive directly":
+  - `4-Dividend-Board-Minute-Period3.pdf` (Drive file id
+    `1vrjvt-ebvkegU1u65MwBjQXvSu8JHZHW`)
+  - `5-Dividend-Voucher-Period3.pdf` (Drive file id
+    `1ou0UMkT2i-951vtwlur_QuXS8kgTPvwp`)
+  - Source markdown drafts committed to git at
+    `accounting/drafts/dividend-board-minute-period3.md` and
+    `accounting/drafts/dividend-voucher-period3.md`.
+  - Next: corporation tax workings and CT600 figures for Period 3.
+
+## 10. Period 3 — corporation tax workings, CT600 figures, balance sheet
+
+- **2026-09-17:** Completed the remaining items on Period 3's "Next
+  steps" list:
+  - `accounting/periods/2024-10-01_2025-09-30/corporation-tax-workings.md`
+    created — profit (£2,911.27) apportioned across FY2024 (182 days,
+    £1,451.76) and FY2025 (183 days, £1,459.51), both taxed at 19%
+    small profits rate, total tax **£553.14** — matches the figure
+    already used in profit-and-loss.md.
+  - `accounting/drafts/CT600-figures.md` updated with a Period 3
+    section and a new combined-total table across all three periods:
+    turnover £10,774.43, profit £5,450.80, corporation tax **£1,035.65**
+    combined.
+  - `accounting/periods/balance-sheet.md` updated with Period 3's
+    director's loan account roll-forward (opening balance £504.60 b/f
+    from A02, £50 introduced, £2,278 drawn, £2,278 dividend set-off,
+    closing balance **£454.60** owed by director) and equity
+    roll-forward (£80.13 retained profit after the dividend). Full
+    cash-by-account snapshot at 30 Sept 2025 left TBC/flagged — not
+    required to file the CT600, only the P&L and DLA figures are.
+  - All three periods (A01, A02, Period 3) now have complete P&L,
+    corporation tax workings, and CT600 figures ready for the director
+    to self-file. Only remaining step per the P&L's own next-steps list
+    is filing itself before the 30 September 2026 deadline.

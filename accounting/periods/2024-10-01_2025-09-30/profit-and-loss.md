@@ -167,8 +167,12 @@ A01 board minute + voucher).
 2. ~~Resolve DAZN/Parche Network/Manlikeisaac pattern~~ — done
 3. ~~Resolve Morocco trip, Highbury TT Club, general card spending~~ —
    done, all above
-4. Draft dividend paperwork for £2,278.00 (board minute + voucher)
-5. Finalise corporation tax workings and CT600 figures (same format as
-   A01/A02)
-6. Build/update the balance sheet to include this period
-7. File before the 30 September 2026 deadline
+4. ~~Draft dividend paperwork for £2,278.00 (board minute + voucher)~~ —
+   done, signed copies uploaded to Drive
+5. ~~Finalise corporation tax workings and CT600 figures (same format as
+   A01/A02)~~ — done, see `corporation-tax-workings.md` and
+   `../../drafts/CT600-figures.md`
+6. ~~Build/update the balance sheet to include this period~~ — done,
+   see `../balance-sheet.md`
+7. File before the 30 September 2026 deadline (self-filed by the
+   director — all figures now ready)
