@@ -1212,6 +1212,17 @@ the single most important document still needed.
   (the `-BLOCKED` placeholder file was deleted). Full micro-entity
   format, £34.51 total net assets, reconciles exactly to the corrected
   balance sheet.
+- **Follow-up: found and removed additional outdated Drive copies.** A
+  Drive search surfaced two Google Docs auto-conversions of the old
+  £2,278.00 documents that weren't caught in the first cleanup pass
+  (the PDF trash only removed the PDF versions, not their auto-created
+  Google Doc copies): "4-Dividend-Board-Minute-Period3" (doc id
+  `1yC5VCjo6gpD2HX-Kp01asf-NFSOf_EF8iwOJ-FyBOVQ`) and
+  "5-Dividend-Voucher-Period3" (doc id
+  `16AuEKqnI-dwChNnUWgHE6Fn9IhnjEpDi3InnzB3xCLs`) — both trashed.
+  Verified via a fresh Drive search that the folder now only contains
+  valid documents: A01's pair (£2,023.51, unchanged), the penalty
+  appeal letter, and the corrected Period 3 pair (£2,358.13).
 
 ## 10. Period 3 — corporation tax workings, CT600 figures, balance sheet
 
