@@ -1152,6 +1152,17 @@ the single most important document still needed.
   document, different regime, same underlying numbers.
 - `accounting/compliance-calendar.md` updated to reflect this finding
   and reprioritise the action list — this is now item #1.
+- **Drafted the amended accounts for the first period** (13 months to
+  30 Sept 2024) in
+  `accounting/companies-house-filings/amended-accounts-draft-period1.md`
+  — full micro-entity format, reconciles exactly to `balance-sheet.md`
+  (£34.51 total net assets, real bank-verified figures).
+- **Second period (to 30 Sept 2025) is blocked** — drafting it now
+  would mean guessing a cash-at-bank figure, which is exactly the
+  mistake being corrected. Documented what's needed in
+  `amended-accounts-draft-period2-BLOCKED.md`: closing balances across
+  Santander, Revolut Business, and Revolut Personal as at (or nearest
+  to) 30 Sept 2025.
 
 ## 10. Period 3 — corporation tax workings, CT600 figures, balance sheet
 
