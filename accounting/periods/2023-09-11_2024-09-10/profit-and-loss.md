@@ -67,14 +67,14 @@ is £2,750, per the four transactions above.
 | | £ / € |
 |---|---|
 | #3 Reality Entertainment | £1,000.00 |
-| #10 Chauffering & Security Services (Connect SARL) | €1,500.00 |
+| #10 Chauffering & Security Services (Connect SARL) | €1,500.00 (£1,246.99) |
 
 Under accruals-basis accounting, these are recognised as income when
 invoiced, then offset by a bad debt expense once confirmed unlikely to
-be paid — netting to roughly nil effect on profit, but the technically
-correct presentation. User confirmed these as unlikely to be paid.
-FX conversion for Invoice #10 (€1,500) still needed (roughly
-£1,280–£1,290 estimated).
+be paid — netting to nil effect on profit, but the technically correct
+presentation. User confirmed these as unlikely to be paid. FX for
+Invoice #10: final, see corporation-tax-workings.md / notes.md 6i for
+methodology (uses the realized rate from the sister invoice).
 
 ## Expenses
 
@@ -106,9 +106,16 @@ Dubai hotels + home working allowance). All FX conversions now final
 
 | | £ |
 |---|---|
-| Total income (bank-verified, incl. unpaid invoice recognised on accruals basis) | 7,076.99 |
+| Total income (bank-verified, incl. unpaid invoices recognised on accruals basis: £1,000.00 + £1,246.99) | 7,043.98 |
 | Total expenses | 4,545.82 |
-| **Net trading profit** | **2,531.17** |
+| **Net trading profit** | **2,498.16** |
+
+**Correction (logged in notes.md):** an earlier draft of this line used
+£7,076.99, based on a stale £1,280.00 estimate for the Invoice #10 bad
+debt that was superseded when the FX conversion was finalised at
+£1,246.99 — this line was not updated at the time. Fixed here: total
+income is £7,043.98, net profit **£2,498.16** (previously shown as
+£2,531.17 — a £33.01 overstatement, now corrected).
 
 **Final figure.** Compare to HMRC's determination for this period:
 **£38,159** (see

@@ -361,6 +361,60 @@ varying it. This is flagged as a judgement-call area for the real
 accountant to sanity-check, not something requiring exhaustive evidence
 gathered now.
 
+## 6j. Correction: stale income figure found while building the DLA
+
+While reconstructing the director's loan account (see below), cash-flow
+arithmetic didn't match the balance-sheet-equation arithmetic by
+exactly £33.01. Root cause: `profit-and-loss.md`'s "Total income" line
+(£7,076.99) was calculated back when the Invoice #10 bad debt was still
+an estimate (~£1,280.00) and was never updated when section 6i finalised
+that FX conversion to £1,246.99 (a £33.01 difference). The "Total
+received income" cash-basis subtotal (£4,796.99) was correct and
+unaffected — only the accruals-basis grand total (which adds the two
+written-off invoices on top) was stale.
+
+**Fixed:** total income corrected to £7,043.98 (£4,796.99 + £1,000.00 +
+£1,246.99). This cascades through:
+- `profit-and-loss.md`: net profit corrected from £2,531.17 to
+  **£2,498.16**
+- `corporation-tax-workings.md`: tax corrected from £480.92 to
+  **£474.65**
+- `CT600-figures.md`: Period 1 boxes updated to match
+
+This is a good illustration of why the DLA reconciliation is a useful
+sanity check — it's what caught the stale figure. Both methods
+(cash-flow and balance-sheet-equation) now agree exactly on £2,498.16.
+
+## 6k. Director's loan account built — overdrawn, flagged for accountant
+
+Since Atoure Ltd had no separate business bank account for period A01,
+all client income landed in the director's personal Santander account
+and all business expenses were also paid personally. Asked the user
+directly whether the leftover client cash (after business expenses)
+was spent personally. **User confirmed: yes, on groceries and regular
+living expenses.**
+
+Built the DLA as a reconciliation: £4,796.99 client cash in, £1,986.83
+spent on confirmed business costs, leaving £2,810.16 spent personally.
+Netted against £312.00 owed to the director for the home working
+allowance (see 6h), giving a **net DLA position: director owes the
+company £2,498.16**.
+
+**Flagged, not resolved:** £2,810.16 of personal drawings exceeds the
+period's actual profit (£2,498.16), so it can't simply be a dividend
+(exceeds distributable profit) and wasn't run through PAYE either. The
+technically correct treatment right now is an overdrawn director's
+loan account, which risks a S455 tax charge (32.5% of the outstanding
+balance) if not repaid within 9 months of the period end. Presented
+the options (salary, dividend up to the limit, repayment, or accepting
+S455) without choosing one — this is squarely something for the real
+accountant to advise on, not a judgement call to make unilaterally.
+
+Updated `balance-sheet.md` with the full picture: assets £2,498.16
+(all DLA receivable), liabilities £474.65 (corp tax), equity £2,023.51
+(retained profit). Balances correctly. Share capital still unconfirmed
+— flagged separately.
+
 ## 6i. Period A01 finalised — FX conversions locked
 
 Two remaining FX estimates finalised:

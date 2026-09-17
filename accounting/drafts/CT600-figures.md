@@ -11,10 +11,10 @@ derive them from scratch.
 
 | CT600 box (approx.) | Description | Value |
 |---|---|---|
-| Box 30 | Turnover | £7,076.99 |
-| Box 155 | Trading profit | £2,531.17 |
-| Box 165 | Profits chargeable to Corporation Tax | £2,531.17 |
-| Box 475/480-ish | Corporation Tax chargeable | £480.92 |
+| Box 30 | Turnover | £7,043.98 |
+| Box 155 | Trading profit | £2,498.16 |
+| Box 165 | Profits chargeable to Corporation Tax | £2,498.16 |
+| Box 475/480-ish | Corporation Tax chargeable | £474.65 |
 | — | Rate applied | 19% (small profits rate — see corporation-tax-workings.md) |
 
 Full backing detail (every income/expense line, source documents, FX
