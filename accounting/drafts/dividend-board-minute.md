@@ -1,9 +1,10 @@
-# Draft — Written Resolution of the Sole Director
+# Written Resolution of the Sole Director
 
-Status: **DRAFT — needs your signature and today's actual date filled
-in.** This formalises the £2,023.51 covered by distributable profit
-from Period A01 (see `../periods/balance-sheet.md`). Dated with the
-real date you sign it — not backdated.
+Status: **READY TO SIGN — dated 17 September 2026 (today's actual
+date). Print and sign; no further changes needed unless your
+accountant advises otherwise.** This formalises the £2,023.51 covered
+by distributable profit from Period A01 (see
+`../periods/balance-sheet.md`).
 
 ---
 
@@ -12,7 +13,7 @@ real date you sign it — not backdated.
 
 **WRITTEN RESOLUTION OF THE SOLE DIRECTOR**
 
-Taken on: [DATE — fill in today's actual date]
+Taken on: 17 September 2026
 
 In accordance with the Company's Articles of Association and section
 288 of the Companies Act 2006, the undersigned, being the sole
@@ -42,7 +43,7 @@ Signed: _________________________
 **Abdul-Malik Baba Toure**
 Sole Director, Atoure Ltd
 
-Date: _________________________
+Date: 17 September 2026
 
 ---
 

@@ -361,6 +361,26 @@ varying it. This is flagged as a judgement-call area for the real
 accountant to sanity-check, not something requiring exhaustive evidence
 gathered now.
 
+## 6r. Dividend paperwork finalised, ready to sign (Option B chosen)
+
+User confirmed they want to just sign the dividend paperwork
+(£2,023.51, covering the distributable-profit portion) and leave the
+remaining £474.65 as a loan, accepting the ~£154.26 S455 charge rather
+than repaying immediately — a legitimate, previously-presented option.
+
+Filled in today's actual date (17 September 2026) on both
+`dividend-board-minute.md` and `dividend-voucher.md`, changed their
+status from DRAFT to READY TO SIGN. No further edits needed from me —
+user just needs to print and sign both.
+
+Also directly addressed a hypothetical the user raised beforehand:
+whether creating a document now but dating it September 2024 (or
+locating a document that never really existed from that date) would
+avoid the S455 charge. Declined to help with backdating/fabricating a
+document, explained this would be false accounting/potential fraud,
+and that the financial stakes (~£154) don't justify the risk. User
+confirmed they were only asking hypothetically, not requesting this.
+
 ## 6q. Dividend paperwork drafted
 
 Drafted the two documents needed to formalise the £2,023.51 dividend

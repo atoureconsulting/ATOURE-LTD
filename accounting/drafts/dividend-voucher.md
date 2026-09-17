@@ -1,9 +1,9 @@
-# Draft — Dividend Voucher
+# Dividend Voucher
 
-Status: **DRAFT — needs today's actual date filled in and your
-signature.** Give/keep a copy of this alongside the board minute — HMRC
-or your accountant may ask to see it, and you'll need the figures on
-it for your Self Assessment tax return (dividends are personal income,
+Status: **READY TO SIGN — dated 17 September 2026 (today's actual
+date).** Keep a copy of this alongside the board minute — HMRC or your
+accountant may ask to see it, and you'll need the figures on it for
+your Self Assessment tax return (dividends are personal income,
 separate from the company's corporation tax).
 
 ---
@@ -14,7 +14,7 @@ Company Number: 15129711
 
 **DIVIDEND VOUCHER**
 
-Date: [DATE — fill in today's actual date]
+Date: 17 September 2026
 
 Shareholder: Abdul-Malik Baba Toure
 Address: 30B Chichele Road, London, NW2 3DA
@@ -28,7 +28,7 @@ Number of ordinary shares held: 100 (100% of issued share capital)
 | Satisfied by | Set-off against director's loan account |
 
 This voucher is issued as evidence of the dividend declared by written
-resolution of the sole director dated [SAME DATE AS ABOVE].
+resolution of the sole director dated 17 September 2026.
 
 Signed: _________________________
 
