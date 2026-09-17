@@ -147,19 +147,34 @@ account, not trading income. Tracked as a DLA credit instead.
 
 ## Director's loan account for this period
 
+**CORRECTED 2026-09-17** — the original £2,278.00 drawn figure only
+captured the identified "To Abdul Malik Toure • Baba" transfers on
+Revolut Business. Reconciling against the full balance sheet (see
+`../balance-sheet.md`) surfaced a £703.07 gap between the cash the P&L
+implies the company should have retained and what's actually left in
+Revolut Business — the company holds almost no cash at period end, with
+no separate unspent float confirmed for this period (unlike A01's
+£312.00). User confirmed additional drawings beyond the £2,278.00
+identified transfers account for this gap.
+
 | Description | Amount (£) |
 |---|---|
 | Director's own money added to business account (23 Apr 2025) | 50.00 |
 | Transfers to director ("To Abdul Malik Toure • Baba") | (2,278.00) |
-| Net — director owes company, before dividend | (2,228.00) |
+| Additional drawings, identified via balance sheet reconciliation, confirmed by director | (703.07) |
+| **Total drawn by director during the period** | **(2,981.07)** |
 
-**User has chosen to declare a dividend to cover the £2,278.00 drawn.**
-Post-tax distributable profit (£2,358.13) comfortably covers this —
-**no S455/overdrawn loan issue for this period**, unlike Period A01.
-After the dividend: £2,358.13 − £2,278.00 = £80.13 retained, plus the
-£50.00 the director put in nets to a small remaining company-favourable
-balance. Dividend paperwork to be drafted next (same format as the
-A01 board minute + voucher).
+**Dividend declared: £2,358.13** (the full post-tax distributable
+profit — increased from the original £2,278.00, since the real total
+drawn exceeds what was first captured, so the full distributable
+amount should be formally declared rather than leaving £80.13 of
+headroom unused). This still leaves a **genuinely overdrawn balance of
+£1,077.54** (£2,981.07 drawn − £50.00 introduced − £2,358.13 dividend
+set-off), since actual drawings exceed even the full distributable
+profit. **This creates an S455 exposure of ~£350.20 (32.5% of
+£1,077.54)**, the same category of issue as Period A01's £474.65
+overdrawn balance — see `../balance-sheet.md` for the full DLA
+roll-forward and `notes.md` for the correction log.
 
 ## Next steps (in order)
 

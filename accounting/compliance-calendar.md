@@ -85,9 +85,13 @@ before, via HMRC's "payment on account" route) to stop the clock.
 
 ## 5. HMRC — S455 tax on overdrawn director's loan
 
-Flagged previously, not yet resolved: ~£154.26 (A01) + ~£9.73 (A02) ≈
-**£164** likely due alongside the CT600 payment above, since the
-9-month loan repayment deadlines already passed. Confirm with
+**UPDATED 2026-09-17:** Period 3 now also has a genuine overdrawn
+balance (£1,077.54 — real drawings of £2,981.07 exceeded even the full
+distributable profit of £2,358.13, see `notes.md` and
+`../periods/balance-sheet.md`). Combined S455 exposure across all
+three periods: ~£154.26 (A01) + ~£9.73 (A02) + ~£350.20 (Period 3) ≈
+**£514.19**, likely due alongside the CT600 payment above, since the
+9-month loan repayment deadlines have all already passed. Confirm with
 accountant before/when paying.
 
 ## 6. HMRC — Late filing penalty appeal
@@ -99,9 +103,10 @@ appeal: **2 October 2026**.
 
 ## 7. Personal Self Assessment (dividend income)
 
-- Dividends declared: A01 (£2,023.51) + Period 3 (£2,278.00) = **£4,301.51**
-  total, both dated **17 September 2026** — both fall in the **2026/27
-  tax year** (6 April 2026 – 5 April 2027).
+- Dividends declared: A01 (£2,023.51) + Period 3 (£2,358.13, corrected
+  2026-09-17 from the original £2,278.00) = **£4,381.64** total, both
+  dated **17 September 2026** — both fall in the **2026/27 tax year**
+  (6 April 2026 – 5 April 2027).
 - **Registration deadline** (if not already registered for Self
   Assessment): **5 October 2027**.
 - **Online filing deadline**: **31 January 2028**.
@@ -119,8 +124,8 @@ appeal: **2 October 2026**.
 2. **Post the signed penalty appeal letter** (deadline 2 Oct 2026).
 3. **File the two overdue CT600s** (A01, A02) — figures are ready in
    `drafts/CT600-figures.md`.
-4. **Pay the corporation tax** (£1,035.65 + likely ~£164 S455) as soon
-   as filed, to stop interest accruing further.
+4. **Pay the corporation tax** (£1,035.65 + likely ~£514.19 S455) as
+   soon as filed, to stop interest accruing further.
 5. **File Period 3's CT600** before 30 Sept 2026 (13 days away), and
    its Companies House accounts before 30 June 2027 — this time with
    correct figures from the start.

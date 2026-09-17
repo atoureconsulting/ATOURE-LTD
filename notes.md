@@ -1157,12 +1157,61 @@ the single most important document still needed.
   `accounting/companies-house-filings/amended-accounts-draft-period1.md`
   — full micro-entity format, reconciles exactly to `balance-sheet.md`
   (£34.51 total net assets, real bank-verified figures).
-- **Second period (to 30 Sept 2025) is blocked** — drafting it now
-  would mean guessing a cash-at-bank figure, which is exactly the
-  mistake being corrected. Documented what's needed in
-  `amended-accounts-draft-period2-BLOCKED.md`: closing balances across
-  Santander, Revolut Business, and Revolut Personal as at (or nearest
-  to) 30 Sept 2025.
+
+## 9b. Period 3 — real cash balances pulled, DLA/dividend correction found
+
+- **2026-09-17:** Pulled real closing balances as at 30 Sept 2025
+  directly from statements already in the repo (no need to ask the
+  user): Santander £81.20, Revolut Business (GBP) −£8.38, Revolut
+  Personal (GBP e-money account) £419.33. User confirmed no separate
+  unspent company float for Period 3 (unlike A01's confirmed £312.00),
+  so only the Revolut Business balance and the carried-forward £312.00
+  float count as company cash — Santander/Revolut Personal balances
+  are the director's own money, not counted (same treatment as A01).
+- **This surfaced a £703.07 reconciliation gap**: the accrual P&L
+  implied the company should have retained ~£683 in cash over the
+  period, but real cash barely moved. Walked the user through this —
+  most likely explanation was that more than the £2,278.00 originally
+  identified as "drawn by director" was actually drawn. **User
+  confirmed additional drawings account for the gap.**
+- **Corrected figures:**
+  - Total actually drawn during Period 3: **£2,981.07** (not £2,278.00).
+  - Dividend increased to **£2,358.13** — the full distributable
+    profit, rather than the original £2,278.00 (declaring less than
+    the full amount left £80.13 of tax-efficient headroom unused).
+  - Even at the full distributable profit, real drawings exceed it —
+    **genuine overdrawn director's loan of £1,077.54** results, same
+    category of issue as Period A01 (not A02).
+  - New S455 exposure: ~£350.20 (32.5% of £1,077.54). Combined S455
+    across all three periods now ~£514.19 (was ~£164).
+  - Period 3 retained profit is now £0.00 (was £80.13) — full
+    distributable profit declared as dividend.
+  - Combined dividend income for Self Assessment: £2,023.51 (A01) +
+    £2,358.13 (Period 3, corrected) = **£4,381.64** (was £4,301.51).
+- **Files updated:** `profit-and-loss.md` (Period 3), `balance-sheet.md`
+  (Period 3 DLA, equity roll-forward, and new "balance check" section
+  confirming the corrected figures balance exactly — assets £1,382.16
+  = liabilities £1,347.65 + equity £34.51), `compliance-calendar.md`
+  (S455 and Self Assessment totals).
+- **Old dividend paperwork removed and replaced, everywhere:**
+  - `accounting/drafts/dividend-board-minute-period3.md` and
+    `dividend-voucher-period3.md` — old £2,278.00 versions deleted,
+    replaced with corrected £2,358.13 versions (same filenames).
+  - **Google Drive:** the old signed £2,278.00 PDFs (file ids
+    `1vrjvt-ebvkegU1u65MwBjQXvSu8JHZHW` and
+    `1ou0UMkT2i-951vtwlur_QuXS8kgTPvwp`) were **trashed**. New
+    corrected PDFs uploaded to the same folder: board minute (id
+    `19rd81f6il_iVWaJQQBlhuQOGQ8Z6vIau`) and voucher (id
+    `12fZZPd16ab-g-YmCk2ZQ0nGuw0Vudfnt`). **If the old £2,278.00
+    versions were already physically signed, those signed copies
+    should be treated as void and re-signed at the corrected £2,358.13
+    figure — flagged clearly in both new documents.**
+- **Second period Companies House amended accounts, previously
+  blocked, now completed:**
+  `accounting/companies-house-filings/amended-accounts-draft-period2.md`
+  (the `-BLOCKED` placeholder file was deleted). Full micro-entity
+  format, £34.51 total net assets, reconciles exactly to the corrected
+  balance sheet.
 
 ## 10. Period 3 — corporation tax workings, CT600 figures, balance sheet
 

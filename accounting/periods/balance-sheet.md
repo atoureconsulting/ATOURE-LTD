@@ -5,12 +5,10 @@ covers the position **as at 10 September 2024** (end of the 12-month
 period) and **as at 30 September 2024** (end of the stub period), plus
 opening position at incorporation for reference.
 
-Status: **A01 and A02 COMPLETE and locked. Period 3 (1 Oct 2024 – 30
-Sept 2025) director's loan account and equity roll-forward added below
-— see "Period 3" sections. Full asset/liability snapshot at 30 Sept
-2025 (cash balances by account) still TBC; not needed to file the
-Period 3 CT600, which only needs the P&L and DLA figures already
-locked.**
+Status: **A01, A02 and Period 3 all COMPLETE and locked (updated
+2026-09-17 with corrected Period 3 figures — real bank closing balances
+now confirmed for all accounts, see "Period 3 — balance check" section,
+which balances exactly).**
 
 ## Assets
 
@@ -144,6 +142,17 @@ same practical position as the A01 loan.
 
 ## Period 3 — director's loan movements (1 Oct 2024 – 30 Sept 2025)
 
+**CORRECTED 2026-09-17** — reconciling the balance sheet against real
+bank closing balances (Revolut Business, and confirming no leftover
+float in personal accounts this period) surfaced a £703.07 gap between
+what the P&L implied the company should hold in cash and what's
+actually there. Director confirmed additional drawings beyond the
+originally-identified £2,278.00 account for this. See `notes.md` and
+`../periods/2024-10-01_2025-09-30/profit-and-loss.md` for the full
+correction log. This supersedes the earlier (incorrect) version of
+this section, which understated total drawings and the resulting
+overdrawn balance.
+
 Opening balance carried forward from A02: director owed the company
 **£504.60** (see above).
 
@@ -151,20 +160,22 @@ Opening balance carried forward from A02: director owed the company
 |---|---|---|---|---|
 | — | Opening balance b/f from Period A02 | | | (504.60) |
 | various | Capital introduced by director | 50.00 | | |
-| various | Drawn by director during the period | | 2,278.00 | |
-| 17 Sept 2026 | Less: £2,278.00 dividend declared, satisfied by set-off (see `../drafts/dividend-board-minute-period3.md` / `dividend-voucher-period3.md`) | 2,278.00 | | |
-| **30 Sept 2025** | **Net — director owes company (Period 3)** | | | **(454.60)** |
+| various | Drawn by director during the period (identified transfers) | | 2,278.00 | |
+| various | Additional drawings, identified via balance sheet reconciliation, confirmed by director | | 703.07 | |
+| 17 Sept 2026 | Less: £2,358.13 dividend declared (full distributable profit), satisfied by set-off (see `../drafts/dividend-board-minute-period3.md` / `dividend-voucher-period3.md`) | 2,358.13 | | |
+| **30 Sept 2025** | **Net — director owes company (Period 3)** | | | **(1,077.54)** |
 
-Unlike A01/A02, this period's drawings are **fully covered** by the
-period's own distributable profit — the £2,278.00 dividend clears the
-in-period drawing entirely, and £80.13 of distributable profit remains
-undistributed (retained). The £454.60 balance is simply the A01/A02
-legacy balance carried forward unchanged by this period's own
-activity (£50.00 in, £2,278.00 out, £2,278.00 dividend set-off nets
-to zero movement on top of the £504.60 b/f, less the £50.00
-introduced: 504.60 − 50.00 = **454.60**). No new S455 exposure arises
-from Period 3 itself; the existing A01/A02 S455 position is unchanged
-and still flagged for the accountant as before.
+Unlike Period A02 but **same as Period A01**, this period's real
+drawings (£2,981.07) exceed even the full distributable profit
+(£2,358.13) — **a genuine overdrawn loan of £1,077.54 results**, not
+fully covered by declaring the whole distributable profit as dividend.
+This creates a fresh **S455 exposure of ~£350.20** (32.5% of
+£1,077.54), on top of the existing A01 (~£154.26) and A02 (~£9.73)
+positions — combined S455 exposure across all three periods now
+**~£514.19**. Flagged for the accountant alongside the existing A01/A02
+S455 discussion; same menu of options (repay now to start the reclaim
+clock, treat as retrospective PAYE, or accept the S455 cost as was done
+for A01).
 
 ## Period 3 — equity roll-forward
 
@@ -173,13 +184,33 @@ and still flagged for the accountant as before.
 | Net trading profit | 2,911.27 |
 | Less: corporation tax (19%, see `corporation-tax-workings.md`) | (553.14) |
 | Distributable (post-tax) profit | 2,358.13 |
-| Less: dividend declared 17 Sept 2026 | (2,278.00) |
-| **Retained profit carried forward — Period 3** | **80.13** |
+| Less: dividend declared 17 Sept 2026 (full distributable profit) | (2,358.13) |
+| **Retained profit carried forward — Period 3** | **0.00** |
 
 **Total equity at 30 Sept 2025** = £1.00 (share capital, unchanged) +
-£33.51 (A02 retained profit, unchanged) + £80.13 (Period 3 retained
-profit) = **£114.64**.
+£33.51 (A02 retained profit, unchanged) + £0.00 (Period 3 retained
+profit, now fully distributed) = **£34.51**.
 
-**Combined liabilities to HMRC at 30 Sept 2025:** £474.65 (A01) +
-£7.86 (A02) + £553.14 (Period 3, once filed) = **£1,035.65** — matches
-the combined corporation tax total in `../drafts/CT600-figures.md`.
+**Combined liabilities to HMRC at 30 Sept 2025 (corporation tax only,
+excludes S455):** £474.65 (A01) + £7.86 (A02) + £553.14 (Period 3,
+once filed) = **£1,035.65** — matches the combined corporation tax
+total in `../drafts/CT600-figures.md`. Add the combined S455 exposure
+of **~£514.19** for the fuller picture of what's likely owed to HMRC
+across all balances.
+
+## Period 3 — balance check
+
+| | £ |
+|---|---|
+| Revolut Business (closing balance, 30 Sept 2025) | (8.38) |
+| Cash held by director, unspent company float (carried forward from A01, unchanged — no new float confirmed this period) | 312.00 |
+| Debtors — director's loan account | 1,077.54 |
+| Called-up share capital not paid | 1.00 |
+| **Total assets** | **1,382.16** |
+| Creditors — home working allowance (A01, still unpaid) | 312.00 |
+| Creditors — corporation tax owed (A01 £474.65 + A02 £7.86 + Period 3 £553.14) | 1,035.65 |
+| **Total liabilities** | **1,347.65** |
+| **Total equity** | **34.51** |
+
+Assets (£1,382.16) − Liabilities (£1,347.65) = **£34.51** ✓ balances
+against the equity roll-forward above.
