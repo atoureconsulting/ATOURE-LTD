@@ -1,9 +1,10 @@
 # Profit & Loss — Period 1 Oct 2024 to 30 Sept 2025
 
 HMRC company tax reference: 623 24114 14574 (UTR 24114 14574)
-Status: **URGENT — DRAFT, just started. Filing deadline 30 September
-2026 (this is a reminder, not yet a penalty — real chance to file on
-time if we move fast).**
+Status: **COMPLETE — all income and expenses resolved. Filing deadline
+30 September 2026 (this is a reminder, not yet a penalty — real chance
+to file on time). Next: dividend paperwork, tax workings, CT600
+figures, balance sheet.**
 
 **This period is NOT yet the subject of a penalty letter** — only a
 "Corporation Tax Return and Payment Reminder" (form CT208), dated
@@ -105,42 +106,69 @@ account, not trading income. Tracked as a DLA credit instead.
 | H3G phone, 50% business use | 88.60 | Confirmed charges total £177.20 (some months may be incomplete due to the Apr–May statement gap and a Jun reversal/recharge) × 50% |
 | **Total confirmed business expenses** | **193.60** | |
 
-## Items found but NOT yet counted as business — need user confirmation
+## General card spending (£790.93) — resolved, itemised by group
 
-| Item | Amount (£) | Notes |
+| Group | Amount (£) | Treatment |
 |---|---|---|
-| Card spending on Revolut Business (restaurants, Uber, supermarkets, IKEA, TfL, Flixbus) | 790.93 | Looks personal — same pattern as A01/A02. **Assumed personal unless told otherwise.** |
-| Morocco trip charges, 6–13 Feb 2025 (restaurants, an "art gallery", nightlife, fast food — Beldi Fusion Kitchen, La Galerie Du Caftan, Yanis Art R, McDonald's, KFC, etc.) | 434.54 | **Need from user: business trip or personal holiday?** |
-| ATM cash withdrawal, 24 Apr 2025 (Morocco, MAD currency) | 21.95 | Likely part of the same Morocco trip |
-| Transfers "To Abdul Malik Toure • Baba" (director paying himself out of the business account) | 2,278.00 | Drawings — same treatment as A01/A02's director's loan account, not a business expense |
-| Highbury TT Club payment (Santander), 4 Sept 2025 | 120.00 | **Need from user: business or personal?** |
+| E) Transport — Uber, TfL, Flixbus, Lime | 281.88 | **All business** (user confirmed) |
+| A) Food & Restaurants — business meetings with Manlikeisaac and other business dinners | 293.70 | **Business** (£333.65 total less £39.95 personal below) |
+| A) Food & Restaurants — World Duty Free £19.95, "Too Good To Go" ×4 £20.00 | 39.95 | Personal |
+| B) Charity donations ("Share the Meal"/WFP) | 20.15 | Personal/non-trading — considered qualifying charitable donation relief, but not worth pursuing for this amount (~£3.83 tax saving) given uncertainty over WFP's UK charity recognition |
+| C) Groceries/supermarkets | 119.01 | Personal |
+| D) Retail/household (IKEA, Oxford St shop, phone shop, Zettle) | 36.24 | Personal |
+| **Total** | **790.93** | Business: £575.58 / Personal: £215.35 |
 
-## Draft net profit (confirmed items only, pending the above)
+**Also confirmed personal, not claimed:**
+- Morocco trip, 6–13 Feb 2025 (£434.54) + ATM cash withdrawal (£21.95) = £456.49 — personal holiday
+- Highbury TT Club, £120.00 (4 Sept 2025) — a personal sports club
+  membership; not claimed as a business expense (would require
+  benefit-in-kind/P11D reporting to claim via the company, not worth
+  it for £120)
+
+## Final expenses summary
+
+| Category | Amount (£) |
+|---|---|
+| Revolut Business monthly fees | 105.00 |
+| H3G phone, 50% business use | 88.60 |
+| Transport (Uber/TfL/Flixbus/Lime) | 281.88 |
+| Food & Restaurants (business meetings/dinners) | 293.70 |
+| **Total business expenses** | **769.18** |
+
+## Net profit and tax
 
 | | £ |
 |---|---|
 | Total trading income | 3,680.45 |
-| Total confirmed business expenses | 193.60 |
-| **Net trading profit (draft, before resolving open items above)** | **3,486.85** |
+| Total business expenses | 769.18 |
+| **Net trading profit** | **2,911.27** |
+| Corporation tax (19% small profits rate) | 553.14 |
+| **Post-tax distributable profit** | **2,358.13** |
 
-This will change once the Morocco trip and Highbury TT Club questions
-are answered — if personal, no change; if business, expenses increase
-and profit decreases accordingly.
+## Director's loan account for this period
+
+| Description | Amount (£) |
+|---|---|
+| Director's own money added to business account (23 Apr 2025) | 50.00 |
+| Transfers to director ("To Abdul Malik Toure • Baba") | (2,278.00) |
+| Net — director owes company, before dividend | (2,228.00) |
+
+**User has chosen to declare a dividend to cover the £2,278.00 drawn.**
+Post-tax distributable profit (£2,358.13) comfortably covers this —
+**no S455/overdrawn loan issue for this period**, unlike Period A01.
+After the dividend: £2,358.13 − £2,278.00 = £80.13 retained, plus the
+£50.00 the director put in nets to a small remaining company-favourable
+balance. Dividend paperwork to be drafted next (same format as the
+A01 board minute + voucher).
 
 ## Next steps (in order)
 
-1. ~~User to provide Santander statements~~ — done, reviewed above
-2. ~~Resolve DAZN/Parche Network/Manlikeisaac pattern~~ — done, see
-   above
-3. **Still need from user:**
-   - Highbury TT Club £120 — business or personal?
-   - Morocco trip (£434.54 + £21.95 ATM) — business or personal?
-   - Confirm the £790.93 general card spending is personal (assumed
-     so, consistent with A01/A02 pattern) — flag if any of it was
-     actually business-related
-4. Build the director's loan account for this period (£2,278.00 drawn
-   + £50.00 put in, net director owes £2,228.00, before this period's
-   profit/tax is factored in)
-5. Calculate final profit and corporation tax due
-6. Given the tight deadline, prioritise **filing on time with best
-   available figures** over exhaustive precision
+1. ~~Santander statements~~ — done
+2. ~~Resolve DAZN/Parche Network/Manlikeisaac pattern~~ — done
+3. ~~Resolve Morocco trip, Highbury TT Club, general card spending~~ —
+   done, all above
+4. Draft dividend paperwork for £2,278.00 (board minute + voucher)
+5. Finalise corporation tax workings and CT600 figures (same format as
+   A01/A02)
+6. Build/update the balance sheet to include this period
+7. File before the 30 September 2026 deadline

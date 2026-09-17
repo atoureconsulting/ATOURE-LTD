@@ -11,6 +11,41 @@ their review before anything is filed with HMRC or Companies House.
 
 ---
 
+## 8b. Third period — all income/expenses resolved, P&L complete
+
+User made a claim that "if it's from my business account then it's
+all business" — pushed back on this directly, since it contradicts
+the wholly-and-exclusively principle applied throughout this entire
+project (A01/A02's personal-vs-business separation). Explained that
+account-of-origin doesn't determine deductibility; actual purpose
+does. User accepted this and gave genuine item-by-item answers.
+
+Grouped the £790.93 general card spending into 5 categories (Transport,
+Food/Restaurants, Charity, Groceries, Retail) for the user to mark.
+Resolved:
+- Transport (£281.88) — all business
+- Food & Restaurants (£333.65) — £293.70 business (client meetings
+  with Manlikeisaac, business dinners), £39.95 personal (World Duty
+  Free, Too Good To Go app)
+- Charity donations (£20.15) — user asked if there's a legitimate
+  angle; explained "qualifying charitable donations" relief is real
+  but uncertain whether WFP/ShareTheMeal qualifies as UK-recognised,
+  and the ~£3.83 tax saving isn't worth pursuing — treated as personal
+- Groceries (£119.01) — personal
+- Retail/household (£36.24) — personal
+- Morocco trip (£456.49) — confirmed personal holiday
+- Highbury TT Club (£120) — treated as personal; explained that
+  claiming a personal sports club membership via the company would
+  require benefit-in-kind/P11D reporting, not worth it for this amount
+
+**Final period figures:** income £3,680.45, expenses £769.18, net
+profit £2,911.27, corporation tax £553.14 (19%), post-tax distributable
+profit £2,358.13. The £2,278.00 drawn by the director fits comfortably
+within distributable profit as a dividend — **no S455/overdrawn loan
+issue for this period**, unlike A01. Status changed to COMPLETE for
+the P&L. Next: dividend paperwork, tax workings, CT600 figures,
+balance sheet — same process as A01/A02.
+
 ## 8a. Third period — agency deals resolved, full Revolut Business extraction done
 
 User resolved all three agency-pattern deals: Facemoji (Parche
