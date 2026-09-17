@@ -361,6 +361,35 @@ varying it. This is flagged as a judgement-call area for the real
 accountant to sanity-check, not something requiring exhaustive evidence
 gathered now.
 
+## 7b. Balance sheet fully rolled forward to 30 Sept 2024 — everything locked
+
+Completed the last open item: rolled the balance sheet forward from
+Period A01 (10 Sept 2024, post-dividend) through Period A02's activity
+to 30 Sept 2024.
+
+**Method:** traced actual cash movements for A02 — the £50 client
+payment and £38.58 personal SumUp purchases both went through the real
+Revolut Business account (closing balance £11.42 per the statement,
+confirmed as genuine company cash at bank for the first time in either
+period). The £8.63 H3G business-share was paid personally by the
+director via Santander (company owes director). Net A02 director's
+loan movement: director owes company £29.95 (38.58 − 8.63).
+
+**Combined DLA at 30 Sept 2024: £504.60** (£474.65 from A01 + £29.95
+from A02) — owed by the director to the company.
+
+Final 30 Sept 2024 balance sheet: assets £829.02 (£1 share capital +
+£11.42 real cash at bank + £312 cash held from A01 + £504.60 DLA
+receivable), liabilities £794.51 (£312 home allowance + £474.65 A01
+tax + £7.86 A02 tax), equity £34.51 (£1 share capital + £33.51 A02
+retained profit, since A01's retained profit was fully distributed via
+the dividend). Balances exactly (829.02 = 794.51 + 34.51).
+
+**This completes both periods A01 and A02 in full** — P&L, corporation
+tax workings, CT600 figures, and balance sheet are all done, locked,
+and internally consistent for the whole company history to date
+(incorporation through 30 Sept 2024).
+
 ## 7a. Period A02 finalised — all open questions resolved
 
 User confirmed the remaining items:
