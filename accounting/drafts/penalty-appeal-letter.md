@@ -1,11 +1,16 @@
 # Draft Appeal Letter — Late Filing Penalties
 
-Status: **DRAFT — reasonable excuse now filled in (serious illness/
-hospitalisation). Still needs: (1) exact dates of hospitalisation, (2)
-supporting evidence gathered (discharge letter/hospital records — see
-note at bottom), (3) accountant sign-off, (4) sent within 30 days of
-the notice of penalty determination (issued 2 Sept 2026, so by
-**2 Oct 2026**).**
+Status: **DRAFT — reasonable excuse filled in with verified dates and
+supporting NHS documentation (Royal Free Hospital, London). Still
+needs: (1) accountant sign-off, (2) sent within 30 days of the notice
+of penalty determination (issued 2 Sept 2026, so by **2 Oct 2026**).**
+
+Supporting evidence saved to
+`accounting/source-data/reasonable-excuse-evidence/` — NHS discharge
+summary and Emergency Department discharge letter, Royal Free London
+NHS Foundation Trust, confirming admission 7 Sept 2024, diagnosis of
+diabetic ketoacidosis with new-onset diabetes mellitus, immediate ICU
+admission, and discharge 25 Sept 2024.
 
 Send to the address on the penalty notice:
 ```
@@ -38,13 +43,15 @@ determinations issued on 2 September 2026 for the following periods:
 
 I am the sole director of Atoure Ltd and have personally managed all of
 the company's administrative and financial affairs since incorporation.
-During August and September 2024, I suffered a serious illness which
-required hospitalisation for approximately one month, including a period
-of around one week in intensive care [EXACT DATES TO BE CONFIRMED AND
-INSERTED HERE]. This was an unexpected and out-of-the-ordinary event
-that left me unable to attend to the company's administrative affairs,
-including its filing obligations, during and for a period after this
-illness.
+On 7 September 2024 I was admitted as an emergency to the Royal Free
+Hospital, London, with diabetic ketoacidosis and a new diagnosis of
+diabetes mellitus, and was admitted directly to the Intensive Care
+Unit. I remained an inpatient, including a period in intensive care,
+until my discharge on 25 September 2024 — a total of 18 days. This was
+an unexpected and out-of-the-ordinary medical emergency that left me
+unable to attend to the company's administrative affairs, including
+its filing obligations, both during this hospitalisation and for a
+period of recovery afterwards.
 
 As I am the company's only director, with no other officer, employee,
 or agent able to act on the company's behalf during this time, this
@@ -53,9 +60,8 @@ question from being completed and filed. I have taken steps to bring
 the company's filings up to date as soon as I was able to do so
 following my recovery.
 
-[Supporting evidence — hospital discharge summary or equivalent medical
-documentation — to be enclosed once obtained; see note at bottom of
-this draft.]
+I enclose supporting documentation from Royal Free London NHS
+Foundation Trust confirming the dates and nature of this admission.
 
 We have now taken steps to bring the company's filings up to date. A
 completed Company Tax Return and statutory accounts for the periods above
@@ -75,31 +81,39 @@ Director, Atoure Ltd
 
 ## Notes on this draft
 
-- **Reasonable excuse used:** serious illness requiring ~1 month
-  hospitalisation, including ~1 week in ICU, during August/September
-  2024. This is a strong, well-established category of reasonable
-  excuse that HMRC generally accepts — serious illness of the
-  taxpayer (here, the company's sole director) preventing them from
-  meeting an obligation is explicitly listed in HMRC's own guidance.
+- **Reasonable excuse used:** serious illness (diabetic ketoacidosis,
+  new-onset diabetes mellitus) requiring 18 days of hospitalisation,
+  including immediate admission to ICU, 7–25 September 2024, at Royal
+  Free Hospital, London. Verified against the NHS discharge summary
+  and ED discharge letter (saved to
+  `accounting/source-data/reasonable-excuse-evidence/`). This is a
+  strong, well-established category of reasonable excuse that HMRC
+  generally accepts — serious illness of the taxpayer (here, the
+  company's sole director) preventing them from meeting an obligation
+  is explicitly listed in HMRC's own guidance, and this one is
+  independently documented by an NHS Foundation Trust.
 - **What's still needed:**
-  1. **Exact dates** of the hospitalisation (admission, ICU period,
-     discharge) — fill into the bracketed placeholder in the letter
-  2. **Supporting evidence**, if available — a hospital discharge
-     letter/summary, GP letter, or similar documentation. HMRC doesn't
-     always demand this upfront but having it ready strengthens the
-     appeal significantly and speeds up acceptance if requested. Not
-     essential to send the appeal itself, but worth gathering.
+  1. **Accountant sign-off** on the letter before sending
+  2. Decide whether to enclose copies of the NHS discharge documents
+     with the appeal itself, or hold them in reserve in case HMRC
+     requests evidence — either is a reasonable approach; enclosing
+     them upfront likely speeds up acceptance
   3. Since Atoure Ltd is a sole-director company with no other officer
      able to act, the letter explicitly makes that point — it's a
      stronger argument than if there were other directors/staff who
-     could have filed in the meantime.
-- **Timing note:** the illness (Aug/Sept 2024) sits right at the end of
-  both accounting periods (A01 ends 10 Sept 2024, A02 ends 30 Sept
-  2024), and would also have disrupted the months immediately after —
-  exactly when someone would normally be getting the company's records
-  in order to prepare for filing. Worth mentioning any lingering
-  recovery time if the illness affected your ability to deal with
-  admin beyond just the hospital stay itself.
+     could have filed in the meantime
+- **Timing note:** the hospitalisation (7–25 Sept 2024) sits almost
+  exactly at the boundary between the two accounting periods — Period
+  A01 ends 10 Sept 2024 (during the hospital stay) and Period A02 ends
+  30 Sept 2024 (5 days after discharge). This is a strong coincidence
+  for the appeal: the director was either hospitalised or freshly
+  discharged and recovering right when both periods closed and normal
+  post-period-end admin (organising records, engaging an accountant,
+  starting the filing process) would ordinarily have begun. Worth
+  keeping in mind that recovery from DKA/a new diabetes diagnosis
+  typically continues well beyond the discharge date itself — if there
+  was a longer adjustment/recovery period affecting your ability to
+  deal with admin, that's worth mentioning too.
 - Even a partially successful appeal (e.g. penalty reduced, or payment
   plan agreed) is worth pursuing — but the biggest lever by far is still
   filing the real return, since it corrects the inflated tax and

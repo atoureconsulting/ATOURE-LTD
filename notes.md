@@ -361,6 +361,36 @@ varying it. This is flagged as a judgement-call area for the real
 accountant to sanity-check, not something requiring exhaustive evidence
 gathered now.
 
+## 6o. Penalty appeal letter — verified with NHS discharge documentation
+
+User provided 4 images of NHS discharge letters (Royal Free London NHS
+Foundation Trust) confirming the reasonable excuse with exact dates:
+- Admitted 7 September 2024 (Emergency Department, presenting with
+  nausea/fatigue/vomiting, admitted directly to ICU)
+- Diagnosed with diabetic ketoacidosis (confirmed 7 Sept 2024) and
+  new-onset diabetes mellitus (confirmed 24 Sept 2024)
+- Treated for a Staph Aureus Bacteraemia (line infection) during
+  admission, PICC line inserted 20 Sept 2024, IV antibiotics
+- Discharged 25 September 2024 — 18 days total inpatient
+
+Saved the 4 images to
+`accounting/source-data/reasonable-excuse-evidence/` (contains NHS
+personal data — NHS number, DOB, home address, phone number — noted as
+sensitive, kept in the repo as it's the user's own private repo and
+this is their own medical evidence).
+
+Updated `penalty-appeal-letter.md` with the exact dates and diagnosis,
+replacing the earlier "approximately one month / one week in ICU"
+placeholder with verified facts. Added a note on the strong timing
+coincidence: hospitalisation (7-25 Sept 2024) falls almost exactly at
+the boundary between Period A01 (ends 10 Sept 2024) and Period A02
+(ends 30 Sept 2024) — the director was either hospitalised or newly
+discharged right when both periods closed.
+
+Remaining before sending: accountant sign-off, and a decision on
+whether to enclose the NHS documents with the initial appeal or hold
+them in reserve for if HMRC requests evidence.
+
 ## 6n. Penalty appeal letter — reasonable excuse filled in
 
 User provided the real reason for the late filing: serious illness
