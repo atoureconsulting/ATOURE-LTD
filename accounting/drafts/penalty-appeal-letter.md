@@ -1,9 +1,10 @@
 # Draft Appeal Letter — Late Filing Penalties
 
-Status: **DRAFT — reasonable excuse filled in with verified dates and
-supporting NHS documentation (Royal Free Hospital, London). Still
-needs: (1) accountant sign-off, (2) sent within 30 days of the notice
-of penalty determination (issued 2 Sept 2026, so by **2 Oct 2026**).**
+Status: **READY TO SIGN AND SEND — reasonable excuse filled in with
+verified dates and supporting NHS documentation, dated 17 September
+2026. Still needs: (1) accountant sign-off (recommended), (2) sent
+within 30 days of the notice of penalty determination (issued
+2 Sept 2026, so by 2 Oct 2026).**
 
 Supporting evidence saved to
 `accounting/source-data/reasonable-excuse-evidence/` — NHS discharge
@@ -28,7 +29,7 @@ BX9 1AX
 30B Chichele Road, London, NW2 3DA
 Company tax reference: 623 24114 14574
 
-[DATE]
+17 September 2026
 
 Dear Sir/Madam,
 
@@ -70,10 +71,10 @@ following my recovery.
 I enclose supporting documentation from Royal Free London NHS
 Foundation Trust confirming the dates and nature of this admission.
 
-We have now taken steps to bring the company's filings up to date. A
-completed Company Tax Return and statutory accounts for the periods above
-[are enclosed / will follow by DATE], which will supersede HMRC's
-determination of profits and tax due.
+We have now taken steps to bring the company's filings up to date and
+are in the process of finalising a completed Company Tax Return and
+statutory accounts for the periods above, which will follow shortly
+and will supersede HMRC's determination of profits and tax due.
 
 We would be grateful if you would consider this appeal and, in the
 meantime, suspend collection of the tax-related and flat-rate penalties
@@ -81,7 +82,7 @@ pending the outcome.
 
 Yours faithfully,
 
-[Director name]
+Abdul-Malik Baba Toure
 Director, Atoure Ltd
 
 ---
