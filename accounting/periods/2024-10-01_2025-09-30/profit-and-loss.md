@@ -37,26 +37,47 @@ separation.
 |---|---|
 | Revolut Business | ✅ Have full statement, covers this whole period |
 | Revolut Personal | ✅ Have full statement, covers this whole period |
-| Santander | ❌ **Missing — only have statements through Dec 2024. Need Jan–Sept 2025, ~9 statements.** |
+| Santander | ✅ Received and reviewed — see findings below. Two small date gaps remain (~11 Oct–11 Nov 2024, ~11 Apr–12 May 2025), not currently blocking. |
 
-**Cannot finalise this period's income/expenses until the Santander
-gap is filled**, since that's the account through which real client
-invoices have historically been paid.
+## Santander findings — reviewed in full
+
+**No business client payments found in this account for this period**
+— a real shift from Periods A01/A02, where Santander was the main
+account for client invoices. For Oct 2024–Sept 2025, Santander is
+almost entirely:
+
+- Monthly DWP Universal Credit payments (~£311–316/month) — personal
+  welfare, not business income
+- H3G phone direct debits (~£18–21/month) — same 50% business
+  apportionment treatment as A01/A02
+- Numerous transfers to the director's own Revolut account (internal,
+  not expenses)
+- Personal spending: PayPal, Klarna (ASOS, Aspinal of London,
+  Ticketmaster), Apple, Spotify, PlayStation, Capcut, Airbnb, TfL
+- One pass-through: 11 Jul 2025, £1,270.36 received from PayPal then
+  the exact same amount sent to Revolut same day — nets to zero, not
+  counted
+- 4 Sept 2025: £120.00 paid to "Highbury TT Club" (reference "Baba
+  Toure") — **need from user: business or personal?** (possibly
+  related to the "Hult Table Tennis Club" mentioned in the director's
+  email signature)
+
+**Conclusion: for this period, the real business activity is on
+Revolut Business, not Santander** (unlike A01/A02). Santander's only
+relevant item here is the H3G phone bill.
 
 ## Next steps (in order)
 
-1. User to provide Santander statements, Jan–Sept 2025
-2. Full transaction-by-transaction extraction of all three accounts
-   for this period (same method as A01/A02)
-3. Resolve the DAZN and Parche Network / Manlikeisaac LTD pattern —
-   confirm with user whether Atoure Ltd is acting as an agent
-   (pass-through, only commission is real income) or principal (full
-   amounts are real income, with the onward payments as expenses)
-4. Separate genuine business income/expenses from personal spending,
-   same rigour as A01/A02
-5. Calculate real profit and corporation tax due
-6. Given the tight deadline, prioritise **filing on time with best
-   available figures** over exhaustive precision — this period can
-   still be amended later if something is found after filing, but a
-   correctly-filed return by 30 Sept 2026 avoids a repeat of the whole
-   penalty situation
+1. ~~User to provide Santander statements~~ — done, reviewed above
+2. **Blocked on user: resolve the DAZN / Parche Network / Manlikeisaac
+   LTD pattern** — is Atoure Ltd acting as agent (pass-through, only
+   commission is real income) or principal (full amounts are real
+   income, with the onward payments as a business expense)?
+3. **Need from user:** Highbury TT Club £120 — business or personal?
+4. Full transaction-by-transaction extraction of Revolut Business for
+   this period once the above is resolved
+5. Separate genuine business income/expenses from personal spending on
+   Revolut Business, same rigour as A01/A02
+6. Calculate real profit and corporation tax due
+7. Given the tight deadline, prioritise **filing on time with best
+   available figures** over exhaustive precision
