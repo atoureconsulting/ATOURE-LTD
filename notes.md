@@ -11,6 +11,42 @@ their review before anything is filed with HMRC or Companies House.
 
 ---
 
+## 8. NEW (17 Sept 2026): Third accounting period discovered — 1 Oct 2024 to 30 Sept 2025
+
+User shared a new HMRC letter (CT208, "Corporation Tax Return and
+Payment Reminder", dated 2 Sept 2026) revealing a **third accounting
+period that wasn't previously on our radar**: 1 October 2024 to 30
+September 2025. Filing deadline: **30 September 2026** — about 13
+days away at the time of this entry. Saved to
+`accounting/hmrc-correspondence/09_CT208-return-reminder_period-2024-10-01_2025-09-30.jpg`.
+
+**Critically, this is a reminder, not a penalty determination yet** —
+unlike A01/A02, there's a real chance to file this one on time and
+avoid the whole penalty cycle repeating. This makes it the most
+urgent item in the whole engagement right now, ahead of finishing off
+A01/A02's filing.
+
+Created `accounting/periods/2024-10-01_2025-09-30/profit-and-loss.md`
+as the working file. Initial scan of Revolut Business shows this
+period has **much larger, more complex activity** than A01/A02 —
+real income from DAZN Limited (£4,625.00) and THE PARCHE NETWORK
+(£2,670.93 + £2,640.52), matched by large outgoing payments to
+"Manlikeisaac LTD" — the same intermediary/agent pattern flagged (and
+ruled out of scope) during A01 research, now squarely inside this
+period and needing real treatment (gross vs net income depending on
+whether Atoure Ltd is acting as agent or principal).
+
+**Data gap:** Santander statements only cover through Dec 2024 —
+missing Jan-Sept 2025 (~9 statements), the account historically used
+for real client payments. Revolut Business and Personal already cover
+the whole period. **Blocked on user providing the missing Santander
+statements before this period can be reconciled.**
+
+Given the deadline, agreed approach: prioritise filing on time with
+the best available figures over exhaustive precision — amendable
+later if needed, but an on-time filing avoids repeating the entire
+penalty situation.
+
 ## 1. Situation as understood from HMRC correspondence (2 Sept 2026 issue date)
 
 HMRC has issued **determinations** (estimates, not real figures) because no
