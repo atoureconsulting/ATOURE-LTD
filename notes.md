@@ -361,6 +361,23 @@ varying it. This is flagged as a judgement-call area for the real
 accountant to sanity-check, not something requiring exhaustive evidence
 gathered now.
 
+## 6n. Penalty appeal letter — reasonable excuse filled in
+
+User provided the real reason for the late filing: serious illness
+requiring hospitalisation for approximately one month, including
+around one week in ICU, during August/September 2024. This is a
+genuine, HMRC-accepted category of reasonable excuse (serious illness
+of the taxpayer/sole responsible officer), distinct from the
+explicitly-rejected excuses like "didn't know" or "too busy."
+
+Filled this into `accounting/drafts/penalty-appeal-letter.md`,
+emphasizing that Atoure Ltd is a sole-director company with no other
+officer able to act during the illness — strengthens the argument.
+Still needed before sending: exact hospitalisation dates (currently a
+placeholder), and ideally supporting medical documentation (discharge
+letter or similar) to have ready if HMRC requests it. Not sent yet —
+status remains DRAFT pending those details and accountant sign-off.
+
 ## 6m. Share capital confirmed — period A01 balance sheet fully locked
 
 User confirmed 100% of shares held by director Abdul-Malik Baba Toure.
