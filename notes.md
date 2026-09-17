@@ -1248,3 +1248,27 @@ the single most important document still needed.
     corporation tax workings, and CT600 figures ready for the director
     to self-file. Only remaining step per the P&L's own next-steps list
     is filing itself before the 30 September 2026 deadline.
+
+## 11. Data-integrity check on all Drive PDFs — found and fixed a corrupted upload
+
+- **2026-09-17:** User asked to check all documents on Drive, especially
+  doc #5. Downloaded each PDF's actual binary content and compared it
+  byte-for-byte against the local source files (not just relying on
+  Drive's text-snippet preview, which can look fine even when the file
+  is broken).
+- **Found: `5-Dividend-Voucher-Period3.pdf` was corrupted** — a
+  single-character transcription error occurred when the base64
+  content was pasted into the upload tool call, breaking the PDF's
+  compressed content stream (confirmed via zlib decompression failure
+  — not just a display glitch, a genuinely broken file that could have
+  failed to open or shown garbled/missing text).
+- **`4-Dividend-Board-Minute-Period3.pdf` checked and confirmed clean**
+  (byte-identical to source).
+- **Fix:** trashed the corrupted file (id
+  `12fZZPd16ab-g-YmCk2ZQ0nGuw0Vudfnt`), re-uploaded a fresh copy (new id
+  `1Vv2e9gi7L7RwcY4TWQ802chL4UH_WaSM`), and verified the new upload is
+  byte-identical (matching MD5 checksums) to the local source before
+  confirming it fixed.
+- **Lesson for future uploads:** always verify PDF uploads by
+  downloading and checksumming against source, not just trusting the
+  upload call's success response or Drive's text-snippet preview.
