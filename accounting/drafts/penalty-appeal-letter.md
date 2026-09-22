@@ -1,5 +1,18 @@
 # Draft Appeal Letter — Late Filing Penalties
 
+Status: **CORRECTED 2026-09-22 — the letter previously appealed only
+the tax-related penalty component (£953.97 / £79.50). Checking the
+actual CT211 notices found each one states explicitly: "flat-rate and
+tax-related late filing penalties are charged separately. This notice
+is about tax-related penalties only." The accompanying covering
+letters' own reconciliation confirms a £200.00 flat-rate penalty per
+period is also charged (A01 total penalties £1,153.97 = £953.97 +
+£200.00; A02 total penalties £279.50 = £79.50 + £200.00) — this wasn't
+named anywhere in the letter body, only referenced vaguely in the
+closing paragraph. Now fixed below to explicitly appeal both
+components, all periods, full amounts. See `notes.md` for the
+correction log.**
+
 Status: **READY TO SIGN AND SEND — reasonable excuse filled in with
 verified dates and supporting NHS documentation, dated 17 September
 2026. Still needs: (1) accountant sign-off (recommended), (2) sent
@@ -37,10 +50,16 @@ Dear Sir/Madam,
 reference 623 24114 14574**
 
 I am writing on behalf of Atoure Ltd to appeal against the penalty
-determinations issued on 2 September 2026 for the following periods:
+determinations issued on 2 September 2026 for the following periods,
+comprising both the tax-related and flat-rate late filing penalties
+charged for each period:
 
-- 11 September 2023 to 10 September 2024 (penalty £953.97, ref A 01)
-- 11 September 2024 to 30 September 2024 (penalty £79.50, ref A 02)
+- 11 September 2023 to 10 September 2024 (ref A 01): tax-related
+  penalty £953.97 plus flat-rate penalty £200.00, total £1,153.97
+- 11 September 2024 to 30 September 2024 (ref A 02): tax-related
+  penalty £79.50 plus flat-rate penalty £200.00, total £279.50
+
+The total penalties under appeal are **£1,433.97**.
 
 I am the sole director of Atoure Ltd and have personally managed all of
 the company's administrative and financial affairs since incorporation.
