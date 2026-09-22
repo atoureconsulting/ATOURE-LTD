@@ -95,6 +95,12 @@ are in the process of finalising a completed Company Tax Return and
 statutory accounts for the periods above, which will follow shortly
 and will supersede HMRC's determination of profits and tax due.
 
+For context, the company's actual profits for these periods are
+modest and well within the small profits rate threshold, so the final
+Corporation Tax due is expected to be substantially lower than HMRC's
+determination, which appears to have applied the main rate rather than
+the small profits rate, once the return is filed.
+
 We would be grateful if you would consider this appeal and, in the
 meantime, suspend collection of the tax-related and flat-rate penalties
 pending the outcome.
