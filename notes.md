@@ -1272,3 +1272,29 @@ the single most important document still needed.
 - **Lesson for future uploads:** always verify PDF uploads by
   downloading and checksumming against source, not just trusting the
   upload call's success response or Drive's text-snippet preview.
+
+## 12. Appeal letter was incomplete — missing the flat-rate penalty
+
+- **2026-09-22:** User asked whether the appeal letter covers
+  everything. Checked the actual CT211 penalty notices (saved in
+  `accounting/hmrc-correspondence/`) rather than relying on the
+  earlier summary table. Each notice explicitly states: *"flat-rate
+  and tax-related late filing penalties are charged separately. This
+  notice is about tax-related penalties only."*
+- The accompanying covering letters' reconciliation confirms a
+  **£200.00 flat-rate penalty per period** is also charged, on top of
+  the tax-related penalty already in the letter:
+  - A01: £953.97 (tax-related) + £200.00 (flat-rate) = **£1,153.97**
+  - A02: £79.50 (tax-related) + £200.00 (flat-rate) = **£279.50**
+  - Combined: **£1,433.97** (previously the letter only named
+    £953.97 + £79.50 = £1,033.47 — a £400 gap).
+- No separate flat-rate notice document exists — it's only visible in
+  the reconciliation section of each covering letter (01 and 05 in
+  `hmrc-correspondence/`), which is likely why it was missed
+  initially.
+- **Fixed:** `accounting/drafts/penalty-appeal-letter.md` and the
+  letterheaded PDF now explicitly appeal both components, for both
+  periods, with the correct combined total stated in bold.
+- Confirmed via the CT620 determination documents that these contain
+  only the tax determination (no penalty component) — nothing else
+  missing from that angle.
