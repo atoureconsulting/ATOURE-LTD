@@ -1340,3 +1340,11 @@ the single most important document still needed.
   call (given the debt-collection escalation notice), and actually
   filing the real CT600s, which is the only thing that resolves the
   underlying £12,791.51 debt-collection figure.
+
+## 15. HMRC call delayed — user abroad until 27 Sept
+
+- User is abroad, returns to London 27 Sept 2026, cannot call HMRC
+  before then. Not a material problem — the appeal letter is already
+  posted (within the 30-day deadline), which is the legally meaningful
+  protection. The phone call is good practice, not a hard deadline.
+  Plan: call HMRC (0300 200 3840) on/after 27 Sept.
