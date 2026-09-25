@@ -1327,3 +1327,16 @@ the single most important document still needed.
   the appeal letter — the notice explicitly asks for a call, and
   waiting for the postal appeal alone risks the case being passed to
   a debt collection agency in the meantime.
+
+## 14. Appeal letter posted
+
+- **2026-09-25 (user reports sent ~4 days prior, so ~21 Sept 2026):**
+  User confirmed the appeal letter has been posted to HMRC. Likely the
+  version with the £1,433.97 total (before the £0.50 arithmetic
+  correction was found) — immaterial to the appeal's substance, not
+  worth resending over. Well within the 30-day window (deadline
+  2 Oct 2026).
+- Appeal is now with HMRC. Next actions shift to: the follow-up phone
+  call (given the debt-collection escalation notice), and actually
+  filing the real CT600s, which is the only thing that resolves the
+  underlying £12,791.51 debt-collection figure.
