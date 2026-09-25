@@ -1298,3 +1298,32 @@ the single most important document still needed.
 - Confirmed via the CT620 determination documents that these contain
   only the tax determination (no penalty component) — nothing else
   missing from that angle.
+
+## 13. New HMRC debt-collection notice received + arithmetic error found in appeal letter
+
+- **2026-09-25:** User shared a new HMRC "Statement of liabilities" /
+  debt-collection warning letter (IDMS99, dated 14 Sept 2026, ref
+  623 C 2411414574) — **£12,791.51 total overdue**, interest accruing
+  at £2.18/day, explicit warning of referral to a debt collection
+  agency if not paid or contacted. This is a new escalation, not
+  something already resolved — confirms nothing has actually been
+  filed or paid with HMRC yet; all work so far has been drafts.
+  - Figures break down as: A01 — tax £9,539.75, penalty £1,153.97,
+    interest to 14/09/2026 £947.90. A02 — tax £795.00, penalty
+    £279.50, interest £75.39. All still based on HMRC's original
+    (inflated, 25%-rate) determinations, exactly as expected until the
+    real CT600s are filed.
+  - Saved reference: user shared as chat images, not yet filed into
+    `hmrc-correspondence/` — worth doing when convenient.
+- **While cross-checking these figures, found the appeal letter's
+  combined penalty total was wrong:** £953.97+£200.00 = £1,153.97 and
+  £79.50+£200.00 = £279.50, but £1,153.97 + £279.50 = **£1,433.47**,
+  not the £1,433.97 the letter previously stated (a transposed-digit
+  arithmetic error, off by exactly £0.50). Fixed in
+  `accounting/drafts/penalty-appeal-letter.md` and the letterheaded
+  PDF, verified against a fresh calculation.
+- **Given the debt-collection escalation, recommend the user call HMRC
+  directly** (0300 200 3840, per the notice) in addition to posting
+  the appeal letter — the notice explicitly asks for a call, and
+  waiting for the postal appeal alone risks the case being passed to
+  a debt collection agency in the meantime.

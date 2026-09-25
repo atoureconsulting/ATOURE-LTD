@@ -59,7 +59,7 @@ charged for each period:
 - 11 September 2024 to 30 September 2024 (ref A 02): tax-related
   penalty £79.50 plus flat-rate penalty £200.00, total £279.50
 
-The total penalties under appeal are **£1,433.97**.
+The total penalties under appeal are **£1,433.47**.
 
 I am the sole director of Atoure Ltd and have personally managed all of
 the company's administrative and financial affairs since incorporation.
