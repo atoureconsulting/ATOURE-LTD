@@ -1348,3 +1348,12 @@ the single most important document still needed.
   posted (within the 30-day deadline), which is the legally meaningful
   protection. The phone call is good practice, not a hard deadline.
   Plan: call HMRC (0300 200 3840) on/after 27 Sept.
+
+## 16. Dividend paperwork signed
+
+- **2026-09-27:** User confirmed all dividend paperwork is now signed
+  (A01 board minute + voucher, Period 3 board minute + voucher).
+  Correctly stays in Drive as internal company records — no filing
+  required with HMRC or Companies House. Relevant later only for the
+  user's personal Self Assessment (combined dividend income £4,381.64,
+  not due until Jan 2028).
