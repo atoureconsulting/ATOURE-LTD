@@ -15,6 +15,16 @@ equipment", neither of which exist in any bank record — see
 
 ---
 
+**AMENDED**
+
+These accounts replace the original accounts for Atoure Ltd for the
+period ended 30 September 2025, filed with Companies House on
+20 June 2026. These amended accounts are now the statutory accounts
+for that period, and are prepared as they stood at the date of the
+original accounts.
+
+---
+
 **ATOURE LTD**
 Registered Number 15129711
 

@@ -15,6 +15,16 @@ period label on that filing.
 
 ---
 
+**AMENDED**
+
+These accounts replace the original accounts for Atoure Ltd for the
+period ended 30 September 2024, filed with Companies House on
+25 July 2025. These amended accounts are now the statutory accounts
+for that period, and are prepared as they stood at the date of the
+original accounts.
+
+---
+
 **ATOURE LTD**
 Registered Number 15129711
 
