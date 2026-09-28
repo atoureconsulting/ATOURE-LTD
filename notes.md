@@ -1423,3 +1423,40 @@ the single most important document still needed.
   PDFs, verified via `pypdf` text extraction and a rendered-page visual
   check before delivery — avoids the transcription-corruption issue
   seen earlier with larger asset-heavy PDFs.
+
+## 20. Actual filled CT600 PDFs — overlay onto the real HMRC form
+
+- **2026-09-28:** User asked to have the numbers added directly onto the
+  form rather than hand-transcribed from a guide. Since the CT600 isn't
+  a fillable AcroForm, built a coordinate-mapped overlay instead: used
+  `pymupdf` to inspect the real form's vector drawings and locate the
+  exact digit-grid cell rectangles for every box (each money box on this
+  form has one cell per digit, e.g. 18 pound cells + 2 pence cells for
+  box 145), then wrote text directly into each cell, centred, using
+  `page.insert_text()`. Verified by rendering every relevant page to a
+  PNG and visually checking alignment before trusting it — all digits
+  landed cleanly inside their cells with no overlap or misalignment,
+  across all three periods (including the case with only one financial
+  year, A02, where the second tax-calculation table row correctly stays
+  blank).
+- Script: `accounting/drafts/ct600-filled/fill_ct600.py`. Output:
+  `CT600-A01-filled.pdf`, `CT600-A02-filled.pdf`,
+  `CT600-Period3-filled.pdf` in the same folder — each a complete
+  12-page CT600 with company info, period dates, turnover, trading
+  profit, the two-financial-year tax apportionment (where applicable),
+  self-assessed tax payable, tax outstanding, and the declaration
+  (name/status) all filled in dark-blue text distinguishable from the
+  form's own black printing. Only the signing date (980) was
+  pre-filled with today's date (28/09/2026), following the same
+  precedent as the amended accounts PDFs ("put todays date and I will
+  sign").
+- **Deliberately left blank, for the user's own judgement:** box 50
+  ("more than one return now" — depends on whether all three are
+  posted together), and boxes 616/617/618 (exporter information — genuinely
+  ambiguous whether overseas-payer client work like DAZN/Parche Network
+  counts as "exporting services"). Every other inapplicable box was
+  left blank per standard HMRC convention (blank = nil/not applicable),
+  matching the same figures as `CT600-filing-guide.md`.
+- Text inserted in a distinct dark-blue colour so it's visually obvious
+  to both the director and HMRC which entries are typed values versus
+  the form's own pre-printed content.
