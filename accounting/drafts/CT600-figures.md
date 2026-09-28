@@ -3,10 +3,17 @@
 Status: **ALL THREE PERIODS FINAL — P&L complete and bank-verified for
 A01, A02, and Period 3**
 
-This is not the CT600 form itself (that's filed digitally, in specific
-software, in iXBRL format) — it's the set of figures your accountant needs
-to complete boxes on the CT600, laid out per period, so they don't have to
-derive them from scratch.
+**Superseded for exact box numbers:** the box numbers below were
+approximate placeholders written before the actual CT600 (2026) Version
+3 form was checked. They are **wrong** in places (e.g. box 30 on the
+real form is the period start date, not turnover). For the confirmed,
+correct box-by-box mapping used for paper filing, see
+`CT600-filing-guide.md` instead — this file is kept only as a
+plain-English summary of the underlying figures, which are unchanged.
+
+This is not the CT600 form itself — it's the set of figures needed to
+complete boxes on the CT600, laid out per period, so they don't have to
+be derived from scratch.
 
 ## Period 1: 11 Sept 2023 – 10 Sept 2024 (ref ...A01) — FINAL
 

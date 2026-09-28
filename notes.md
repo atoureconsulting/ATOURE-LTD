@@ -1376,3 +1376,50 @@ the single most important document still needed.
     own free filing tool as an option — that's no longer available.
   - Practical suggestion given Atoure's complexity (agency income,
     DLA/dividend adjustments across 3 periods): FreeAgent or Taxfiler.
+
+## 19. Decision to paper-file all three CT600s given deadline pressure
+
+- **2026-09-28:** With the Period 3 filing deadline (30 September 2026)
+  two days away and the Mettle/FreeAgent free-software application
+  still under review (~3 days from 28 Sept), user decided to file all
+  three CT600s on paper now rather than risk missing the deadline.
+- Confirmed the blank CT600 (2026) Version 3 PDF the user supplied is
+  **not a fillable AcroForm** (`pypdf.PdfReader.get_fields()` returns
+  `None`) — it must be printed and filled in by hand, so the
+  deliverable here is a box-by-box completion guide, not a filled PDF.
+- Read the full 12-page form to capture every box number precisely
+  (company info 1-4, NI 5-8, period dates 30/35, accounts/supplementary
+  checkboxes 80-96, turnover/income 145-235, deductions/profits
+  chargeable 240-325, tax calculation 326-425, tax reconciliation
+  430-528, and confirmed everything from 530 onward — R&D, creatives,
+  capital allowances, losses, NI info, repayments, bank details — is
+  not applicable to Atoure).
+- Confirmed the company UTR precisely from the CT208 return reminder
+  (`accounting/hmrc-correspondence/09_CT208-return-reminder...jpg`):
+  **UTR 2411414574** (Office 623) — the "623 24114 14574" reference used
+  elsewhere in the repo is Office number + UTR concatenated, not the
+  UTR alone.
+- Built `accounting/drafts/CT600-filing-guide.md` (+ matching PDF) with
+  the exact box-by-box entries for all three periods, cross-checked
+  against the real form layout — **this supersedes the box numbers in
+  the older `CT600-figures.md`**, which were placeholder/approximate and
+  in places simply wrong (e.g. it called box 30 "turnover"; on the real
+  form box 30 is the period start date, turnover is box 145).
+  `CT600-figures.md` has been annotated to point to the new file rather
+  than deleted, since its underlying figures are still correct.
+- Built `accounting/drafts/hmrc-covering-letter-paper-filing.md` (+ PDF)
+  explaining to HMRC why these returns are arriving on paper rather
+  than via commercial software, tying it to the same hospitalisation
+  reasonable-excuse already used in the 17 Sept penalty appeal, plus
+  the pending Mettle/FreeAgent application.
+- Confirmed via repo search that **no Corporation Tax has been paid to
+  HMRC yet** for any period — box 595 ("tax already paid") is £0.00 on
+  all three forms, so box 600 ("tax outstanding") equals the full
+  self-assessed tax in each case: £474.65 (A01) + £7.86 (A02) + £553.14
+  (Period 3) = £1,035.65 total, separate from the £1,433.47 penalties
+  under appeal.
+- Both PDFs generated with the same plain reportlab pattern (tables,
+  standard fonts, no embedded images) used for the amended accounts
+  PDFs, verified via `pypdf` text extraction and a rendered-page visual
+  check before delivery — avoids the transcription-corruption issue
+  seen earlier with larger asset-heavy PDFs.
