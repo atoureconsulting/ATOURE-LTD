@@ -1357,3 +1357,22 @@ the single most important document still needed.
   required with HMRC or Companies House. Relevant later only for the
   user's personal Self Assessment (combined dividend income £4,381.64,
   not due until Jan 2028).
+
+## 18. HMRC's free online CT filing service has closed — commercial software now mandatory
+
+- **2026-09-28:** User shared HMRC's gov.uk guidance page confirming
+  the "File your accounts and Company Tax Return" free online service
+  **closed 31 March 2026**. From 1 April 2026, commercial software is
+  required to file CT600s — paper filing is restricted to companies
+  with a genuine "reasonable excuse" for not filing online right now,
+  or filing in Welsh (a different, narrower test than the late-filing
+  penalty appeal). Since the user has normal access now, paper filing
+  likely doesn't apply — commercial software is the real path.
+  - List of approved suppliers:
+    https://www.gov.uk/government/publications/corporation-tax-commercial-software-suppliers
+  - Companies House filing is unaffected — still available via
+    WebFiling or post, as already documented.
+  - Corrects earlier guidance in this session that referenced HMRC's
+    own free filing tool as an option — that's no longer available.
+  - Practical suggestion given Atoure's complexity (agency income,
+    DLA/dividend adjustments across 3 periods): FreeAgent or Taxfiler.
