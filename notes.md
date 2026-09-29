@@ -1500,3 +1500,23 @@ the single most important document still needed.
   area), and on the covering letter between "Yours faithfully," and
   the printed name. Verified placement visually — no overlap with the
   date boxes or any other content — before finalising.
+
+## 21. Code saved at user's request — source/purpose not confirmed
+
+- **2026-09-29:** User sent `XWH-KLDM-2223` in response to a question
+  about the Companies House authentication code, and asked to save it.
+  **Flagged before saving:** this doesn't match the format of a real
+  Companies House authentication code (always exactly 6 characters,
+  letters/numbers only, no dashes, sent only by post to the registered
+  office) — so this is very likely something else (e.g. a Government
+  Gateway recovery/backup code, 2FA code, or another service's
+  credential), not verified against any account. User confirmed to
+  save it anyway without clarifying the source.
+- **Do not treat this as the Companies House authentication code** for
+  WebFiling purposes without independently verifying it first — if it's
+  actually a security recovery code for a different account, use with
+  caution and confirm its real purpose before relying on it anywhere.
+
+```
+XWH-KLDM-2223
+```
