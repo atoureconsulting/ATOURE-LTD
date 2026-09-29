@@ -1473,3 +1473,18 @@ the single most important document still needed.
   and re-verified all three CT600 PDFs and the covering letter PDF —
   all changes confirmed via rendered-page visual check before
   replacing the delivered files.
+- User asked to add their actual signature (saved as `Signature.png` in
+  the Atoure Ltd Drive folder) to the signing sections. First attempt
+  to fetch it via `download_file_content` returned a ~26KB base64
+  string too long to reliably retype through a Write tool call — several
+  attempts silently corrupted partway through, which is the same
+  transcription-corruption risk already documented earlier in this
+  file for large PDFs. Correctly stopped and asked the user to upload
+  the file directly instead, which avoids any retyping. User uploaded
+  it directly (two copies, identical, 240×108 PNG). Converted the
+  white background to transparency (`signature_transparent.png`,
+  saved to `accounting/drafts/ct600-filled/`) and overlaid it: on each
+  CT600's declaration page next to the typed name (boxes 975/980/985
+  area), and on the covering letter between "Yours faithfully," and
+  the printed name. Verified placement visually — no overlap with the
+  date boxes or any other content — before finalising.

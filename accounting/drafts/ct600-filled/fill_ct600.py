@@ -1,6 +1,7 @@
 import fitz  # pymupdf
 
 SRC = '/root/.claude/uploads/90b53ef5-dbc5-5037-8388-3b680a6b79cc/30ed4667-ct600.pdf'
+SIGNATURE_PATH = '/tmp/atoure-pdfs/signature_transparent.png'
 
 FONT = 'helv'
 SIZE_DIGIT = 10.5
@@ -236,6 +237,7 @@ def fill_period(period_from, period_to, turnover, trading_profit, fy_rows, tax_t
     fill_open_box(p11, *Y['decl_name_box'], DECL_NAME, align='left')
     fill_digit_group(p11, DECL_DATE_CELLS, DECL_DATE)
     fill_open_box(p11, *Y['decl_status_box'], DECL_STATUS, align='left')
+    p11.insert_image(fitz.Rect(300, 695, 389, 735), filename=SIGNATURE_PATH)
 
     doc.save(out_path)
     doc.close()
