@@ -73,7 +73,7 @@ UTR = '2411414574'
 TYPE_CODE = '00'
 DECL_NAME = 'Abdul-Malik Baba Toure'
 DECL_STATUS = 'Director'
-DECL_DATE = '28092026'  # DD MM YYYY, no separators, 8 digits
+DECL_DATE = '29092026'  # DD MM YYYY, no separators, 8 digits
 
 # Row y-anchors (top y0 of the digit-cell row), confirmed against the real form
 Y = {
@@ -84,6 +84,8 @@ Y = {
     'date_from': 517.0,
     'date_to': 517.0,
     'box80': (525.2, 73.5, 538.8, 90.0),
+    'box50': (525.2, 619.6, 538.8, 636.1),
+    'box618': (515.4, 480.5, 529.0, 497.0),
     'box145': 565.6,
     'box155': 648.0,
     'box165': 713.2,
@@ -147,14 +149,19 @@ def date_ddmmyyyy(d, m, y):
     return f'{d:02d}', f'{m:02d}', f'{y:04d}'
 
 
-def fill_period(period_from, period_to, turnover, trading_profit, fy_rows, tax_total, out_path):
+def fill_period(period_from, period_to, turnover, trading_profit, fy_rows, tax_total, out_path,
+                 tick_box50=False):
     """
     fy_rows: list of (fy_year:int, amount:float, rate:int, tax:float), 1 or 2 entries
+    tick_box50: tick "making more than one return for this company now" — only on the form
+                posted first when all three go in one envelope
     """
     doc = fitz.open(SRC)
 
     # --- Page 1 (idx 0): company info + period dates ---
     p0 = doc[0]
+    if tick_box50:
+        tick(p0, *Y['box50'])
     fill_open_box(p0, *Y['name_box'], COMPANY_NAME, align='left')
     fill_digit_group(p0, [ (x, REGNO_CELLS_Y, x+13.6, REGNO_CELLS_Y+16.5) for x in REGNO_X ], COMPANY_NO)
     fill_digit_group(p0, [ (x, Y['utr'], x+13.6, Y['utr']+16.5) for x in UTR_X ], UTR)
@@ -219,9 +226,10 @@ def fill_period(period_from, period_to, turnover, trading_profit, fy_rows, tax_t
     fill_money_row(p5, Y['box525'], totalp, totalpence)
     fill_money_row(p5, Y['box528'], totalp, totalpence)
 
-    # --- Page 7 (idx 6): 600 ---
+    # --- Page 7 (idx 6): 600, 618 ---
     p6 = doc[6]
     fill_money_row(p6, Y['box600'], totalp, totalpence)
+    tick(p6, *Y['box618'])
 
     # --- Page 12 (idx 11): declaration ---
     p11 = doc[11]
@@ -241,6 +249,7 @@ if __name__ == '__main__':
         fy_rows=[(2023, 1385.61, 19, 263.27), (2024, 1112.55, 19, 211.38)],
         tax_total=474.65,
         out_path='/tmp/atoure-pdfs/CT600-A01-filled.pdf',
+        tick_box50=True,
     )
     # A02 — 11 Sept 2024 to 30 Sept 2024
     fill_period(

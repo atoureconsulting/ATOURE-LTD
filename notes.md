@@ -1460,3 +1460,16 @@ the single most important document still needed.
 - Text inserted in a distinct dark-blue colour so it's visually obvious
   to both the director and HMRC which entries are typed values versus
   the form's own pre-printed content.
+- **2026-09-29:** User confirmed all three will be posted together in
+  one envelope, and asked what to answer for box 616/617/618 (exporter
+  information — a statistics-only question, doesn't affect tax).
+  Recommended ticking 618 ("No — neither") given DAZN Limited and
+  Manlikeisaac LTD are both UK-registered, and Parche Network's
+  domicile isn't confirmed. User agreed. Updated `fill_ct600.py` to
+  tick box 618 on all three forms and box 50 ("making more than one
+  return for this company now") on the A01 form only, and refreshed
+  the declaration/letter date to today (29 Sept 2026, since the date
+  changed overnight from the 28th used in the first draft). Regenerated
+  and re-verified all three CT600 PDFs and the covering letter PDF —
+  all changes confirmed via rendered-page visual check before
+  replacing the delivered files.
