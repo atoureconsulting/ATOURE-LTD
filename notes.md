@@ -1049,6 +1049,18 @@ book:
     Flagging rather than silently changing the figure again — this has
     already been revised twice and needs a settled answer from the user
     before finalising.
+- User clarified the HMRC CT600 pack and the Companies House amended
+  accounts are two entirely separate postings (different regulator,
+  different purpose, different address) — confirmed and laid out as a
+  clear two-envelope checklist. Drafted and built
+  `companies-house-filings/companies-house-covering-letter.md` (+ PDF),
+  a single letter covering both amendments (since both go to Companies
+  House together), explaining what each amendment replaces and why
+  (fabricated £200 net assets on the 25 July 2025 filing; wrong
+  accounting basis plus fabricated £3,000 debtors/£400 office
+  equipment on the 20 June 2026 filing), signed with the same
+  transparent signature overlay used on the HMRC documents. Address:
+  Companies House, Crown Way, Cardiff, CF14 3UZ.
 
 **Real expenses now visible for the first time:** Companies House filing
 fee (£12.00, 9 Sept 2023 — "CARD PAYMENT TO COMPANIESHOUSE WEB FIL"),
