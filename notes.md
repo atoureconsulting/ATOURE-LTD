@@ -1520,3 +1520,29 @@ the single most important document still needed.
 ```
 XWH-KLDM-2223
 ```
+
+## 22. Everything posted — both envelopes sent
+
+- **2026-09-30:** User confirmed both envelopes have been posted:
+  - **HMRC** (BX9 1AX): signed covering letter + 3 signed CT600s
+    (A01, A02, Period 3), each with its accounts/computations attached
+  - **Companies House** (Crown Way, Cardiff, CF14 3UZ): signed covering
+    letter + both amended accounts (Period 1 replacing 25 July 2025,
+    Period 3 replacing 20 June 2026)
+- This closes out the filing/posting phase of the correction project.
+  **Still open, tracked going forward:**
+  1. Pay the real Corporation Tax — £1,035.65 total (£474.65 + £7.86 +
+     £553.14), separately from the penalty appeal, using each period's
+     own payment reference. Not yet confirmed done.
+  2. HMRC's response to the penalty appeal (sent 17 Sept, decision
+     expected within ~30 days, i.e. by mid-October 2026).
+  3. HMRC processing the 3 CT600s — watch for a correction to the
+     existing determinations/debt-collection notices once processed.
+  4. Companies House processing the amended accounts — watch the
+     public register for the correction to actually appear.
+  5. Mettle/FreeAgent application outcome — once through, use it for
+     Period 4 (1 Oct 2025 onward) instead of manual bank reconciliation.
+  6. S455 exposure on Period 3's overdrawn DLA (~£350.20) — still
+     unresolved, a personal/director matter separate from the company
+     return; flagged for accountant confirmation, not yet actioned.
+  7. Confirm whether Period 4 bookkeeping has been started at all.
