@@ -1632,6 +1632,47 @@ XWH-KLDM-2223
     double-taxing the £474.65 already charged S455 in A01's own return.
     Total A02 tax payable (box 510): **£17.92** (£7.79 CT + £10.13
     S455).
-- **A01 + A02 now both submitted.** Remaining: **Period 3**
-  (1 Oct 2024 – 30 Sept 2025) still needs the same online treatment —
-  already overdue per TinyTax's own tracker, should follow immediately.
+- **2026-10-15: Period 3 submitted** via TinyTax.
+  **Reference: A722502D86894769BF6755880976E12F.**
+
+  **Major correction found and applied before this one, not yet
+  applied to A01/A02:** the S455 charge must be based on the
+  **gross** amount drawn during the period, less only repayments that
+  happen within the statutory window (before the period end, or
+  within 9 months after), not the net-of-dividend balance used for
+  A01 and A02. The reasoning: CTA2010 s455/s458 relief for a loan
+  repayment only applies from the date the repayment actually happens
+  — it doesn't retroactively reduce the original charge. Atoure's
+  dividends (for all three periods) were declared 17 September 2026,
+  which is after every period's own 9-month S455 deadline, so none of
+  them qualify as a timely repayment for the ORIGINAL return's
+  self-assessment, even though they are genuine repayments from their
+  actual declaration date onward (reclaimable later via form L2P).
+
+  For Period 3, this meant entering the loan as: owed at start
+  £504.60 (carried from A02), borrowed during the year £2,981.07
+  (gross, not the £1,077.54 net-of-dividend figure used before),
+  repaid before year end £50.00 (the capital the director introduced
+  in-period, genuinely timely), repaid within 9 months £0 (the
+  dividend doesn't qualify). Resulting S455: **£989.21** (33.75% of
+  £2,931.07) — not the ~£364 previously estimated in
+  `balance-sheet.md`. **Total Period 3 tax payable (box 510):
+  £1,542.30** (£553.09 CT + £989.21 S455).
+
+  **Flagged, not yet resolved: A01 (£160.31 S455) and A02 (£10.13
+  S455) were both filed using the net-of-dividend approach, which by
+  this same reasoning likely understates their correct S455 charges
+  too** (their dividends were also declared 17 Sept 2026, also after
+  each period's own 9-month deadline). User could not get professional
+  advice in time to resolve this before Period 3's deadline, so
+  proceeded with the corrected (gross) approach for Period 3 only,
+  on the reasoning that S455 is recoverable later regardless and the
+  real risk sits on the side of understating it. **Revisit A01 and A02
+  with an accountant once available** — may need amending if this
+  reasoning holds up to professional scrutiny. The amounts involved
+  there are much smaller than Period 3's correction.
+
+- **All three periods (A01, A02, Period 3) now submitted to HMRC**
+  via TinyTax. Filing/payment summary pushed to the Atoure Ltd Drive
+  folder as "CT600 Online Filing Record - A01 and A02" (needs updating
+  with Period 3's figures and the S455 correction above).
