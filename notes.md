@@ -1546,3 +1546,69 @@ XWH-KLDM-2223
      unresolved, a personal/director matter separate from the company
      return; flagged for accountant confirmation, not yet actioned.
   7. Confirm whether Period 4 bookkeeping has been started at all.
+
+## 23. HMRC rejected the paper CT600s — refiling online via TinyTax
+
+- **2026-10-06:** HMRC rejected the posted A01 CT600 (received 1 Oct
+  2026): paper filing isn't accepted without a formal reasonable-excuse
+  claim, and the combined 13-month period must be filed as two separate
+  online returns (A01 to 10 Sept 2024, A02 to 30 Sept 2024) in iXBRL
+  format. Deadline given: 4 November 2026, no late-filing penalty if met.
+  Same requirement applies to Period 3 (confirmed later via TinyTax's
+  own deadline tracker showing it overdue for online filing too).
+- Chose **TinyTax** (confirmed on HMRC's official commercial software
+  supplier list, updated 12 Oct 2026) over the Mettle/FreeAgent route,
+  which was still stuck on KYC. Built the A01 submission field by field
+  over several iterations, catching and fixing real errors along the
+  way:
+  - Period dates initially defaulted wrong (current Period 4 dates,
+    not A01) — corrected to 11/09/2023–10/09/2024, selected "Part of a
+    longer period of account" as the reason (matches HMRC's own
+    instruction to split the combined period).
+  - Bad debt write-offs (£2,246.99) were initially miscategorised under
+    "Depreciation and other amounts written off assets" — TinyTax's
+    engine correctly added this back as non-deductible (that category
+    is for fixed-asset depreciation, not trade bad debts), inflating
+    calculated tax to £901. Recategorised into "Other charges" —
+    corrected the calculated tax back down to match.
+  - Turnover was typed as 7043 instead of 7043.98 at one point — caught
+    and fixed before submission.
+  - TinyTax's own engine correctly split the period's profit across
+    FY2023/FY2024 at 19% each, landing on £474.62 — 3p different from
+    our £474.65 (rounds the apportioned profit to whole pounds before
+    applying the rate; both are legitimate, immaterial difference).
+  - **Real finding: our S455 rate throughout this project was wrong.**
+    We'd used 32.5% throughout (`balance-sheet.md`, `notes.md`); the
+    actual current rate (since April 2022) is **33.75%**. TinyTax's
+    CT600A calculation correctly applied 33.75% to the £474.65 A01
+    overdrawn loan, giving **£160.31** S455 (not ~£154.26 as previously
+    estimated). This also means the A02 (~£9.73) and Period 3
+    (~£350.20) S455 estimates in `balance-sheet.md` are understated —
+    should be ~£10.11 and ~£363.67 respectively once those are filed.
+    **Total A01 tax payable, now correctly including S455: £634.93**
+    (£474.62 CT + £160.31 S455), not just £474.65 — the original paper
+    CT600 overlay never included the S455/CT600A supplementary page at
+    all, an omission in that earlier paper-filing approach.
+  - Submission initially blocked by repeated **"HMRC Credentials Not
+    Accepted" (Error 1046)** across ~7 attempts, despite confirming via
+    an incognito-window test that the same Government Gateway
+    credentials logged into gov.uk directly without issue, with
+    Corporation Tax showing active for UTR 2411414574. Investigated
+    TinyTax's own suggested causes (wrong ID type, CT not enrolled on
+    that Gateway account) and ruled both out with direct evidence, sent
+    to TinyTax support. Also flagged and addressed a legitimate security
+    concern along the way: TinyTax's submit form captures the Government
+    Gateway password directly on its own page rather than redirecting to
+    a genuine gov.uk OAuth login — confirmed TinyTax is on HMRC's
+    official supplier list (so not a scam), but still recommended (and
+    the user did) rotate the Government Gateway password as a
+    precaution. Likely root cause: a lag between HMRC's web portal
+    recognising the CT activation and TinyTax's backend API recognising
+    the same enrolment, and/or a temporary lockout from repeated
+    attempts — resolved itself after waiting.
+- **2026-10-15: A01 successfully submitted** via TinyTax. Status
+  "Submitted — awaiting HMRC confirmation" (processing takes up to 2
+  days per HMRC). **Reference: 0863C457C5B94CC295E9FA3F84EAE773.**
+  A02 and Period 3 still to be filed the same way, same deadline
+  (4 Nov 2026 for A01/A02; Period 3 already past its original online
+  deadline but should follow immediately after).
