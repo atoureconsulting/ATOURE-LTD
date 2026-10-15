@@ -1609,6 +1609,29 @@ XWH-KLDM-2223
 - **2026-10-15: A01 successfully submitted** via TinyTax. Status
   "Submitted — awaiting HMRC confirmation" (processing takes up to 2
   days per HMRC). **Reference: 0863C457C5B94CC295E9FA3F84EAE773.**
-  A02 and Period 3 still to be filed the same way, same deadline
-  (4 Nov 2026 for A01/A02; Period 3 already past its original online
-  deadline but should follow immediately after).
+- **2026-10-15: A02 successfully submitted** via TinyTax.
+  **Reference: D1D9C58BDFE54FC1B0681FC33874A85C.** Two real corrections
+  caught before this one went in:
+  - Balance sheet "Total Current Assets" was initially entered as
+    829.02 (double-counting the £1 called-up share capital, which has
+    its own separate field in TinyTax) — corrected to 828.02.
+  - "Corporation Tax Payable" on the balance sheet needed to be
+    **482.51** (A01's £474.65 + A02's £7.86 combined, both crystallised
+    liabilities as at the 30 Sept 2024 snapshot date), not just A02's
+    own £7.86 — TinyTax's auto-calculation only knew about A02's own
+    charge. This triggered the expected "accounts tax differs from
+    CT600" dialog; correctly kept the manual £482.51 rather than
+    accepting the auto-calculated figure, since the difference was
+    genuine (balance sheet reflects total creditors at a point in time,
+    not just the current period's own tax charge).
+  - Director's loan section correctly carried forward: £474.65 owed at
+    the start of the year (from A01) + £29.95 borrowed during A02's own
+    19 days = £504.60 total, but entered as two separate fields (owed
+    at start vs borrowed during year) so TinyTax's S455 calculation
+    only charged the new £29.95 portion (**£10.13** at 33.75%), avoiding
+    double-taxing the £474.65 already charged S455 in A01's own return.
+    Total A02 tax payable (box 510): **£17.92** (£7.79 CT + £10.13
+    S455).
+- **A01 + A02 now both submitted.** Remaining: **Period 3**
+  (1 Oct 2024 – 30 Sept 2025) still needs the same online treatment —
+  already overdue per TinyTax's own tracker, should follow immediately.
