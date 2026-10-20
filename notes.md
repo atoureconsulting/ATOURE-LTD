@@ -1676,3 +1676,27 @@ XWH-KLDM-2223
   via TinyTax. Filing/payment summary pushed to the Atoure Ltd Drive
   folder as "CT600 Online Filing Record - A01 and A02" (needs updating
   with Period 3's figures and the S455 correction above).
+
+## 24. Companies House rejected the amended accounts — unsigned
+
+- **2026-10-20:** User received a Companies House rejection letter
+  (dated 09/10/2026, ref AAMD/15129711/AW) for the amended Period 1
+  accounts (11 Sept 2023 – 30 Sept 2024), received and barcode-stamped
+  by Companies House 1 Oct 2026: *"A director of the company must sign
+  at the foot of the balance sheet. Please amend your document and
+  resubmit it as soon as possible."* The printed PDF had a blank
+  "Signed: ___________" line that was never actually signed before
+  posting (the earlier session intentionally left this blank for the
+  user to wet-sign, but it went out unsigned).
+- The Period 3 amended accounts (30 Sept 2025) were posted in the same
+  batch, also barcode-stamped by Companies House the same day
+  (1 Oct 2026), and almost certainly have the identical unsigned
+  defect — no separate rejection letter seen yet for that one, but it
+  should be treated as having the same problem and resubmitted too.
+- **Fix:** regenerated both PDFs with the director's actual signature
+  (`accounting/drafts/ct600-filled/signature_transparent.png`, the same
+  one used on the CT600 declarations) overlaid directly onto the
+  balance sheet signature line, rather than leaving it for a wet
+  signature — removes the ambiguity that caused this rejection.
+  Both need reprinting and reposting to Companies House, Crown Way,
+  Cardiff, CF14 3UZ.
