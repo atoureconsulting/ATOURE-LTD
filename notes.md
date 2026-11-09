@@ -1700,3 +1700,50 @@ XWH-KLDM-2223
   signature — removes the ambiguity that caused this rejection.
   Both need reprinting and reposting to Companies House, Crown Way,
   Cardiff, CF14 3UZ.
+
+## 25. HMRC post-filing reconciliation letters (issued 02 Nov 2026) — real penalties/interest now crystallised, new £1000 flat-rate penalty on Period 3
+
+Three HMRC letters received, all dated 02 Nov 2026 — these are HMRC's
+first real response to the three CT600s actually being filed online via
+TinyTax in October. They replace the old inflated determinations with
+the true figures, but they also add penalties/interest that weren't in
+the numbers quoted to the user before (those were corporation tax
+only).
+
+- **Period A01 (11 Sept 2023 – 10 Sept 2024) — combined amount now
+  due: £1,031.17.** Breakdown: tax £634.93 + penalties £326.98
+  (£200 flat-rate for filing >3 months late, confirmed as already
+  assessed, plus £126.98 tax-related penalty = 20% of £634.93 for
+  filing >12 months late) + interest £69.26. Payment reference
+  `2411414574A00101A` (bank giro slip supplied: Barclays sort code/acc
+  63464695 11-47, "HM Revenue and Customs"). **This supersedes the
+  £474.65/£634.93 corporation-tax-only figure quoted earlier** — the
+  real amount to pay for A01 is £1,031.17, not just the tax.
+  A companion "amended penalty determination" letter, same period,
+  shows the £126.98 tax-related penalty component in isolation (it's
+  already folded into the £1,031.17 total above, not additional to it
+  — confirmed by the arithmetic: £200 + £126.98 = £326.98).
+- **New flat-rate penalty — Period 3 (1 Oct 2024 – 30 Sept 2025),
+  ref ...A03: £1,000, due 2 Dec 2026.** This is a flat-rate penalty for
+  late delivery of the Period 3 return (the return itself was filed via
+  TinyTax in October 2026). £1,000 rather than the normal £100+£100 cap
+  strongly suggests HMRC has applied the *persistent-default* tier
+  (flat-rate penalties double to £500+£500 when a company's return is
+  late for the third successive accounting period in a row) — which
+  fits, since A01 and A02 were both late too. **30-day appeal window
+  from the 2 Nov 2026 issue date — appeal by 2 Dec 2026** if going that
+  route; reasonable-excuse grounds would need to cover why Period 3
+  itself ran late, not just the original 2024 hospitalisation (the
+  knock-on delay from needing to first resolve A01/A02 and find filing
+  software is the likely argument, since Period 3 couldn't practically
+  be sorted before the earlier periods were).
+- **Not yet seen:** equivalent reconciliation/penalty letters for A02
+  and for the tax-related portion of Period 3 — expect more of these to
+  follow the same pattern (true tax + flat-rate + tax-related penalty +
+  interest, all crystallised now that real figures exist).
+- **Action for user:** (1) pay A01's real total, £1,031.17, using the
+  giro slip reference above — not the smaller figure quoted before
+  online filing; (2) decide whether to appeal the new £1,000 Period 3
+  flat-rate penalty by 2 Dec 2026, or pay it; (3) watch post for the
+  equivalent A02/Period 3 reconciliation letters and update totals
+  owed once they arrive.
