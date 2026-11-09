@@ -1747,3 +1747,13 @@ only).
   flat-rate penalty by 2 Dec 2026, or pay it; (3) watch post for the
   equivalent A02/Period 3 reconciliation letters and update totals
   owed once they arrive.
+
+- **Update — A02's tax-related penalty piece arrived (same date, 02 Nov
+  2026):** "amended penalty determination" for A02 (ref ...A02 P04/02),
+  £3.58 (20% of A02's £7.86 tax). Same pattern as A01's equivalent
+  letter — this is just one component, not the full picture. **Do not
+  pay this in isolation** — waiting for A02's full combined
+  reconciliation statement (tax + flat-rate penalty + this tax-related
+  £3.58 + interest, with its own giro slip/reference) before telling
+  the user a total to pay for A02, mirroring how A01's pieces combined
+  into the £1,031.17 letter.
