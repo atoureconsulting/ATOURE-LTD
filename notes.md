@@ -1701,6 +1701,9 @@ XWH-KLDM-2223
   Both need reprinting and reposting to Companies House, Crown Way,
   Cardiff, CF14 3UZ.
 
+  **Update: both signed PDFs (Period 1 and Period 3) posted by the
+  user.** Now waiting on Companies House to accept them.
+
 ## 25. HMRC post-filing reconciliation letters (issued 02 Nov 2026) — real penalties/interest now crystallised, new £1000 flat-rate penalty on Period 3
 
 Three HMRC letters received, all dated 02 Nov 2026 — these are HMRC's
